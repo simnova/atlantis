@@ -1,0 +1,15 @@
+import { Heading, HeadingLevel } from "../../../ui/atoms/heading"
+
+export const Contact: React.FC<any> = (_props) => {
+  return (
+    <>
+      <Heading level={HeadingLevel.H1}>Contacting the Atlantis:</Heading>
+
+      <div>
+        Office Hours are from 8:30am to 5:00pm Monday through Friday.<br/>
+        Email: <a href="mailto:atlantisocmd@comcast.net">atlantisocmd@comcast.net</a><br/>
+        Phone: <a href="tel:+1-410-524-9100">410-524-9100</a><br/>
+      </div>
+    </>
+  )
+}

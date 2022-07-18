@@ -1,0 +1,14 @@
+{
+   "staff":[
+        {
+            "name": "Ross Phillips",
+            "title": "Maintenance",
+            "profileImage":"https://via.placeholder.com/200"
+        },
+        {
+            "name": "Tristan Nelson",
+            "title": "Maintenance",
+            "profileImage":"https://via.placeholder.com/200"
+        }
+    ]
+}

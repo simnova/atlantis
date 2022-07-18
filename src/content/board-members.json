@@ -1,0 +1,28 @@
+{
+   "staff":[
+        {
+            "name": "Joseph C. Perry, Sr.",
+            "title": "President"
+        },
+        {
+            "name": "Melvin Rostek",
+            "title": "Vice President",
+            "profileImage":"https://via.placeholder.com/200"
+        },
+        {
+            "name": "Sherriel Sullivan",
+            "title": "Treasurer",
+            "profileImage":"https://via.placeholder.com/200"
+        },
+        {
+            "name": "John Foley",
+            "title": "Secretary",
+            "profileImage":"https://via.placeholder.com/200"
+        },
+        {
+            "name": "Marty Levy",
+            "title": "Corresponding Secretary",
+            "profileImage":"https://via.placeholder.com/200"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+   "staff":[
+        {
+            "name": "Melvin Rostek",
+            "title": "General Manager",
+            "profileImage":"https://via.placeholder.com/200"
+        },
+        {
+            "name": "Jenna Elliott",
+            "title": "Administrative Assistant",
+            "profileImage":"https://via.placeholder.com/200"
+        }
+    ]
+}

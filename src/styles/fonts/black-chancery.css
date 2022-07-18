@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Black Chancery';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./black-chancery/black-chancery.eot');/* IE9 Compat Modes */
+    src: local(''),
+        url('./black-chancery/black-chancery.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('./black-chancery/black-chancery.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./black-chancery/black-chancery.woff') format('woff'), /* Modern Browsers */
+        url('./black-chancery/black-chancery.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./black-chancery/black-chancery.svg#blackchanceryregular') format('svg'); /* Legacy iOS */
+}
