@@ -7,11 +7,15 @@ export const VisitingMaintenance: React.FC<any> = (_props) => {
         <Heading level={HeadingLevel.H1}>Maintenance:</Heading>
 
         <div>
-            The Atlantis wishes your visit to be a pleasant experience, should you experience any issues with the building, or your unit, the onsite maintenance team will be happy to assist you.<br/><br/>
+
+            The Atlantis wishes your visit to be a pleasant experience, should you experience any issues with the building, or your unit, contact the main Atlantis office with your issue as soon as possible.
+            
+            The onsite maintenance team will strive to make any necessary repairs as soon as possible after being notified of the problem.<br/><br/>
 
             The full time maintenance crew works hard to keep the Atlantis in good working order, both the shared building facilities as well as individual units.<br/><br/>
 
-            Should you encounter an issue during your stay at the Atlantis, contact the main Atlantis office with your issue. We will be happy to help you.<br/><br/>
+            Maintenance Staff is available 7 days a week 7AM to 5PM during the summer season.<br/><br/>
+
 
 
             Services provided include:<br/>

@@ -1,5 +1,6 @@
 import { Heading, HeadingLevel } from '../../../ui/atoms/heading';
 import { HashLink as Link } from 'react-router-hash-link';
+import { BiLinkExternal } from 'react-icons/bi';
 
 export const VisitingAmenities: React.FC<any> = (_props) => {
     return (
@@ -37,6 +38,12 @@ export const VisitingAmenities: React.FC<any> = (_props) => {
             </div>
 
             <div>
+                <Heading level={HeadingLevel.H4}>Bike Racks:</Heading>
+                Located at ground level under the north most corner of the building.
+                <Link to={'/visiting/rules#bikes'}>Learn more</Link> 
+            </div>
+
+            <div>
                 <Heading level={HeadingLevel.H4}>Water / Ice Machine:</Heading>
                 Located conveniently by the pool, outdoor showers . 
             </div>
@@ -51,9 +58,10 @@ export const VisitingAmenities: React.FC<any> = (_props) => {
 
             <div>
                 <Heading level={HeadingLevel.H4}>Beach:</Heading>
+                Ocean City Beaches are free to the public (no beach passes required).<br/>
 
                 Bonfires<br/>
-                Enjoy the beach at night too! You must <a href="https://ocbonfires.com/" >register pay $75 fee online</a> in order to have a bonfire.
+                Enjoy the beach at night too! You must <a href="https://ocbonfires.com/" ><BiLinkExternal />register pay $75 fee online</a> in order to have a bonfire.
             </div>
         </div>
       </>
