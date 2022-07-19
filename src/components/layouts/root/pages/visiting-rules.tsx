@@ -19,14 +19,14 @@ export const VisitingRules: React.FC<any> = (_props) => {
               Summary:<br/>
               <ul className="list-disc ml-5 mb-8">
                 <li>Registration form needs to list all persons occupying the unit </li>
-                <li><span className="font-semibold">Registration Location:</span>Security Office on ground floor</li>
+                <li><span className="font-semibold mr-2">Registration Location:</span>Security Office on ground floor</li>
               </ul>
               
               Registration Charge:<br/>
               <ul className="list-disc ml-5 mb-8">
-                <li><span className="font-semibold">Fee Effective Period:</span>May 1st to Sep 30th</li>
-                <li><span className="font-semibold">Amount:</span>$40.</li>
-                <li><span className="font-semibold">Payment Method:</span>Credit Card Only (No cash)</li>
+                <li><span className="font-semibold mr-2">Fee Effective Period :</span>May 1st to Sep 30th</li>
+                <li><span className="font-semibold mr-2">Amount :</span>$40.</li>
+                <li><span className="font-semibold mr-2">Payment Method :</span>Credit Card Only (No cash)</li>
               </ul>
             </p>
           </article>
@@ -36,13 +36,13 @@ export const VisitingRules: React.FC<any> = (_props) => {
             <p>
               Summary:<br/>
               <ul className="list-disc ml-5 mb-8">
-                <li><span className="font-semibold">Quantity:</span>One per unit </li>
-                <li><span className="font-semibold">Additional Permits:</span>If space permits $40/week or $10/day</li>
-                <li><span className="font-semibold">Passes available at:</span>Ground level security office, credit card only</li>
+                <li><span className="font-semibold mr-2">Quantity :</span>One per unit </li>
+                <li><span className="font-semibold mr-2">Additional Permits :</span>If space permits $40/week or $10/day</li>
+                <li><span className="font-semibold mr-2">Passes available at :</span>Ground level security office, credit card only</li>
               </ul>
               Additional Details:<br/>
               No boats, trailers, jet skis or motor homes.<br/>
-              Municipal parking (<a href="https://www.ococean.com/parking-information" target={'_blank'} rel={'noopener noreferrer'} ><BiLinkExternal className="align-text-bottom inline-block mb-px"/>100th St. Bayside</a>) is also available across the street from the Atlantis by the Library.<br/>
+              Municipal parking (<a href="https://www.ococean.com/parking-information" target={'_blank'} rel={'noopener noreferrer'}>100th St. Bayside <BiLinkExternal className="align-text-bottom inline-block mb-px"/></a>) is also available across the street from the Atlantis by the Library.<br/>
             </p>
           </article>
 
@@ -51,9 +51,9 @@ export const VisitingRules: React.FC<any> = (_props) => {
             <p>
                 Summary:<br/>
                 <ul className="list-disc ml-5 mb-8">
-                  <li><span className="font-semibold">Quantity:</span>One per unit </li>
+                  <li><span className="font-semibold mr-2">Quantity :</span>One per unit </li>
                   <li>Do not keep in unit, return once finished using it.</li>
-                  <li><span className="font-semibold">Carts available at:</span>Ground level security office</li>
+                  <li><span className="font-semibold mr-2">Carts available at :</span>Ground level security office</li>
                 </ul>
                 Additional Details:<br/>
                 Carts make transporting luggage, groceries, and other items to your unit a breeze.<br/>
@@ -67,9 +67,9 @@ export const VisitingRules: React.FC<any> = (_props) => {
             <p>
               Summary:<br/>
               <ul className="list-disc ml-5 mb-8">
-                <li><span className="font-semibold">Hours of operation:</span> 8:00 AM to 10:00 PM</li>
-                <li><span className="font-semibold">Location:</span> North end of each floor of the building</li>
-                <li><span className="font-semibold">Permissible items:</span> Bagged items only, no larger than standard kitchen trash bag</li>
+                <li><span className="font-semibold mr-2">Hours of operation :</span> 8:00 AM to 10:00 PM</li>
+                <li><span className="font-semibold mr-2">Location :</span> North end of each floor of the building</li>
+                <li><span className="font-semibold mr-2">Permissible items :</span> Bagged items only, no larger than standard kitchen trash bag</li>
               </ul>
               
               <span className="font-semibold">Use dumpsters instead for</span>: (located at ground level)<br/>
@@ -88,8 +88,8 @@ export const VisitingRules: React.FC<any> = (_props) => {
             <p>
               Summary:<br/>
               <ul className="list-disc ml-5 mb-8">
-                <li><span className="font-semibold">Availability:</span>For Co-owners only.</li>
-                <li><span className="font-semibold">Location:</span> North-east corner of property.</li>
+                <li><span className="font-semibold mr-2">Availability :</span>For Co-owners only.</li>
+                <li><span className="font-semibold mr-2">Location :</span> North-east corner of property.</li>
               </ul>
               Additional Details:<br/>
               ONLY “Co-Owners” are allowed to bring their pets to the property. 
@@ -106,8 +106,8 @@ export const VisitingRules: React.FC<any> = (_props) => {
             <p>
               Summary:<br/>
               <ul className="list-disc ml-5 mb-8">
-                <li><span className="font-semibold">Hours:</span>9:00AM - 10:00PM</li>
-                <li><span className="font-semibold">Adult Swim:</span>9:00AM - 10:00AM</li>
+                <li><span className="font-semibold mr-2">Hours :</span>9:00AM - 10:00PM</li>
+                <li><span className="font-semibold mr-2">Adult Swim :</span>9:00AM - 10:00AM</li>
                 <li>No splashing, diving</li>
                 <li>No yelling, no loud music.</li>
                 <li>No balls/toys.</li>
@@ -133,8 +133,8 @@ export const VisitingRules: React.FC<any> = (_props) => {
             <p>
               Summary:<br/>
               <ul className="list-disc ml-5 mb-8">
-                <li>Prohibited in Ocean City except at skate park from April 1st to October 1st of each year [<a href="https://oceancitymd.gov/oc/departments/recreation-parks/skate-park/rules/">source</a>].</li>
-                <li>Bike racks a provided at ground level under northmost corner of building, locks recommended.</li>
+                <li>Prohibited in Ocean City except at skate park from April 1st to October 1st of each year [<a href="https://oceancitymd.gov/oc/departments/recreation-parks/skate-park/rules/" target={'_blank'} rel={'noopener noreferrer'}>source <BiLinkExternal className="align-text-bottom inline-block mb-px"/></a>].</li>
+                <li>Bike racks a provided at ground level under north most corner of building, locks recommended.</li>
               </ul>
             </p>
           </article>
@@ -167,12 +167,12 @@ export const VisitingRules: React.FC<any> = (_props) => {
             <Heading level={HeadingLevel.H5} id="damages">Damages</Heading>
             <p>
               Summary:<br/>
-              e ask that our guests report any breakage or damage and settle such matters before your departure. All rental units are checked carefully after each guest departs and any unsettled breakage or damages beyond normal wear and tear may result in additional charges. Also if excessive cleaning is required this will be considered damage.
+              We ask that our guests report any breakage or damage and settle such matters before your departure. All rental units are checked carefully after each guest departs and any unsettled breakage or damages beyond normal wear and tear may result in additional charges. Also if excessive cleaning is required this will be considered damage.
             </p>
           </article>
 
           <article>
-            <Heading level={HeadingLevel.H5} id="lokout">Lockout</Heading>
+            <Heading level={HeadingLevel.H5} id="lokout">Lost Keys / Lockout</Heading>
             <p>
               Keys:<br/>
               <ul className="list-disc ml-5 mb-8">
@@ -180,11 +180,11 @@ export const VisitingRules: React.FC<any> = (_props) => {
                 <li>Contact your rental agent if keys are non functional.</li>
               </ul>
 
-              Lockout charges:<br/>
+              A nominal fee is charged to regain access to the unit if you have locked yourself out.<br/>
               <ul className="list-disc ml-5 mb-8">
-                <li><span className="font-semibold">8:00 AM - 4:30 PM</span>$10</li>
-                <li><span className="font-semibold">4:30 PM - Midnight</span>$20</li>
-                <li><span className="font-semibold">Midnight - 8:00 AM</span>$40</li>
+                <li><span className="font-semibold mr-2">8:00 AM - 4:30 PM :</span>$10</li>
+                <li><span className="font-semibold mr-2">4:30 PM - Midnight :</span>$20</li>
+                <li><span className="font-semibold mr-2">Midnight - 8:00 AM :</span>$40</li>
               </ul>
 
               Additional Details:<br/>
@@ -199,9 +199,23 @@ export const VisitingRules: React.FC<any> = (_props) => {
               Summary:<br/>
               <ul className="list-disc ml-5 mb-8">
                 <li>No bird feeding.</li>
+                <li>No cooking or grilling.</li>
               </ul>
             </p>
           </article>
+
+
+          <article>
+            <Heading level={HeadingLevel.H5} id="damages">Cameras</Heading>
+            <p>
+              Summary:<br/>
+              <ul className="list-disc ml-5 mb-8">
+                <li>Cameras or digital video cameras are operating 24/7 for your protection. These cameras are located through out the building and common areas.</li>
+              </ul>
+            </p>
+          </article>
+
+
 
         </div>
       </div>
