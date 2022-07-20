@@ -79,6 +79,12 @@ let menuConfig: MenuItemType[] = [
         parent: 'ROOT'
       },
       {
+        id: 'ownership',
+        label: 'Ownership',
+        path: '/about/ownership',
+        parent: 'ROOT'
+      },
+      {
         id: 'amenities',
         label: 'Amenities',
         parent: 'ROOT',

@@ -11,7 +11,7 @@ export const AboutHistory: React.FC<any> = (_props) => {
 
         The  design and supervising architects,  Meyers & D’Aleo, Inc. designed the 21 story building comprised of 198 condo units. 
 
-        Meyers & D’Aleo, Inc. are also architects for Antigua 86th street, the Golden Sands, the Oceana 1&2 *83rd street and Deer Point on 94th street (<a href="https://www.emporis.com/buildings/1394850/deer-point-ocean-city-md-usa" target={'_blank'} rel={'noopener noreferrer'}>source<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a>). <br/><br/>
+        Meyers & D’Aleo, Inc. are also architects for Antigua 86th street, the Golden Sands, the Oceana 1&2 *83rd street and Deer Point on 94th street (<a href="https://www.emporis.com/companies/292338/meyers-d-aleo-todd-inc-salisbury-ma-usa" target={'_blank'} rel={'noopener noreferrer'}>source<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a>). <br/><br/>
 
         Leo D’Aleo is well known for architecture around Ocean City and Baltimore. <br/><br/>
 
