@@ -18,6 +18,10 @@ export const AboutOwnership: React.FC<any> = (_props) => {
                 With recent public and private strategic investments to attract visitors to Ocean City year-round the potential for future year-round income exists. <br/><br/>
 
                 The area provides local full-service rental services attractive to those seeking a more passive income stream. Coupled with the full-time security and maintenance staff at the Atlantis, the property offers a unique opportunity for owners to generate income while they are away.
+
+                <ul>
+                    <li><a href="https://oceancitymd.gov/oc/departments/planning-community-development/comprehensive-plan/">Ocean City Comprehensive Plan</a></li>
+                </ul>
             </p>
         </article>
         <article>
