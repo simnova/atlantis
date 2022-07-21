@@ -36,7 +36,7 @@ export const SectionLayout: React.FC<any> = (props) => {
           </div>
           
         </nav>
-        <MenuMobile menuItems={props.menuConfig} onClick={() => setMobileMenuVisible(false)} className={mobileMenuVisible ? 'translate-x-0': '-translate-x-full'} />
+        <MenuMobile menuItems={props.menuConfig} onClick={() => setMobileMenuVisible(false)} className={mobileMenuVisible ? 'z-20 translate-x-0 shadow-[0_10px_25px_-5px_rgba(0,0,0,0.5)]': '-translate-x-full'} />
 
     </header>
     <main className="grow mt-8">
