@@ -1,12 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-import { AiFillFacebook, AiFillTwitterSquare, AiFillLinkedin, AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
+import { AiFillFacebook, AiFillTwitterSquare, AiFillLinkedin, AiOutlineMail, AiOutlinePhone, AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
 import { FaFax } from 'react-icons/fa';
 import { Heading, HeadingLevel } from '../../ui/atoms/heading';
 import { Container } from '../../ui/atoms/container';
 import { Logo, LogoSize } from '../../ui/atoms/logo';
 import { MenuTop, MenuItemType } from '../../ui/atoms/menu-top';
 import { Outlet } from "react-router-dom";
+import { MenuMobile } from '../../ui/atoms/menu-mobile';
 
 
 export interface SectionLayoutProps {
@@ -14,12 +15,19 @@ export interface SectionLayoutProps {
 }
 
 export const SectionLayout: React.FC<any> = (props) => {
+  const [mobileMenuVisible, setMobileMenuVisible] = useState(false);
  
   return (<>
     <header className="bg-white flex-none sticky top-0 border-b">
         <nav className="max-w-screen-xl mx-auto bg-white flex flex-row text-blue-900">
           <div className="flex flex-row justify-center">
-            <Logo size={LogoSize.H2} className="flex-none mb-0">Atlantis</Logo>
+            <div className="md:hidden" >
+              
+              {mobileMenuVisible ? <AiOutlineClose className="text-blue-900 inline-block mt-0 mr-3 ml-3 mb-3 text-bottom" onClick={() => setMobileMenuVisible(false)}/> : <AiOutlineMenu className="text-blue-900 inline-block mt-0 mr-3 ml-3 mb-3 text-bottom" onClick={() => setMobileMenuVisible(true)}/>}
+              <Logo size={LogoSize.H4} className="flex-none mb-0 mt-4 inline-block">Atlantis</Logo>
+            </div>
+            <div className="hidden">
+            </div>
           </div>
           
           <div className="grow flex justify-center">
@@ -27,6 +35,8 @@ export const SectionLayout: React.FC<any> = (props) => {
           </div>
           
         </nav>
+        <MenuMobile menuItems={props.menuConfig} onClick={() => setMobileMenuVisible(false)} className={mobileMenuVisible ? 'translate-x-0': '-translate-x-full'} />
+
     </header>
     <main className="grow mt-8">
       <div className="mx-auto max-w-screen-xl">
@@ -37,7 +47,7 @@ export const SectionLayout: React.FC<any> = (props) => {
     </main>
     <footer className="bg-blue-900 text-white mt-8 flex-none">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 text-sm">
+        <div className="mx-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 text-sm">
 
           <div >
             <Logo size={LogoSize.H1}>Atlantis</Logo>

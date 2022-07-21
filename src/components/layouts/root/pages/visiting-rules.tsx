@@ -133,7 +133,10 @@ export const VisitingRules: React.FC<any> = (_props) => {
             <p>
               Summary:<br/>
               <ul className="list-disc ml-5 mb-8">
-                <li>Prohibited in Ocean City except at skate park from April 1st to October 1st of each year [<a href="https://oceancitymd.gov/oc/departments/recreation-parks/skate-park/rules/" target={'_blank'} rel={'noopener noreferrer'}>source <BiLinkExternal className="align-text-bottom inline-block mb-px"/></a>].</li>
+                <li>Prohibited in Ocean City except at skate park from April 1st to October 1st of each year 
+                  [<a href="https://oceancitymd.gov/oc/departments/recreation-parks/skate-park/rules/" target={'_blank'} rel={'noopener noreferrer'}>source 1<BiLinkExternal className="align-text-bottom inline-block mb-px"/></a>]
+                  [<a href="https://library.municode.com/md/ocean_city/codes/code_of_ordinances?nodeId=PTIICOOR_CH90TRVE_ARTVBISKSICO_S90-195OPSK" target={'_blank'} rel={'noopener noreferrer'}>source 2<BiLinkExternal className="align-text-bottom inline-block mb-px"/></a>] 
+                .</li>
                 <li>Bike racks a provided at ground level under north most corner of building, locks recommended.</li>
               </ul>
             </p>
