@@ -5,6 +5,15 @@ import "swiper/css/navigation";
 
 import { Autoplay, Pagination, Navigation } from "swiper";
 
+/*
+
+IMAGE COMPRESSOR:
+https://imagecompressor.com/
+
+SRCSET GENERATOR:
+https://www.responsivebreakpoints.com/
+
+*/
 
 export const Home: React.FC<any> = (_props) => {
   return (<>

@@ -15,7 +15,7 @@ let menuConfig: MenuItemType[] = [
   {
     id: 'home',
     label: 'Home',
-    path: '/',
+    path: '/#',
     parent: null
   },
   {
@@ -26,37 +26,37 @@ let menuConfig: MenuItemType[] = [
       {
         id: 'notices',
         label: 'Notices',
-        path: '/visiting/notices',
+        path: '/visiting/notices#',
         parent: 'ROOT'
       },
       {
         id: 'transportation',
         label: 'Transportation',
-        path: '/visiting/transportation',
+        path: '/visiting/transportation#',
         parent: 'ROOT'
       },
       {
         id: 'amenities',
         label: 'Amenities',
-        path: '/visiting/amenities',
+        path: '/visiting/amenities#',
         parent: 'ROOT'
       },
       {
         id: 'check-in',
         label: 'Check In',
-        path: '/visiting/check-in',
+        path: '/visiting/check-in#',
         parent: 'ROOT'
       },
       {
         id: 'rules',
         label: 'Rules',
-        path: '/visiting/rules',
+        path: '/visiting/rules#',
         parent: 'ROOT'
       },
       {
         id: 'maintenance',
         label: 'Maintenance',
-        path: '/visiting/maintenance',
+        path: '/visiting/maintenance#',
         parent: 'ROOT'
       },
     ]
@@ -69,19 +69,19 @@ let menuConfig: MenuItemType[] = [
       {
         id: 'staff',
         label: 'Staff',
-        path: '/about/staff',
+        path: '/about/staff#',
         parent: 'ROOT'
       },
       {
         id: 'history',
         label: 'History',
-        path: '/about/history',
+        path: '/about/history#',
         parent: 'ROOT'
       },
       {
         id: 'ownership',
         label: 'Ownership',
-        path: '/about/ownership',
+        path: '/about/ownership#',
         parent: 'ROOT'
       },
       {
@@ -94,14 +94,14 @@ let menuConfig: MenuItemType[] = [
             id: 'amenities-pool',
             label: 'Pool',
             path: '/about/amenities/pool',
-            parent: 'amenities'
+            parent: 'amenities#'
 
           },
           {
             id: 'amenities-trash',
             label: 'Trash',
             path: '/about/amenities/trash',
-            parent: 'amenities'
+            parent: 'amenities#'
           },
 
         ]
@@ -113,7 +113,7 @@ let menuConfig: MenuItemType[] = [
   {
     id: 'contact',
     label: 'Contact',
-    path: '/contact',
+    path: '/contact#',
     parent: null
   }
 ];
