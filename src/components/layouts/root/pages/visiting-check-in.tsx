@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import { HashLink as Link } from 'react-router-hash-link';
 import { Heading, HeadingLevel } from '../../../ui/atoms/heading';
 import styles from './visiting-transportation.module.css';
@@ -11,6 +12,9 @@ export const VisitingCheckIn: React.FC<any> = (_props) => {
 
   return (
     <>
+      <Helmet>
+        <title>Checking In</title>
+      </Helmet>
       <div className={styles['container']}>
         <Heading level={HeadingLevel.H1}>Checking In at the Atlantis:</Heading>
 

@@ -2,6 +2,7 @@ import { Heading, HeadingLevel } from '../../../ui/atoms/heading';
 import { HashLink as Link } from 'react-router-hash-link';
 import { BiLinkExternal } from 'react-icons/bi';
 import styles from './visiting-amenities.module.css';
+import { Helmet } from 'react-helmet';
 
 export const VisitingAmenities: React.FC<any> = (_props) => {
   const scrollWithOffset = (el:HTMLElement) => {
@@ -12,6 +13,9 @@ export const VisitingAmenities: React.FC<any> = (_props) => {
 
   return (
     <>
+      <Helmet>
+        <title>Amenities</title>
+      </Helmet>
       <div className={styles['container']}>
         <Heading level={HeadingLevel.H1}>Amenities:</Heading>
 

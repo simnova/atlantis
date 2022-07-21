@@ -73,9 +73,9 @@ let menuConfig: MenuItemType[] = [
         parent: 'ROOT'
       },
       {
-        id: 'history',
-        label: 'History',
-        path: '/about/history#',
+        id: 'property',
+        label: 'The Property',
+        path: '/about/property#',
         parent: 'ROOT'
       },
       {
@@ -84,28 +84,7 @@ let menuConfig: MenuItemType[] = [
         path: '/about/ownership#',
         parent: 'ROOT'
       },
-      {
-        id: 'amenities',
-        label: 'Amenities',
-        parent: 'ROOT',
-
-        children: [
-          {
-            id: 'amenities-pool',
-            label: 'Pool',
-            path: '/about/amenities/pool',
-            parent: 'amenities#'
-
-          },
-          {
-            id: 'amenities-trash',
-            label: 'Trash',
-            path: '/about/amenities/trash',
-            parent: 'amenities#'
-          },
-
-        ]
-      }
+      
       
     ]
     

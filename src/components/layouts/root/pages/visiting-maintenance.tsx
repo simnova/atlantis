@@ -1,10 +1,14 @@
 import { Heading, HeadingLevel } from '../../../ui/atoms/heading';
 import { HashLink as Link } from 'react-router-hash-link';
+import { Helmet } from 'react-helmet';
 
 export const VisitingMaintenance: React.FC<any> = (_props) => {
     return (
       <>
-        <Heading level={HeadingLevel.H1}>Maintenance:</Heading>
+        <Helmet>
+          <title>Maintenance Services</title>
+        </Helmet>
+        <Heading level={HeadingLevel.H1}>Maintenance Services:</Heading>
 
         <div>
 

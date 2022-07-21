@@ -51,7 +51,7 @@ export const SectionLayout: React.FC<any> = (props) => {
         <div className="mx-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 text-sm">
 
           <div>
-            <Logo size={LogoSize.H1} className="hidden">Atlantis</Logo>
+            <Logo size={LogoSize.H1} className="hidden md:block">Atlantis</Logo>
             <Logo size={LogoSize.H3} className="md:hidden mt-5">Atlantis</Logo>
             <p>10300 Coastal Hwy, Ocean City, MD 21842</p>
             <div className="flex align-baseline my-2">

@@ -1,8 +1,12 @@
+import { Helmet } from "react-helmet"
 import { Heading, HeadingLevel } from "../../../ui/atoms/heading"
 
 export const Contact: React.FC<any> = (_props) => {
   return (
     <>
+      <Helmet>
+        <title>Contact Us</title>
+      </Helmet>
       <Heading level={HeadingLevel.H1}>Contacting the Atlantis:</Heading>
 
       <div>

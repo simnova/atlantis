@@ -1,8 +1,12 @@
+import { Helmet } from "react-helmet"
 import { Heading, HeadingLevel } from "../../../ui/atoms/heading"
 
 export const AboutOwnership: React.FC<any> = (_props) => {
   return (
     <>
+      <Helmet>
+        <title>Ownership</title>
+      </Helmet>
       <Heading level={HeadingLevel.H1}>Ownership at the Atlantis:</Heading>
       <p>
         Whether you are looking for an investment property, a personal summertime getaway or a new place to call home, learn why Atlantis may be for you.<br/><br/>

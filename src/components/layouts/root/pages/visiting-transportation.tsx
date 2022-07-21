@@ -1,10 +1,14 @@
 import { Heading, HeadingLevel } from '../../../ui/atoms/heading';
 import { AiOutlineGlobal, AiOutlineEnvironment } from 'react-icons/ai';
 import styles from './visiting-transportation.module.css'; 
+import { Helmet } from 'react-helmet';
 
 export const VisitingTransportation: React.FC<any> = (_props) => {
   return (
     <>
+      <Helmet>
+        <title>Transportation</title>
+      </Helmet>
       <div className={styles['container']}>
         <Heading level={HeadingLevel.H1}>Getting to the Atlantis:</Heading>
 

@@ -4,6 +4,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { Autoplay, Pagination, Navigation } from "swiper";
+import { Helmet } from 'react-helmet';
 
 /*
 
@@ -17,6 +18,9 @@ https://www.responsivebreakpoints.com/
 
 export const Home: React.FC<any> = (_props) => {
   return (<>
+    <Helmet>
+      <title>Welcome</title>
+    </Helmet>
     <h1>Welcome to the Atlantis in Ocean City, MD</h1>
     <article >
         <Swiper

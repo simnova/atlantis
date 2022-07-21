@@ -8,6 +8,7 @@ import OfficeStaff from '../../../../content/office-staff.json';
 import SecurityStaff from '../../../../content/security-staff.json';
 
 import { StaffMember } from '../../../ui/organisms/staff-member';
+import { Helmet } from 'react-helmet';
 
 export const AboutStaff: React.FC<any> = (_props) => {
     let boardMembers: StaffFormat.RootObject = BoardMembers;
@@ -16,6 +17,9 @@ export const AboutStaff: React.FC<any> = (_props) => {
     let securityStaff: StaffFormat.RootObject = SecurityStaff;
   return (
     <>
+        <Helmet>
+            <title>Staff</title>
+        </Helmet>
         <article>
         <Heading level={HeadingLevel.H5}>Board of Directors:</Heading>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">

@@ -1,8 +1,12 @@
+import { Helmet } from "react-helmet"
 import { Heading, HeadingLevel } from "../../../ui/atoms/heading"
 
 export const VisitingNotices: React.FC<any> = (_props) => {
     return (
       <>
+        <Helmet>
+          <title>Building Status</title>
+        </Helmet>
         <Heading level={HeadingLevel.H1}>Building Status</Heading>
         
         <div className="space-y-5">

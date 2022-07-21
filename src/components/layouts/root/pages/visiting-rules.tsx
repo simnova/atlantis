@@ -1,10 +1,14 @@
 import { Heading, HeadingLevel } from '../../../ui/atoms/heading';
 import { BiLinkExternal } from 'react-icons/bi';
 import styles from './visiting-rules.module.css';
+import { Helmet } from 'react-helmet';
 
 export const VisitingRules: React.FC<any> = (_props) => {
   return (
     <>
+      <Helmet>
+        <title>Rules</title>
+      </Helmet>
       <div className={styles['container']}>
         <Heading level={HeadingLevel.H1}>Rules and Regulations</Heading>
         <h1>Summary of Rules / Policies</h1>

@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import { AboutStaff } from './about-staff';
-import { AboutHistory } from './about-history';
+import { AboutProperty } from './about-property';
 import { AboutOwnership } from './about-ownership';
 
 export const About: React.FC<any> = (_props) => {
@@ -8,7 +8,7 @@ export const About: React.FC<any> = (_props) => {
     <Routes>
       <Route path="" element={<AboutStaff />} />
       <Route path="staff" element={<AboutStaff />} />
-      <Route path="history" element={<AboutHistory />} />
+      <Route path="property" element={<AboutProperty />} />
       <Route path="ownership" element={<AboutOwnership />} />
     </Routes>
   )
