@@ -18,7 +18,7 @@ export const SectionLayout: React.FC<any> = (props) => {
   const [mobileMenuVisible, setMobileMenuVisible] = useState(false);
  
   return (<>
-    <header className="bg-white flex-none sticky top-0 border-b">
+    <header className="z-10 bg-white flex-none sticky top-0 border-b">
         <nav className="max-w-screen-xl mx-auto bg-white flex flex-row text-blue-900">
           <div className="flex flex-row justify-center">
             <div className="md:hidden" onClick={() => setMobileMenuVisible(!mobileMenuVisible)} >
