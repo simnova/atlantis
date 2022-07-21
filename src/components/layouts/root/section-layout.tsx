@@ -21,12 +21,13 @@ export const SectionLayout: React.FC<any> = (props) => {
     <header className="bg-white flex-none sticky top-0 border-b">
         <nav className="max-w-screen-xl mx-auto bg-white flex flex-row text-blue-900">
           <div className="flex flex-row justify-center">
-            <div className="md:hidden" >
+            <div className="md:hidden" onClick={() => setMobileMenuVisible(!mobileMenuVisible)} >
               
-              {mobileMenuVisible ? <AiOutlineClose className="text-blue-900 inline-block mt-0 mr-3 ml-3 mb-3 text-bottom" onClick={() => setMobileMenuVisible(false)}/> : <AiOutlineMenu className="text-blue-900 inline-block mt-0 mr-3 ml-3 mb-3 text-bottom" onClick={() => setMobileMenuVisible(true)}/>}
+              {mobileMenuVisible ? <AiOutlineClose className="text-blue-900 inline-block mt-0 mr-3 ml-3 mb-3 text-bottom" /> : <AiOutlineMenu className="text-blue-900 inline-block mt-0 mr-3 ml-3 mb-3 text-bottom" onClick={() => setMobileMenuVisible(true)}/>}
               <Logo size={LogoSize.H4} className="flex-none mb-0 mt-4 inline-block">Atlantis</Logo>
             </div>
-            <div className="hidden">
+            <div className="hidden md:block">
+              <Logo size={LogoSize.H2} className="flex-none mb-0 mt-1">Atlantis</Logo>
             </div>
           </div>
           
@@ -49,8 +50,9 @@ export const SectionLayout: React.FC<any> = (props) => {
       <Container>
         <div className="mx-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 text-sm">
 
-          <div >
-            <Logo size={LogoSize.H1}>Atlantis</Logo>
+          <div>
+            <Logo size={LogoSize.H1} className="hidden">Atlantis</Logo>
+            <Logo size={LogoSize.H3} className="md:hidden mt-5">Atlantis</Logo>
             <p>10300 Coastal Hwy, Ocean City, MD 21842</p>
             <div className="flex align-baseline my-2">
               <Heading className="mr-2" level={HeadingLevel.H4}><a href="https://www.facebook.com/atlantisocmd" title="Facebook" target="_blank" rel="noreferrer"><AiFillFacebook /></a></Heading>
