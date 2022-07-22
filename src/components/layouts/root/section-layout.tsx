@@ -27,11 +27,11 @@ export const SectionLayout: React.FC<any> = (props) => {
               <Logo size={LogoSize.H4} className="flex-none mb-0 mt-4 inline-block">Atlantis</Logo>
             </div>
             <div className="hidden md:block">
-              <Logo size={LogoSize.H2} className="flex-none mb-0 mt-1">Atlantis</Logo>
+              <Logo size={LogoSize.H2} className="flex-none mb-0 mt-1 ml-5">Atlantis</Logo>
             </div>
           </div>
           
-          <div className="grow flex justify-center">
+          <div className="grow flex justify-end mr-8 xl:justify-center">
           <MenuTop menuItems={props.menuConfig}  className="w-fit inline-block " />
           </div>
           
