@@ -19,24 +19,40 @@ export const VisitingAmenities: React.FC<any> = (_props) => {
       <div className={styles['container']}>
         <Heading level={HeadingLevel.H1}>Amenities:</Heading>
 
-        <div className="grid grid-rows-4 grid-flow-col gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+            <div>
+                <Heading level={HeadingLevel.H4}>Pool:</Heading>
+                Take in the sun on the comfortable poolside chairs or lounges, and cool off with a dip in the pool. The Atlantis is proud to have one of the largest ocean front pools in Ocean City, Maryland.<br/>
+                You can also escape the sun at one of the poolside umbrella shaded tables. 
+                <Link to={'/visiting/rules#pool'} smooth scroll={scrollWithOffset}>Learn more</Link> 
+            </div>
+            <div>
+                <Heading level={HeadingLevel.H4}>Beach:</Heading>
+                Ocean City has some of the best beaches on the east coast and being at the Atlantis, all units have a great view of the beach.  Beach access is a breeze with walkways on both the north and south edges of the property.<br/>
+                <Link to={'/visiting/rules#pool'} smooth scroll={scrollWithOffset}>Learn more</Link> 
+            </div>
+            <div>
+                <Heading level={HeadingLevel.H4}>Outdoor Showers:</Heading>
+                Coming back from the beach and want to rise all the sand off yourself and your gear? The Atlantis has outdoor showers that are available for all units.<br/>
+                The showers are located along the southern beach walkway, both inside and outside of the pool area. <br/>
+            </div>
+            <div>
+                <Heading level={HeadingLevel.H4}>Ground Floor Bathrooms/Showers:</Heading>
+                Need to use the bathroom while at the beach or pool or need to change into your beach app?<br/>  
+                Located on the ground floor of the building in the underpass, there are bathrooms and showers for all guests.<br/>
+                Your room key  access the bathrooms.
+            </div>
+
             <div>
                 <Heading level={HeadingLevel.H4}>Parking:</Heading>
                 With xx parking spots, xx handicap spots, there is ample parking space for all guests.<br/>
                 <Link to={'/visiting/rules#parking-permits'} smooth scroll={scrollWithOffset}>Learn more</Link>
             </div>
 
-            <div>
-                <Heading level={HeadingLevel.H4}>Outdoor Showers:</Heading>
-                Located conveniently by the pool, outdoor showers are available for all guests to rinse off themselves and their beach equipment before entering the building or pool.<br/>
-            </div>
+
 
             
-            <div>
-                <Heading level={HeadingLevel.H4}>Ground Floor Bathrooms/Showers:</Heading>
-                Located in the ground floor of the building, there are bathrooms and showers for all guests.<br/>
-                Use your room key to access the bathrooms.
-            </div>
+
 
             <div>
                 <Heading level={HeadingLevel.H4}>Dog Lot (Co-Owners Only):</Heading>
@@ -44,11 +60,7 @@ export const VisitingAmenities: React.FC<any> = (_props) => {
                 <Link to={'/visiting/rules#dog-lot'} smooth scroll={scrollWithOffset}>Learn more</Link> 
             </div>
 
-            <div>
-                <Heading level={HeadingLevel.H4}>Pool:</Heading>
-                Located conveniently by the pool, outdoor showers.<br/>
-                <Link to={'/visiting/rules#pool'} smooth scroll={scrollWithOffset}>Learn more</Link> 
-            </div>
+
 
             <div>
                 <Heading level={HeadingLevel.H4}>Bike Racks:</Heading>
