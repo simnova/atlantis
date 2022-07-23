@@ -20,7 +20,6 @@ export const VisitingRules: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H5} id="registration">Registration:</Heading>
             <p>
-              Summary:<br/>
               <ul className="list-disc ml-5 mb-8">
                 <li>Registration form needs to list all persons occupying the unit </li>
                 <li><span className="font-semibold mr-2">Registration Location:</span>Security Office on ground floor</li>
@@ -38,9 +37,8 @@ export const VisitingRules: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H5} id="parking-permits">Parking Permits:</Heading>
             <p>
-              Summary:<br/>
               <ul className="list-disc ml-5 mb-8">
-                <li><span className="font-semibold mr-2">Quantity :</span>One per unit </li>
+                <li><span className="font-semibold mr-2">Quantity :</span>One per unit (included with Registration fee) </li>
                 <li><span className="font-semibold mr-2">Additional Permits :</span>If space permits $40/week or $10/day</li>
                 <li><span className="font-semibold mr-2">Passes available at :</span>Ground level security office, credit card only</li>
               </ul>
@@ -53,7 +51,6 @@ export const VisitingRules: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H5} id="luggage-carts">Luggage Carts</Heading>
             <p>
-                Summary:<br/>
                 <ul className="list-disc ml-5 mb-8">
                   <li><span className="font-semibold mr-2">Quantity :</span>One per unit </li>
                   <li>Do not keep in unit, return once finished using it.</li>
@@ -62,6 +59,7 @@ export const VisitingRules: React.FC<any> = (_props) => {
                 Additional Details:<br/>
                 Carts make transporting luggage, groceries, and other items to your unit a breeze.<br/>
                 Visitors must leave either their ID or a credit card with security in order to check out a cart. After the cart is returned, the card will be returned to the visitor. <br/>
+                Carts may not be left in the unit overnight. <br/>
                 This policy has been put in place to encourage carts are returned in a timely manner.
             </p>
           </article>
@@ -69,7 +67,6 @@ export const VisitingRules: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H5} id="trash-chute">Trash Chute:</Heading>
             <p>
-              Summary:<br/>
               <ul className="list-disc ml-5 mb-8">
                 <li><span className="font-semibold mr-2">Hours of operation :</span> 8:00 AM to 10:00 PM</li>
                 <li><span className="font-semibold mr-2">Location :</span> North end of each floor of the building</li>
@@ -90,7 +87,6 @@ export const VisitingRules: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H5} id="dog-lot">Pets / Dog Lot:</Heading>
             <p>
-              Summary:<br/>
               <ul className="list-disc ml-5 mb-8">
                 <li><span className="font-semibold mr-2">Availability :</span>For Co-owners only.</li>
                 <li><span className="font-semibold mr-2">Location :</span> North-east corner of property.</li>
@@ -108,7 +104,6 @@ export const VisitingRules: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H5} id="pool">Pool:</Heading>
             <p>
-              Summary:<br/>
               <ul className="list-disc ml-5 mb-8">
                 <li><span className="font-semibold mr-2">Hours :</span>9:00AM - 10:00PM</li>
                 <li><span className="font-semibold mr-2">Adult Swim :</span>9:00AM - 10:00AM</li>
@@ -117,6 +112,7 @@ export const VisitingRules: React.FC<any> = (_props) => {
                 <li>No balls/toys.</li>
                 <li>No glass containers.</li>
                 <li>Under 16 is not permitted without a parent or guardian</li>
+                <li>Please rinse off prior to entering the pool if you were at the beach. Excess sand can clog the filter and cause the pool to close</li>
               </ul>
             </p>
           </article>
@@ -124,7 +120,6 @@ export const VisitingRules: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H5} id="bicycles">Bicycles:</Heading>
             <p>
-               Summary:<br/>
               <ul className="list-disc ml-5 mb-8">
                 <li>Prohibited on elevators during summer months.</li>
                 <li>Bike racks a provided at ground level under northmost corner of building, locks recommended.</li>
@@ -135,13 +130,11 @@ export const VisitingRules: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H5} id="skateboards">Skateboards, Roller Skates, Roller Blades:</Heading>
             <p>
-              Summary:<br/>
               <ul className="list-disc ml-5 mb-8">
                 <li>Prohibited in Ocean City except at skate park from April 1st to October 1st of each year 
                   [<a href="https://oceancitymd.gov/oc/departments/recreation-parks/skate-park/rules/" target={'_blank'} rel={'noopener noreferrer'}>source 1<BiLinkExternal className="align-text-bottom inline-block mb-px"/></a>]
                   [<a href="https://library.municode.com/md/ocean_city/codes/code_of_ordinances?nodeId=PTIICOOR_CH90TRVE_ARTVBISKSICO_S90-195OPSK" target={'_blank'} rel={'noopener noreferrer'}>source 2<BiLinkExternal className="align-text-bottom inline-block mb-px"/></a>] 
                 .</li>
-                <li>Bike racks a provided at ground level under north most corner of building, locks recommended.</li>
               </ul>
             </p>
           </article>
@@ -149,7 +142,6 @@ export const VisitingRules: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H5} id="smoking">Smoking</Heading>
             <p>
-              Summary:<br/>
               This is a NON-SMOKING facility including balconies. Evidence of smoking in units will result in additional charges. Smoking is permitted outside the unit only in designated smoking areas. We ask that you discard your cigarette butts only in containers reserved for smoking.
             </p>
           </article>
@@ -157,7 +149,6 @@ export const VisitingRules: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H5} id="furnishings">Furnishings</Heading>
             <p>
-              Summary:<br/>
               Your condominium unit is privately owned; therefore, we ask that you do not abuse the furnishings or unit. Please do not rearrange furnishings or bring balcony furniture to the beach.
             </p>
           </article>
@@ -165,7 +156,6 @@ export const VisitingRules: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H5} id="safety">Safety</Heading>
             <p>
-              Summary:<br/>
               NO WEAPONS OR FIREARMS ARE ALLOWED ON THE PROPERTY OR IN THE UNITS
             </p>
           </article>
@@ -173,7 +163,6 @@ export const VisitingRules: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H5} id="damages">Damages</Heading>
             <p>
-              Summary:<br/>
               We ask that our guests report any breakage or damage and settle such matters before your departure. All rental units are checked carefully after each guest departs and any unsettled breakage or damages beyond normal wear and tear may result in additional charges. Also if excessive cleaning is required this will be considered damage.
             </p>
           </article>
@@ -203,7 +192,6 @@ export const VisitingRules: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H5} id="damages">Balconies</Heading>
             <p>
-              Summary:<br/>
               <ul className="list-disc ml-5 mb-8">
                 <li>No bird feeding.</li>
                 <li>No cooking or grilling.</li>
@@ -215,7 +203,6 @@ export const VisitingRules: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H5} id="damages">Cameras</Heading>
             <p>
-              Summary:<br/>
               <ul className="list-disc ml-5 mb-8">
                 <li>Cameras or digital video cameras are operating 24/7 for your protection. These cameras are located through out the building and common areas.</li>
               </ul>
