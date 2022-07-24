@@ -1,0 +1,5 @@
+.container a {
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: 1px;
+    @apply underline text-blue-700 hover:text-blue-900 visited:text-blue-500;
+}
