@@ -51,6 +51,22 @@ export const ExploreDining: React.FC<any> = (_props) => {
             </div>
           </article>
           <article>
+            <Heading level={HeadingLevel.H5} id="fun-bars-restaurants">Great Eating Restaurants:</Heading>
+            <div>
+              <ul className="list-disc ml-5 mb-8">
+                <li><span className="font-semibold mr-2"><a href="https://fracturedprune.com/"  target="_blank" rel="noreferrer">The Original Fractured Prune <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> ( ~115 street) –great donuts - **walkable**</li>
+                <li><span className="font-semibold mr-2"><a href="https://www.ocstreetfoodmd.com/"  target="_blank" rel="noreferrer">OC Street Food <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (112 Street- bay side) – super cheap & good - **walkable**</li>
+                <li><span className="font-semibold mr-2"><a href="https://www.sophiasitalianrestaurantoceancity.com/"  target="_blank" rel="noreferrer">Sophia’s Italian <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (112 Street -bay side) - cheap & good – **walkable**</li>
+                <li><span className="font-semibold mr-2"><a href="https://locations.dennys.com/MD/OCEAN-CITY/246555"  target="_blank" rel="noreferrer">Denny’s <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (112 Street – bay side) **– walkable –** ridiculously cheap breakfast (if you order the special)</li>
+                <li><span className="font-semibold mr-2"><a href="http://www.bluefishocmd.com/"  target="_blank" rel="noreferrer">Blue Fish <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (94 Street- Bay Side) – Japanese</li>
+                <li><span className="font-semibold mr-2"><a href="https://lombardisrestaurant.com/"  target="_blank" rel="noreferrer">Trattoria Lombardi’s <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (94 Street – bay side) – Pizza & Italian Food (affordable) **walkable**</li>
+                <li><span className="font-semibold mr-2"><a href="https://www.bullonthebeachoc.com/"  target="_blank" rel="noreferrer">Bull on the Beach <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (94 Street – beach side) – Roast Beef / Ribs (affordable) **walkable**</li>
+                <li><span className="font-semibold mr-2"><a href="https://tinosmexicangrill.com/"  target="_blank" rel="noreferrer">Tinos Mexican Grill <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (84st street- bay side) small & cheap - great for takeout</li>
+                <li><span className="font-semibold mr-2"><a href="https://www.dry85.com/ocean-city/"  target="_blank" rel="noreferrer">Dry 85 <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (48 Street – beach side) – Great food & Cocktails</li>
+              </ul>
+            </div>
+          </article>
+          <article>
             <Heading level={HeadingLevel.H6} id="breweries">Breweries:</Heading>
             <div className="mb-5">
               OCMD Holds a number of Craft Beer Events throughout the year. ( <a href="https://shorecraftbeer.com/"  target="_blank" rel="noreferrer">Shore Craft Beer <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> )<br/>

@@ -34,22 +34,29 @@ export const ExploreAttractions: React.FC<any> = (_props) => {
             <div className="ml-3">
               <div className="font-semibold">Water Sports:</div>
               <div className="ml-3 text-sm">
-                Boat rides<br/>
-                Boat/jet ski/kayak rentals
+                You'll find a variety of water sports activities at Ocean City.  Whether you're looking to swim, paddle, or kayak, you'll find something for everyone.  <br/><br/>
+                Easily rent a pontoon boat, jet skis or even charter a floating tiki-hut!<br/><br/>
+                Family favorites include a ride on a speed boat, or if you prefer a little more calm ride, a sailboat.  <br/><br/>
+
               </div>
               <ul className="list-disc ml-5 mb-8">
-                { /* Listing of local destinations nearby 10300 Coastal Hwy, Ocean City, MD 21842  */ }
                 <li>
-                  <span className="font-semibold mr-2"><a href="https://berlinmainstreet.com/"  target="_blank" rel="noreferrer">Berlin, MD <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                   (14.6 mi)
-                  <a href="https://goo.gl/maps/JGLqqZMYToLHDZhZ9" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
-                  The town of Berlin, MD is a short drive away and is home a number of shops and restaurants and retains a small-town feeling.
+                  <span className="font-semibold mr-2"><a href="https://sailalyosha.com/"  target="_blank" rel="noreferrer">SailAlyosha<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                   (7.9 mi)
+                  <a href="https://goo.gl/maps/Kwgo7XEomiAyWimU8" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
+                  Chartered sailing on a 50' catamaran, this is a great way to take in the sights.
                 </li>
                 <li>
-                  <span className="font-semibold mr-2"><a href="https://www.nps.gov/asis/index.htm"  target="_blank" rel="noreferrer">Assateague Island <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  (22.6 mi)
-                  <a href="https://goo.gl/maps/5KoRLRP4LA54weqx7" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
-                  Assateague Island is a small island in the middle of the Atlantic Ocean. It is a great place to visit for a day or two.                
+                  <span className="font-semibold mr-2"><a href="http://baysideboatrentals.com/"  target="_blank" rel="noreferrer">Bayside Boat Rentals & Jet Ski Rentals <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  (2.7 mi)
+                  <a href="https://g.page/baysideboatrentals?share" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
+                  Enjoy an afternoon on a pontoon boat or jet ski.               
+                </li>
+                <li>
+                  <span className="font-semibold mr-2"><a href="https://ocfishtales.com/cruisin-tikis/"  target="_blank" rel="noreferrer">Crusin' Tikis <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  (4.7 mi)
+                  <a href="https://g.page/Cruisintikisoc?share" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
+                  Bring your own booze and enjoy a cruise on a tiki boat. 
                 </li>
               </ul>
             </div>
@@ -57,23 +64,27 @@ export const ExploreAttractions: React.FC<any> = (_props) => {
               <div className="font-semibold">Amusements/Water Parks/Go-Karts:</div>
               <div className="ml-3 text-sm">
               - Looking for a fun outing for the family? Visit one of the Ocean City’s amusement parks. Jolly Roger has locations on 30th Street as well as the pier at the southern end of the boardwalk.<br/>
-              - Visit Jolly Roger’s Splash Mountain - the largest waterpark on the Eastern Shore - for hours of family fun!<br/>
               - There are several options for go-karting in the area, including: Speedworld Go-Karts, Grand Prix Amusements & ProTrack, and Baja Amusements, among many others.<br/>
       
               </div>
               <ul className="list-disc ml-5 mb-8">
-                { /* Listing of local destinations nearby 10300 Coastal Hwy, Ocean City, MD 21842  */ }
                 <li>
-                  <span className="font-semibold mr-2"><a href="https://berlinmainstreet.com/"  target="_blank" rel="noreferrer">Berlin, MD <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                   (14.6 mi)
-                  <a href="https://goo.gl/maps/JGLqqZMYToLHDZhZ9" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
-                  The town of Berlin, MD is a short drive away and is home a number of shops and restaurants and retains a small-town feeling.
+                  <span className="font-semibold mr-2"><a href="https://splashmountainoc.com/"  target="_blank" rel="noreferrer">Jolly Roger's Splash Mountain<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  (4.5 mi)
+                  <a href="https://goo.gl/maps/jXDP2xPYCLH3rum48" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
+                  The largest waterpark on the Eastern Shore! You're welcome to bring a cooler with your own food and beverages.               
                 </li>
                 <li>
-                  <span className="font-semibold mr-2"><a href="https://www.nps.gov/asis/index.htm"  target="_blank" rel="noreferrer">Assateague Island <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  (22.6 mi)
-                  <a href="https://goo.gl/maps/5KoRLRP4LA54weqx7" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
-                  Assateague Island is a small island in the middle of the Atlantic Ocean. It is a great place to visit for a day or two.                
+                  <span className="font-semibold mr-2"><a href="https://jollyrogeroc.com/"  target="_blank" rel="noreferrer">Jolly Roger at 30th Street<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  (4.5 mi)
+                  <a href="https://goo.gl/maps/fhGJzivzuaFXLLsw9" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
+                  Co-located with Splash Mountain, enjoy many rides for a fun time out with the family.              
+                </li>
+                <li>
+                  <span className="font-semibold mr-2"><a href="https://jollyrogerpieroc.com/"  target="_blank" rel="noreferrer">Jolly Roger at the Pier<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  On the Boardwalk (7.0 mi )
+                  <a href="https://goo.gl/maps/w1V4XpiToy3nJZFn8" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
+                  Enjoy the views from the Giant Wheel and all the fun rides with Jolly Rodger on the pier at the southern end of the boardwalk.              
                 </li>
               </ul>
             </div>
