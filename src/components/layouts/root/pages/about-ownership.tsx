@@ -9,7 +9,7 @@ export const AboutOwnership: React.FC<any> = (_props) => {
       </Helmet>
       <Heading level={HeadingLevel.H1}>Ownership at the Atlantis:</Heading>
       <p>
-        Whether you are looking for an investment property, a personal summertime getaway or a new place to call home, learn why Atlantis may be for you.<br/><br/>
+        Whether you are looking for an <strong>investment property</strong>, a <strong>personal summertime getaway</strong> or a <strong>new place to call home</strong>, learn why Atlantis may be for you.<br/><br/>
       </p>
 
       <div className="space-y-5">

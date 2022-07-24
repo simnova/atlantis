@@ -1,6 +1,11 @@
 {
    "staff":[
         {
+            "name": "Melvin Rostek",
+            "title": "General Manager",
+            "profileImage":"https://via.placeholder.com/200"
+        },
+        {
             "name": "Ross Phillips",
             "title": "Maintenance",
             "profileImage":"https://via.placeholder.com/200"

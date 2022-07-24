@@ -4,7 +4,7 @@ import { VisitingTransportation } from './visiting-transportation';
 import { VisitingRules } from './visiting-rules';
 import { VisitingNotices } from './visiting-notices';
 import { VisitingCheckIn } from './visiting-check-in';
-import { VisitingMaintenance } from './visiting-maintenance';
+import { AboutMaintenance } from './about-maintenance';
 
 export const Visiting: React.FC<any> = (_props) => {
   return (
@@ -15,7 +15,7 @@ export const Visiting: React.FC<any> = (_props) => {
       <Route path="rules" element={<VisitingRules />} />
       <Route path="notices" element={<VisitingNotices />} />
       <Route path="check-in" element={<VisitingCheckIn />} />
-      <Route path="maintenance" element={<VisitingMaintenance />} />
+      <Route path="maintenance" element={<AboutMaintenance />} />
     </Routes>
   )
 }

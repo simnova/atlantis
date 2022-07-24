@@ -9,6 +9,7 @@ import { Contact } from './pages/contact';
 
 
 import { MenuItemType } from '../../ui/atoms/menu-top';
+import { Explore } from './pages/explore';
 
 
 let menuConfig: MenuItemType[] = [
@@ -30,12 +31,6 @@ let menuConfig: MenuItemType[] = [
         parent: 'ROOT'
       },
       {
-        id: 'transportation',
-        label: 'Transportation',
-        path: '/visiting/transportation#',
-        parent: 'ROOT'
-      },
-      {
         id: 'amenities',
         label: 'Amenities',
         path: '/visiting/amenities#',
@@ -48,15 +43,59 @@ let menuConfig: MenuItemType[] = [
         parent: 'ROOT'
       },
       {
+        id: 'transportation',
+        label: 'Transportation',
+        path: '/visiting/transportation#',
+        parent: 'ROOT'
+      },
+
+      {
         id: 'rules',
         label: 'Rules',
         path: '/visiting/rules#',
         parent: 'ROOT'
       },
+    ]
+  },
+  {
+    id: 'explore',
+    label: 'Explore',
+    parent: null,
+    children: [
       {
-        id: 'maintenance',
-        label: 'Maintenance',
-        path: '/visiting/maintenance#',
+        id: 'dining',
+        label: 'Dining',
+        path: '/explore/dining#',
+        parent: 'ROOT'
+      },
+      {
+        id: 'activities',
+        label: 'Activities',
+        path: '/explore/activities#',
+        parent: 'ROOT'
+      },  
+      {
+        id: 'events',
+        label: 'Events',
+        path: '/explore/events#',
+        parent: 'ROOT'
+      },
+      {
+        id: 'attractions',
+        label: 'Attractions',
+        path: '/explore/attractions#',
+        parent: 'ROOT'
+      },
+      {
+        id: 'gallery',
+        label: 'Gallery',
+        path: '/explore/gallery#',
+        parent: 'ROOT'
+      },
+      {
+        id: 'maps',
+        label: 'Maps',
+        path: '/explore/maps#',
         parent: 'ROOT'
       },
     ]
@@ -66,12 +105,7 @@ let menuConfig: MenuItemType[] = [
     label: 'About',
     parent: null,
     children: [
-      {
-        id: 'staff',
-        label: 'Staff',
-        path: '/about/staff#',
-        parent: 'ROOT'
-      },
+
       {
         id: 'property',
         label: 'The Property',
@@ -82,6 +116,19 @@ let menuConfig: MenuItemType[] = [
         id: 'ownership',
         label: 'Ownership',
         path: '/about/ownership#',
+        parent: 'ROOT'
+      },
+
+      {
+        id: 'maintenance',
+        label: 'Maintenance',
+        path: '/about/maintenance#',
+        parent: 'ROOT'
+      },
+      {
+        id: 'security',
+        label: 'Security',
+        path: '/about/security#',
         parent: 'ROOT'
       },
       {
@@ -113,6 +160,7 @@ export const Root: React.FC<any> = (_props) => {
           <Route path="visiting/*" element={<Visiting />} />
           <Route path="/about/*" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/explore/*" element={<Explore />} />
         </Route>
       </Routes>
     </div>

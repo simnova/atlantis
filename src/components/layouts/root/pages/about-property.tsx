@@ -11,11 +11,11 @@ export const AboutProperty: React.FC<any> = (_props) => {
       </Helmet>
       <Heading level={HeadingLevel.H1}>History</Heading>
       <p className={styles['p']}>
-        Built in 1975, at roughly 247 feet tall, the Atlantis is in the <a href="https://www.emporis.com/statistics/tallest-buildings/city/102627/ocean-city-md-usa" target={'_blank'} rel={'noopener noreferrer'}>top 10<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> tallest buildings in Ocean City, Maryland offering co-owners and guests views of both the ocean and the bay<br/><br/>
+        Built in 1975, at roughly 247 feet tall, the Atlantis is one of the <a href="https://www.emporis.com/statistics/tallest-buildings/city/102627/ocean-city-md-usa" target={'_blank'} rel={'noopener noreferrer'}>top 10<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> tallest buildings in Ocean City, Maryland offering co-owners and guests views of both the ocean and the bay.<br/><br/>
 
         The  design and supervising architects,  Meyers & D’Aleo, Inc. designed the 21 story building comprised of 198 condo units. 
 
-        Meyers & D’Aleo, Inc. are also architects for Antigua 86th street, the Golden Sands, the Oceana 1&2 *83rd street and Deer Point on 94th street (<a href="https://www.emporis.com/companies/292338/meyers-d-aleo-todd-inc-salisbury-ma-usa" target={'_blank'} rel={'noopener noreferrer'}>source<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a>). <br/><br/>
+        Meyers & D’Aleo, Inc. are also architects for Antigua (86th street), the Golden Sands, the Oceana 1&2 (83rd street) and Deer Point (94th street) (<a href="https://www.emporis.com/companies/292338/meyers-d-aleo-todd-inc-salisbury-ma-usa" target={'_blank'} rel={'noopener noreferrer'}>source<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a>). <br/><br/>
 
         Leo D’Aleo is well known for architecture around Ocean City and Baltimore. <br/><br/>
 

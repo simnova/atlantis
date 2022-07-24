@@ -28,17 +28,25 @@ export const VisitingAmenities: React.FC<any> = (_props) => {
             </div>
             <div>
                 <Heading level={HeadingLevel.H4}>Beach:</Heading>
-                Ocean City has some of the best beaches on the east coast and being at the Atlantis, all units have a great view of the beach.  Beach access is a breeze with walkways on both the north and south edges of the property.<br/>
-                <Link to={'/visiting/rules#pool'} smooth scroll={scrollWithOffset}>Learn more</Link> 
+
+                Ocean City has one of the best beaches on the east coast [&nbsp;<a href="https://travel.usnews.com/gallery/the-top-east-coast-beaches-to-visit"  target="_blank" rel="noreferrer">source:US News <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a>] and being at the Atlantis, all units have a great view of the beach. Beach access couldn't be easier, with walkways on both the north and south edges of the property. <br/><br/>
+
+                Ocean City Beaches are free to the public (no beach passes required). <br/><br/>
+
+                Enjoy a bonfire on the beach at night. There is a <a href="https://ocbonfires.com/"  target="_blank" rel="noreferrer">$75 permit <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> required in order to have a bonfire.
+
+                
+
+                
             </div>
             <div>
                 <Heading level={HeadingLevel.H4}>Outdoor Showers:</Heading>
-                Coming back from the beach and want to rise all the sand off yourself and your gear? The Atlantis has outdoor showers that are available for all units.<br/>
+                Coming back from the beach and want to rinse all the sand off yourself and your gear? The Atlantis has outdoor showers that are available for all units.<br/>
                 The showers are located along the southern beach walkway, both inside and outside of the pool area. <br/>
             </div>
             <div>
                 <Heading level={HeadingLevel.H4}>Ground Floor Bathrooms/Showers:</Heading>
-                Need to use the bathroom while at the beach or pool or need to change into your beach app?<br/>  
+                Need to use the bathroom while at the beach or pool, or need to change into or out of your beach attire?<br/>  
                 Located on the ground floor of the building in the underpass, there are bathrooms and showers for all guests.<br/>
                 Your room key  access the bathrooms.
             </div>
@@ -51,16 +59,6 @@ export const VisitingAmenities: React.FC<any> = (_props) => {
 
 
 
-            
-
-
-            <div>
-                <Heading level={HeadingLevel.H4}>Dog Lot (Co-Owners Only):</Heading>
-                Located conveniently by the pool, the dog lot is a secure and easy way to allow your dogs to relieve themselves.<br/>
-                <Link to={'/visiting/rules#dog-lot'} smooth scroll={scrollWithOffset}>Learn more</Link> 
-            </div>
-
-
 
             <div>
                 <Heading level={HeadingLevel.H4}>Bike Racks:</Heading>
@@ -70,24 +68,31 @@ export const VisitingAmenities: React.FC<any> = (_props) => {
 
             <div>
                 <Heading level={HeadingLevel.H4}>Water / Ice Machine:</Heading>
-                Located conveniently by the pool, outdoor showers . 
+                Located conveniently between the security office and the pool.
             </div>
 
             <div>
                 <Heading level={HeadingLevel.H4}>Snack Shack:</Heading>
                 Located in the security office: <br/>
-                $2.00 - 20oz bottles of water and soda <br/>
-                $1.00 - bag of chips
+                <ul className="text-sm list-disc ml-5 mb-3 mt-2">
+                  <li className="mb-2">
+                    <span className="font-semibold">$2.00 : </span> 
+                    20oz bottles of water and soda
+                  </li>
+                  <li className="mb-2">
+                    <span className="font-semibold">$2.00 : </span> 
+                    bag of chips
+                  </li>
+                </ul>
+                
             </div>
-
 
             <div>
-                <Heading level={HeadingLevel.H4}>Beach:</Heading>
-                Ocean City Beaches are free to the public (no beach passes required).<br/>
-
-                Bonfires<br/>
-                Enjoy the beach at night too! You must <a href="https://ocbonfires.com/" target={'_blank'} rel={'noopener noreferrer'}>register pay $75 fee online<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> in order to have a bonfire.
+                <Heading level={HeadingLevel.H4}>Dog Lot (Co-Owners Only):</Heading>
+                Located conveniently by the pool, the dog lot is a secure and easy way to allow your dogs to relieve themselves.<br/>
+                <Link to={'/visiting/rules#dog-lot'} smooth scroll={scrollWithOffset}>Learn more</Link> 
             </div>
+
         </div>
       </div>
     </>

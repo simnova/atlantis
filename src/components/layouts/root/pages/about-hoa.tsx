@@ -71,7 +71,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <div>
                     <strong>Marty Levy</strong>
                     <div className="text-xs">
-                      <p>Corr. Secretary</p>
+                      <p>Corresponding Secretary</p>
                       <p>Unit XXX</p>
                       <p>Term expires April </p>
                     </div>

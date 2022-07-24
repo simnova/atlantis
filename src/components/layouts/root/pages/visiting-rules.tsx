@@ -18,30 +18,21 @@ export const VisitingRules: React.FC<any> = (_props) => {
         <div className="space-y-5">
 
           <article>
-            <Heading level={HeadingLevel.H5} id="registration">Registration:</Heading>
+            <Heading level={HeadingLevel.H5} id="registration-parking">Registration and Parking:</Heading>
             <p>
               <ul className="list-disc ml-5 mb-8">
                 <li>Registration form needs to list all persons occupying the unit </li>
                 <li><span className="font-semibold mr-2">Registration Location:</span>Security Office on ground floor</li>
               </ul>
               
-              Registration Charge:<br/>
+              Registration Charge: (includes one Parking Permit)<br/>
               <ul className="list-disc ml-5 mb-8">
-                <li><span className="font-semibold mr-2">Fee Effective Period :</span>May 1st to Sep 30th</li>
                 <li><span className="font-semibold mr-2">Amount :</span>$40.</li>
                 <li><span className="font-semibold mr-2">Payment Method :</span>Credit Card Only (No cash)</li>
+                <li><span className="font-semibold mr-2">Additional Parking :</span>If space permits $40/week or $10/day</li>
               </ul>
-            </p>
-          </article>
-
-          <article>
-            <Heading level={HeadingLevel.H5} id="parking-permits">Parking Permits:</Heading>
-            <p>
-              <ul className="list-disc ml-5 mb-8">
-                <li><span className="font-semibold mr-2">Quantity :</span>One per unit (included with Registration fee) </li>
-                <li><span className="font-semibold mr-2">Additional Permits :</span>If space permits $40/week or $10/day</li>
-                <li><span className="font-semibold mr-2">Passes available at :</span>Ground level security office, credit card only</li>
-              </ul>
+          
+          
               Additional Details:<br/>
               No boats, trailers, jet skis or motor homes.<br/>
               Municipal parking (<a href="https://www.ococean.com/parking-information" target={'_blank'} rel={'noopener noreferrer'}>100th St. Bayside <BiLinkExternal className="align-text-bottom inline-block mb-px"/></a>) is also available across the street from the Atlantis by the Library.<br/>
@@ -142,7 +133,7 @@ export const VisitingRules: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H5} id="smoking">Smoking</Heading>
             <p>
-              This is a NON-SMOKING facility including balconies. Evidence of smoking in units will result in additional charges. Smoking is permitted outside the unit only in designated smoking areas. We ask that you discard your cigarette butts only in containers reserved for smoking.
+              This is a NON-SMOKING facility including balconies. Evidence of smoking in units will result in additional charges. Smoking is permitted on the ground floor only in designated smoking areas. We ask that you discard your cigarette butts only in containers reserved for smoking.
             </p>
           </article>
 

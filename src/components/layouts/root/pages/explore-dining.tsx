@@ -1,0 +1,119 @@
+import { stringify } from "querystring";
+import { Helmet } from "react-helmet"
+import { AiOutlineEnvironment } from "react-icons/ai";
+import { BiLinkExternal } from "react-icons/bi"
+import { Heading, HeadingLevel } from "../../../ui/atoms/heading"
+import styles from './explore-dining.module.css'; 
+
+export const ExploreDining: React.FC<any> = (_props) => {
+    return (
+      <>
+        <Helmet>
+          <title>Dining</title>
+        </Helmet>
+
+        <Heading level={HeadingLevel.H1}>Dining</Heading>
+        <div className="mb-8 italic text-sm">Curated by Atlantis Co-Owners and Staff</div>
+        <div className={['space-y-5', styles['container']].join(' ') }>
+          <article>
+            <Heading level={HeadingLevel.H6}>Breweries:</Heading>
+            <p className="mb-5">
+              OCMD Holds a number of Craft Beer Events throughout the year. ( <a href="https://shorecraftbeer.com/"  target="_blank" rel="noreferrer">Shore Craft Beer <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> )<br/>
+              Other resources: https://www.oceancity.com/craft-beer/
+            </p>
+
+            <div className="ml-3">
+              <div className="font-semibold">South and West:</div>
+              <ul className="list-disc ml-5 mb-8">
+                <li>
+                  <span className="font-semibold mr-2"><a href="https://www.theotheronebrewing.com/"  target="_blank" rel="noreferrer">The Other One Brewing Company <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  Downtown (4.5 mi)
+                  <a href="https://goo.gl/maps/vUyM5TgKvZ2f1EFQ8" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
+                </li>
+                <li>
+                  <span className="font-semibold mr-2"><a href="https://fincitybrewing.com/"  target="_blank" rel="noreferrer">Fin City Brewing Company <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  West Ocean City (7 mi) 
+                  <a href="hhttps://goo.gl/maps/nBJtYCmstXxwpi8i9" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>&nbsp;-
+                  In Hooper's Crab House
+                </li>
+                <li>
+                  <span className="font-semibold mr-2"><a href="https://www.sinbrewing.com/"  target="_blank" rel="noreferrer">Sinepuxent Brewing Company <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  Berlin, MD (10.3 mi)
+                  <a href="https://goo.gl/maps/8EGUW5mwM6v5bNWU6" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
+                </li>
+                <li>
+                  <span className="font-semibold mr-2"><a href="https://burleyoak.com/"  target="_blank" rel="noreferrer">Burley Oak Brewing Company <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  Berlin, MD (13.6 mi)
+                  <a href="https://goo.gl/maps/WJDnDSMsXcZUJJvu6" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
+                </li>
+                
+                <li>
+                  <span className="font-semibold mr-2"><a href="https://www.bigoysterbrewery.com/"  target="_blank" rel="noreferrer">Big Oyster Brewery <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  Lewes, DE (26.1 mi)
+                  <a href="https://goo.gl/maps/JCG5W515PdwRAQmy7" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
+                </li>
+                <li>
+                  <span className="font-semibold mr-2"><a href="https://www.evolutioncraftbrewing.com/"  target="_blank" rel="noreferrer">Evolution Craft Brewing Company <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  Salisbury, MD (32.4 mi)
+                  <a href="https://goo.gl/maps/EERFDzzwQuaofjy3A" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
+                </li>
+              </ul>
+            </div>
+            <div  className="ml-3">
+              <div className="font-semibold">North:</div>
+              <ul className="list-disc ml-5 mb-8">
+                <li>
+                  <span className="font-semibold mr-2"><a href="https://www.bethanybrewing.net/"  target="_blank" rel="noreferrer">Bethany Brewing Company <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  Ocean View, DE (11.9 mi)
+                  <a href="https://goo.gl/maps/5FXFg1oeGWcq8nP19" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
+                </li>
+                <li>
+                  <span className="font-semibold mr-2"><a href="https://www.oceanviewbrewingde.com/"  target="_blank" rel="noreferrer">Ocean View Brewing Company <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  Ocean View, DE (10 mi)
+                  <a href="https://goo.gl/maps/J4uJFD3gwAHxkuRg6" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
+                </li>
+                <li>
+                  <span className="font-semibold mr-2"><a href="https://www.dogfish.com/"  target="_blank" rel="noreferrer">Dogfish Head Brewpub <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  Rehoboth Beach, DE (21.4 mi)
+                  <a href="https://goo.gl/maps/kVzWP5YJYKHj58fF6" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
+                </li>
+              </ul>
+            </div>
+            <div  className="ml-3">
+              <div className="font-semibold">Good Variety Craft Beer on Tap:</div>
+              <ul className="list-disc ml-5 mb-8">
+                <li>
+                  <span className="font-semibold mr-2"><a href="http://www.octaphouses.com/"  target="_blank" rel="noreferrer">Taphouse Tavern <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  Ocean City  (2.1 mi)
+                  <a href="https://goo.gl/maps/xEbjpLBD11Th3PiCA" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article>
+            <Heading level={HeadingLevel.H5}>Fun Bars / Restaurants:</Heading>
+            <div>
+              <ul className="list-disc ml-5 mb-8">
+                <li><span className="font-semibold mr-2"><a href="https://thegreeneturtle.com"  target="_blank" rel="noreferrer">Green Turtle <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>(~115 Street) – walkable</li>
+                <li><span className="font-semibold mr-2">
+                <a href="https://ocbeachresort.com/dining-nightlife/lennys-beach-bar-and-grill/"  target="_blank" rel="noreferrer">Lenny's Beach Bar & Grill <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>(next door at Fontainebleau Hotel)
+                  <ul className="list-disc ml-5">
+                    <li>Live music most nights (4-7pm)</li>
+                    <li>Happy Hour 4-7PM M-F / 2-4 Sa-Su ( $7 burger / $3 domestic / $6 crushes)</li>
+                  </ul>
+                </li>
+                <li><span className="font-semibold mr-2"><a href="https://www.deadfreddies.com/"  target="_blank" rel="noreferrer">Dead Freddies <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (64 Street – bay side) family friendly</li>
+                <li><span className="font-semibold mr-2"><a href="https://seacrets.com/"  target="_blank" rel="noreferrer">Seacrets <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (49 Street – bay front) huge place, live music – 21+ crowd</li>
+                <li><span className="font-semibold mr-2"><a href="https://ocfishtales.com/"  target="_blank" rel="noreferrer">Fish Tales <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (22 Street – bay front)</li>
+                <li><span className="font-semibold mr-2"><a href="https://picklesoc.com/"  target="_blank" rel="noreferrer">Pickles Pub <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (8 Street & Philadelphia Ave) - good wings</li>
+                <li><span className="font-semibold mr-2"><a href="hhttps://www.ocshenanigans.com/"  target="_blank" rel="noreferrer">Shenanigan’s Irish Pub <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (On Boardwalk)</li>
+                <li><span className="font-semibold mr-2"><a href="https://www.delazylizard.com/"  target="_blank" rel="noreferrer">De Lazy Lizard <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (1 Street- bay front)</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </>
+    )
+  }
+

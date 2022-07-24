@@ -2,6 +2,7 @@ import { Heading, HeadingLevel } from '../../../ui/atoms/heading';
 import { AiOutlineGlobal, AiOutlineEnvironment } from 'react-icons/ai';
 import styles from './visiting-transportation.module.css'; 
 import { Helmet } from 'react-helmet';
+import { BiLinkExternal } from 'react-icons/bi';
 
 export const VisitingTransportation: React.FC<any> = (_props) => {
   return (
@@ -25,9 +26,9 @@ export const VisitingTransportation: React.FC<any> = (_props) => {
           <div>
             Rental cars available at airport:
             <ul className="list-disc ml-5 mb-8">
-              <li>Avis: 410-742-8566</li>
-              <li>Enterprise: 410-677-3810</li>
-              <li>Taxi / Limo Service: 410-422-1479</li>
+              <li>Avis: <a href="tel:+01-410-742-8566" title="Phone">410-742-8566</a></li>
+              <li>Enterprise: <a href="tel:+01-410-677-3810" title="Phone">410-677-3810</a></li>
+              <li>Taxi / Limo Service: <a href="tel:+01-410-422-1479" title="Phone">410-422-1479</a></li>
             </ul>
           </div>
         </div>
@@ -78,14 +79,40 @@ export const VisitingTransportation: React.FC<any> = (_props) => {
           </div>
         </div>
 
-        <Heading level={HeadingLevel.H1}>Getting around Ocean City:</Heading>
+        <div className="space-y-5">
 
-        <Heading level={HeadingLevel.H4}>Beach Bus</Heading>
-        <div>
-          $3.00 per person day pass<br/>
-          <a href="https://oceancitymd.gov/oc/departments/public-works/ocean-city-beach-bus/"  target="_blank" rel="noreferrer">Learn More</a><br/>
-          <a href="https://transloc.com/app/" target="_blank" rel="noreferrer">Download App</a> for Real-time bus locations<br/>
+          <Heading level={HeadingLevel.H1}>Getting around Ocean City:</Heading>
+
+          <div>
+            <Heading level={HeadingLevel.H4}>Beach Bus</Heading>
+            <div>
+              $3.00 per person day pass: 
+              <a href="https://oceancitymd.gov/oc/departments/public-works/ocean-city-beach-bus/" className="ml-1" target="_blank" rel="noreferrer">Learn More  <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a><br/>
+              <a href="https://transloc.com/app/" target="_blank" rel="noreferrer">Download App <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> for Real-time bus locations<br/>
+            </div>
+          </div>
+
+          <div>
+            <Heading level={HeadingLevel.H4}>Taxi/Car Services</Heading>
+            <div>
+              Ocean City is home to many taxi and car services including 
+              <a href="https://www.uber.com/" className="ml-1" target="_blank" rel="noreferrer">Uber <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> and
+              <a href="https://www.lyft.com/" className="ml-1" target="_blank" rel="noreferrer">Lyft <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a>
+              .
+
+              <ul className="list-disc ml-5 mb-8">
+                <li>
+                  <a href="https://taxitaxioc.com/"  target="_blank" rel="noreferrer">Taxi Taxi OCMD <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a><br/>
+                  Taxi Service: <a href="tel:+01-410-289-8989" title="Phone">410-289-8989</a><br/>
+                  Shuttle Service: <a href="tel:+01-410-289-8686" title="Phone">410-289-8686</a> (for larger groups)<br/>
+                </li>
+              </ul>
+            </div>
+          </div>
+
         </div>
+        
+
       </div>
     </>
   )   

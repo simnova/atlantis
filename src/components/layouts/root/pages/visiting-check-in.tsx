@@ -13,10 +13,10 @@ export const VisitingCheckIn: React.FC<any> = (_props) => {
   return (
     <>
       <Helmet>
-        <title>Checking In</title>
+        <title>Checking in</title>
       </Helmet>
       <div className={styles['container']}>
-        <Heading level={HeadingLevel.H1}>Checking In at the Atlantis:</Heading>
+        <Heading level={HeadingLevel.H1}>Checking in at the Atlantis:</Heading>
 
         <div>
           When first arriving at the Atlantis, check-in at the Security Office before going to your unit or parking your vehicle.<br/><br/>
@@ -27,18 +27,17 @@ export const VisitingCheckIn: React.FC<any> = (_props) => {
 
           <div className="space-y-5">
             <article>
-              <Heading level={HeadingLevel.H4}>Registration</Heading>
+              <Heading level={HeadingLevel.H4}>Registration and Parking</Heading>
               <p>
                 <ul className="list-disc ml-5 mb-8">
-                  <li><span className="font-semibold mr-2">Fee :</span>$40.</li>
-                  <li><span className="font-semibold mr-2">Payment Method :</span>Credit Card Only (No cash)</li>
-                  <li><span className="font-semibold mr-2">Effective Period :</span>May 1st to Sep 30th</li>
+                  <li><span className="font-semibold mr-2">Fee :</span>$40 (includes 1 parking pass)</li>
+                  <li><span className="font-semibold mr-2">Payment Method :</span>Credit Card Only (no cash)</li>
+                  <li><span className="font-semibold mr-2">Additional Parking :</span> $40/week or $10/day (for registered guests, if space permits)</li>
                 </ul>
                 
-                Carts make transporting luggage, groceries, and other items to your unit a breeze.<br/>
-                Visitors must leave either their ID or a credit card with security in order to check out a cart. After the cart is returned, the card will be returned to the visitor. 
-                This policy has been put in place to encourage carts are returned in a timely manner.<br/>
-                <Link to={'/visiting/rules#registration'} smooth scroll={scrollWithOffset}>Learn more</Link>
+                Any vehicles wishing to park at the Atlantis require a parking pass displayed on the dashboard.<br/>
+
+                <Link to={'/visiting/rules#registration-parking'} smooth scroll={scrollWithOffset}>More Details</Link>
               </p>
             </article>
 
@@ -46,16 +45,9 @@ export const VisitingCheckIn: React.FC<any> = (_props) => {
               <Heading level={HeadingLevel.H4}>Carts</Heading>
               <p>
                 Carts make transporting luggage, groceries, and other items to your unit a breeze.<br/>
-                Visitors must leave either their ID or a credit card with security in order to check out a cart. After the cart is returned, the card will be returned to the visitor. 
+                Visitors must leave either their ID or a credit card with security in order to check out a cart. After the cart is returned, the card will be returned to the visitor. <br/>
                 This policy has been put in place to encourage carts are returned in a timely manner.<br/>
                 <Link to={'/visiting/rules#luggage-carts'} smooth scroll={scrollWithOffset}>Learn more</Link>
-              </p>
-            </article>
-            <article>
-              <Heading level={HeadingLevel.H4}>Parking Pass</Heading>
-              <p>
-                Any vehicles wishing to park at the Atlantis require a parking pass displayed on the dashboard.<br/>
-                <Link to={'/visiting/rules#parking-permits'} smooth scroll={scrollWithOffset}>Learn more</Link>
               </p>
             </article>
           </div>
