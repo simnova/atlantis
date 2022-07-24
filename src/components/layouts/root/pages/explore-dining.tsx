@@ -100,7 +100,11 @@ export const ExploreDining: React.FC<any> = (_props) => {
                   Berlin, MD (13.6 mi)
                   <a href="https://goo.gl/maps/WJDnDSMsXcZUJJvu6" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
                 </li>
-                
+                <li>
+                  <span className="font-semibold mr-2"><a href="https://www.thebuzzmeadery.com/"  target="_blank" rel="noreferrer">The Buzz Meadery <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  Berlin, MD (17 mi)
+                  <a href="https://goo.gl/maps/KSBT5yHJpLy7V5ED7" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
+                </li>
                 <li>
                   <span className="font-semibold mr-2"><a href="https://www.bigoysterbrewery.com/"  target="_blank" rel="noreferrer">Big Oyster Brewery <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
                   Lewes, DE (26.1 mi)
