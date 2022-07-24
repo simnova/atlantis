@@ -15,8 +15,8 @@ export const AboutSecurity: React.FC<any> = (_props) => {
         <Heading level={HeadingLevel.H1}>Security Services:</Heading>
 
         <div>
-            The full time security team ....<br/><br/>
-
+            The Atlantis is a secure environment, and we are committed to protecting your privacy and security. The security team is available to assist you with any security issues you may have.
+            <br/><br/>
             <span className="font-bold">Availability :</span><br/>
             Security staff is available 7 days a week 24hrs a day year round.<br/><br/>
 

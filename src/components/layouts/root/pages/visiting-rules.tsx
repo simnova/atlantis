@@ -33,9 +33,19 @@ export const VisitingRules: React.FC<any> = (_props) => {
               </ul>
           
           
-              Additional Details:<br/>
+              
               No boats, trailers, jet skis or motor homes.<br/>
-              Municipal parking (<a href="https://www.ococean.com/parking-information" target={'_blank'} rel={'noopener noreferrer'}>100th St. Bayside <BiLinkExternal className="align-text-bottom inline-block mb-px"/></a>) is also available across the street from the Atlantis by the Library.<br/>
+
+              <strong>Additional Parking</strong> across the street by the Library (100th Street Municipal lot):<br/>
+              <ul className="list-disc ml-5 mb-8">
+                <li><span className="font-semibold mr-2"><a href="https://www.ococean.com/parking-information" target={'_blank'} rel={'noopener noreferrer'}>Vehicle Parking<BiLinkExternal className="align-text-bottom inline-block mb-px"/></a> :</span>$40/week - $10/day<br/></li>
+                <li><span className="font-semibold mr-2"><a href="https://oceancitymd.gov/oc/ocean-city-parking/#trailer-oversized-vehicle-parking" target={'_blank'} rel={'noopener noreferrer'}>Boat Trailer & Oversized Vehicle Parking<BiLinkExternal className="align-text-bottom inline-block mb-px"/></a> :</span>$50/week - $10/day<br/></li>
+                <li><span className="font-semibold mr-2"><a href="https://oceancitymd.gov/oc/electric-vehicle-charging-stations/" target={'_blank'} rel={'noopener noreferrer'}>EV Charging<BiLinkExternal className="align-text-bottom inline-block mb-px"/></a></span>is available</li>
+              </ul>
+
+       
+              
+
             </p>
           </article>
 
@@ -167,15 +177,15 @@ export const VisitingRules: React.FC<any> = (_props) => {
                 <li>Contact your rental agent if keys are non functional.</li>
               </ul>
 
-              A nominal fee is charged to regain access to the unit if you have locked yourself out.<br/>
+
+              <span className='font-semibold'>Lockout Fees:</span><br/>
+              A nominal fee is charged to regain access to the unit if you have locked yourself out - see security for assistance. (Only those who are on unit registration will be granted access.)<br/>
               <ul className="list-disc ml-5 mb-8">
                 <li><span className="font-semibold mr-2">8:00 AM - 4:30 PM :</span>$10</li>
                 <li><span className="font-semibold mr-2">4:30 PM - Midnight :</span>$20</li>
                 <li><span className="font-semibold mr-2">Midnight - 8:00 AM :</span>$40</li>
               </ul>
-
-              Additional Details:<br/>
-              Only those who are on unit registration will be granted access.
+              
 
             </p>
           </article>

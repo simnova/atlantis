@@ -16,9 +16,9 @@ export const AboutMaintenance: React.FC<any> = (_props) => {
 
         <div>
 
-            The Atlantis wishes your visit to be a pleasant experience, should you experience any issues with the building, or your unit, contact the Atlantis office with your issue as soon as possible.
+            The Atlantis wishes your visit to be a pleasant experience, should you experience any issues with the building, or your unit, contact the your rental agency (if you are a visitor) or  Atlantis office (if you are a co-owner) with your issue as soon as possible.
             
-            The onsite maintenance team will strive to make any necessary repairs as soon as possible after being notified of the problem.<br/><br/>
+            The onsite maintenance team assists co-owners by make any necessary repairs as soon as possible after being notified of the problem.<br/><br/>
 
             The full time maintenance crew works hard to keep the Atlantis in good working order, both the shared building facilities as well as individual units.<br/><br/>
 

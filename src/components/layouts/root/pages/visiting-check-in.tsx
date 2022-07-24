@@ -21,9 +21,9 @@ export const VisitingCheckIn: React.FC<any> = (_props) => {
         <div>
           When first arriving at the Atlantis, check-in at the Security Office before going to your unit or parking your vehicle.<br/><br/>
           
-          The staff at the security office will assist you in obtaining a cart and a parking pass.<br/><br/>
+          The staff at the security office will assist you in obtaining a <b>cart</b> and a <b>parking pass</b>.<br/><br/>
 
-          There may be a wait at the security office during busy check-in times, having your credit card handy for payment and cart reservation can help make the process more efficient.<br/><br/>
+          There may be a wait at the security office during busy check-in times, <i>having your credit card handy</i> for payment and cart reservation can help make the process more efficient.<br/><br/>
 
           <div className="space-y-5">
             <article>

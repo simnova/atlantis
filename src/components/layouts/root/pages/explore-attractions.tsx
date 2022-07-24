@@ -14,7 +14,7 @@ export const ExploreAttractions: React.FC<any> = (_props) => {
         <div className="mb-8 italic text-sm">Curated by Atlantis Co-Owners and Staff</div>
         <div className={['space-y-5', styles['container']].join(' ') }>
           <article>
-            <Heading level={HeadingLevel.H6}>Must See Activities:</Heading>
+            <Heading level={HeadingLevel.H6}>Must See Attractions:</Heading>
             <p className="mb-5">
               Explore all that Ocean City has to offer!
             </p>
@@ -31,35 +31,32 @@ export const ExploreAttractions: React.FC<any> = (_props) => {
                 Be sure to stop by one of the countless shops to grab a souvenir before you leave!<br/><br/>
               </div>
             </div>
-            <div className="ml-3">
-              <div className="font-semibold">Water Sports:</div>
-              <div className="ml-3 text-sm">
-                You'll find a variety of water sports activities at Ocean City.  Whether you're looking to swim, paddle, or kayak, you'll find something for everyone.  <br/><br/>
-                Easily rent a pontoon boat, jet skis or even charter a floating tiki-hut!<br/><br/>
-                Family favorites include a ride on a speed boat, or if you prefer a little more calm ride, a sailboat.  <br/><br/>
 
+            <div className="ml-3">
+              <div className="font-semibold">Live performances:</div>
+              <div className="ml-3 text-sm">
+                
               </div>
               <ul className="list-disc ml-5 mb-8">
-                <li>
-                  <span className="font-semibold mr-2"><a href="https://sailalyosha.com/"  target="_blank" rel="noreferrer">SailAlyosha<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                   (7.9 mi)
-                  <a href="https://goo.gl/maps/Kwgo7XEomiAyWimU8" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
-                  Chartered sailing on a 50' catamaran, this is a great way to take in the sights.
+                  <li>
+                  <span className="font-semibold mr-2"><a href="https://ocmdperformingartscenter.com/upcoming-events"  target="_blank" rel="noreferrer">Ocean City Performing Arts Center<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  (3.7 mi)
+                  <a href="https://goo.gl/maps/7fVWJd4gfQnzes7W8" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
+                  Located in the Roland E. Powell Convention Center - this facility provides year round performances.           
                 </li>
                 <li>
-                  <span className="font-semibold mr-2"><a href="http://baysideboatrentals.com/"  target="_blank" rel="noreferrer">Bayside Boat Rentals & Jet Ski Rentals <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  (2.7 mi)
-                  <a href="https://g.page/baysideboatrentals?share" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
-                  Enjoy an afternoon on a pontoon boat or jet ski.               
-                </li>
-                <li>
-                  <span className="font-semibold mr-2"><a href="https://ocfishtales.com/cruisin-tikis/"  target="_blank" rel="noreferrer">Crusin' Tikis <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  (4.7 mi)
-                  <a href="https://g.page/Cruisintikisoc?share" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
-                  Bring your own booze and enjoy a cruise on a tiki boat. 
+                  <span className="font-semibold mr-2"><a href="https://www.freemanarts.org/events-tickets/upcoming-performances"  target="_blank" rel="noreferrer">Freeman Arts Pavilion<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  (7 mi)
+                  <a href="https://g.page/freemanarts?share" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
+                  National artists share the stage with local performers at this outdoor venue that is just a short drive away.       
                 </li>
               </ul>
             </div>
+
+            
+
+            
+            
             <div className="ml-3">
               <div className="font-semibold">Amusements/Water Parks/Go-Karts:</div>
               <div className="ml-3 text-sm">
@@ -103,98 +100,13 @@ export const ExploreAttractions: React.FC<any> = (_props) => {
                   <span className="font-semibold mr-2"><a href="https://www.nps.gov/asis/index.htm"  target="_blank" rel="noreferrer">Assateague Island <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
                   (22.6 mi)
                   <a href="https://goo.gl/maps/5KoRLRP4LA54weqx7" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
-                  Assateague Island is a small island in the middle of the Atlantic Ocean. It is a great place to visit for a day or two.                
+                  Assateague Island, located just south of Ocean City, is 37 miles long - known for wild ponies and beautiful beaches.               
                 </li>
               </ul>
             </div>
-            <div  className="ml-3">
-              <div className="font-semibold" id="golf">Golfing:</div>
-              <ul className="list-disc ml-5 mb-8">
-                <li>
-                  <span className="font-semibold mr-2"><a href="http://www.lighthousesound.com/"  target="_blank" rel="noreferrer">Links At Lighthouse Sound <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  Bishopville, MD (6 mi)
-                  <a href="https://goo.gl/maps/2MdCMpHVxrs7cWA67" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
-                </li>
-                <li>
-                  <span className="font-semibold mr-2"><a href="https://www.oceanresortsgolfclub.com/"  target="_blank" rel="noreferrer">Ocean Resorts Golf Club <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  Berlin, MD (9.9 mi)
-                  <a href="https://goo.gl/maps/UFozLVR4JXfGVdF5A" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
-                </li>
-                <li>
-                  <span className="font-semibold mr-2"><a href="https://www.eagleslandinggolf.com/"  target="_blank" rel="noreferrer">Eagle's Landing <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  Berlin, MD (10.3 mi)
-                  <a href="https://g.page/ealeslandinggolfcourseoc?share" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
-                </li>
-                <li>
-                  <span className="font-semibold mr-2"><a href="https://www.saltpondgolf.com/"  target="_blank" rel="noreferrer">Salt Pond Golf Club <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  Bethany Beach, DE (11.3 mi)
-                  <a href="https://goo.gl/maps/Trt1XVocAAAvijz36" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
-                </li>
-                <li>
-                  <span className="font-semibold mr-2"><a href="https://www.oceanpinesgolf.org/golf"  target="_blank" rel="noreferrer">Ocean Pines Golf Club <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  Ocean Pines, MD (11.4 mi)
-                  <a href="https://goo.gl/maps/hHbSbsnWQVvBrTmd9" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
-                </li>
-                <li>
-                  <span className="font-semibold mr-2"><a href="http://www.beartrapdunes.com/"  target="_blank" rel="noreferrer">Bear Trap Dunes <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  Ocean View, DE (12.2 mi)
-                  <a href="https://goo.gl/maps/xV9Da74hzdJGous66" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
-                </li>
-                <li>
-                  <span className="font-semibold mr-2"><a href="https://glenriddlegolf.com/"  target="_blank" rel="noreferrer">Glen Riddle Golf Club <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  Berlin, MD (12.3 mi)
-                  <a href="https://goo.gl/maps/n2rnzfXe3ex4REkL9" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
-                </li>
-                <li>
-                  <span className="font-semibold mr-2"><a href="https://www.riverrungolf.com/"  target="_blank" rel="noreferrer">River Run Golf Club <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  Berlin, MD (10.5 mi)
-                  <a href="https://goo.gl/maps/hAdKZ51ddgRYu1fA7" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
-                </li> 
-                <li>
-                  <span className="font-semibold mr-2"><a href="https://www.baywoodgreens.com/"  target="_blank" rel="noreferrer">Rum Pointe Seaside Golf Links <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  Berlin, MD (14.9 mi)
-                  <a href="https://goo.gl/maps/KVmGZWY9fWRJAa6cA" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
-                </li>
-                <li>
-                  <span className="font-semibold mr-2"><a href="https://oceancitygolfclub.com/"  target="_blank" rel="noreferrer">Ocean City Golf Club <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  Berlin, MD (15.5 mi)
-                  <a href="https://goo.gl/maps/STzucrfU5W3mC27RA" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
-                </li>
-                <li>
-                  <span className="font-semibold mr-2"><a href="https://nutterscrossing.com/"  target="_blank" rel="noreferrer">Nutters Crossing Golf Club <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  Salisbury, MD (32.7 mi)
-                  <a href="https://goo.gl/maps/Atmqp4b4Ddhu65fY6" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
-                </li>
-                <li>
-                  <span className="font-semibold mr-2"><a href="https://www.baywoodgreens.com/"  target="_blank" rel="noreferrer">Ocean City Golf Club <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  Long Neck, DE (34 mi)
-                  <a href="https://goo.gl/maps/2MdCMpHVxrs7cWA67" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
-                </li>
-                <li>
-                  <span className="font-semibold mr-2"><a href="https://www.heritageshores.com/the-course"  target="_blank" rel="noreferrer">Heritage Shores <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  Bridgeville, DE (47.2 mi)
-                  <a href="https://goo.gl/maps/geChyPdZ8nG3RKZD7" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
-                </li>
-
-                
-                
-
-                
-                
-                
-
-                
-                
-
-                
-                
-
-              </ul>
-            </div>
+            
           </article>
         </div>
-
-
       </>
     )
   }

@@ -25,6 +25,7 @@ export const AboutOwnership: React.FC<any> = (_props) => {
 
                 <ul>
                     <li><a href="https://oceancitymd.gov/oc/departments/planning-community-development/comprehensive-plan/">Ocean City Comprehensive Plan</a></li>
+                    <li><a href="https://ocdc.org/">Ocean City Development Corporation</a></li>
                 </ul>
             </p>
         </article>

@@ -54,7 +54,7 @@ export const VisitingAmenities: React.FC<any> = (_props) => {
 
             <div>
                 <Heading level={HeadingLevel.H4}>Parking:</Heading>
-                With xx parking spots, xx handicap spots, there is ample parking space for all guests.<br/>
+                With a large secure parking lot, there is ample parking space for all guests, and nearby Municipal parking for those with Trailers or Oversized Vehicles.<br/>
                 <Link to={'/visiting/rules#parking-permits'} smooth scroll={scrollWithOffset}>Learn more</Link>
             </div>
 
@@ -97,7 +97,7 @@ export const VisitingAmenities: React.FC<any> = (_props) => {
             <div>
                 <Heading level={HeadingLevel.H4}>Golf Courses Nearby:</Heading>
                 The Atlantis is a Golfer's Paradise - with 10 courses in a 20 mile radius, you're sure to find a reason to keep hitting the links each time you visit.<br/>
-                <Link to={'/explore/attractions#golf'} smooth scroll={scrollWithOffset}>Learn more</Link> 
+                <Link to={'/explore/activities#golf'} smooth scroll={scrollWithOffset}>Learn more</Link> 
             </div>
 
         </div>

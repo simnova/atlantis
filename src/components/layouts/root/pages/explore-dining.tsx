@@ -24,13 +24,17 @@ export const ExploreDining: React.FC<any> = (_props) => {
         
         <div className={['space-y-5', styles['container']].join(' ') }>
           <div>
-            <Link to={'#fun-bars-restaurants'} smooth scroll={scrollWithOffset}>Fun Bars / Restaurants</Link>   |&nbsp;
-            <Link to={'#breweries'} smooth scroll={scrollWithOffset}>Breweries</Link>
+            <Link to={'#fun-bars-restaurants'} smooth scroll={scrollWithOffset}>Theme Restaurants</Link>   |&nbsp;
+            <Link to={'#restaurants'} smooth scroll={scrollWithOffset}>Restaurants</Link>   |&nbsp;
+            <Link to={'#breweries'} smooth scroll={scrollWithOffset}>Breweries and Wineries</Link>
           </div>
           
 
           <article>
-            <Heading level={HeadingLevel.H5} id="fun-bars-restaurants">Fun Bars / Restaurants:</Heading>
+            <Heading level={HeadingLevel.H5} id="theme-restaurants">Theme Restaurants / Bars:</Heading>
+            <div className="ml-3 text-sm">
+              There is no shortage of fun places to go for your dining experience. The following is a short list of co-owners/staff favorites. Be sure to explore all that OCMD has to offer!
+            </div>
             <div>
               <ul className="list-disc ml-5 mb-8">
                 <li><span className="font-semibold mr-2"><a href="https://thegreeneturtle.com"  target="_blank" rel="noreferrer">Green Turtle <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>(~115 Street) – walkable</li>
@@ -51,23 +55,28 @@ export const ExploreDining: React.FC<any> = (_props) => {
             </div>
           </article>
           <article>
-            <Heading level={HeadingLevel.H5} id="fun-bars-restaurants">Great Eating Restaurants:</Heading>
+            <Heading level={HeadingLevel.H5} id="restaurants">Restaurants:</Heading>
+            <div className="ml-3 text-sm">
+              Atlantis co-owners/staff have selected the following nearby restaurants that will help you get started in exploring OCMD.
+            </div>
             <div>
               <ul className="list-disc ml-5 mb-8">
-                <li><span className="font-semibold mr-2"><a href="https://fracturedprune.com/"  target="_blank" rel="noreferrer">The Original Fractured Prune <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> ( ~115 street) –great donuts - **walkable**</li>
-                <li><span className="font-semibold mr-2"><a href="https://www.ocstreetfoodmd.com/"  target="_blank" rel="noreferrer">OC Street Food <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (112 Street- bay side) – super cheap & good - **walkable**</li>
-                <li><span className="font-semibold mr-2"><a href="https://www.sophiasitalianrestaurantoceancity.com/"  target="_blank" rel="noreferrer">Sophia’s Italian <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (112 Street -bay side) - cheap & good – **walkable**</li>
-                <li><span className="font-semibold mr-2"><a href="https://locations.dennys.com/MD/OCEAN-CITY/246555"  target="_blank" rel="noreferrer">Denny’s <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (112 Street – bay side) **– walkable –** ridiculously cheap breakfast (if you order the special)</li>
-                <li><span className="font-semibold mr-2"><a href="http://www.bluefishocmd.com/"  target="_blank" rel="noreferrer">Blue Fish <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (94 Street- Bay Side) – Japanese</li>
-                <li><span className="font-semibold mr-2"><a href="https://lombardisrestaurant.com/"  target="_blank" rel="noreferrer">Trattoria Lombardi’s <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (94 Street – bay side) – Pizza & Italian Food (affordable) **walkable**</li>
-                <li><span className="font-semibold mr-2"><a href="https://www.bullonthebeachoc.com/"  target="_blank" rel="noreferrer">Bull on the Beach <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (94 Street – beach side) – Roast Beef / Ribs (affordable) **walkable**</li>
-                <li><span className="font-semibold mr-2"><a href="https://tinosmexicangrill.com/"  target="_blank" rel="noreferrer">Tinos Mexican Grill <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (84st street- bay side) small & cheap - great for takeout</li>
-                <li><span className="font-semibold mr-2"><a href="https://www.dry85.com/ocean-city/"  target="_blank" rel="noreferrer">Dry 85 <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (48 Street – beach side) – Great food & Cocktails</li>
+                <li><span className="font-semibold mr-2"><a href="https://fracturedprune.com/"  target="_blank" rel="noreferrer">The Original Fractured Prune <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> ( ~115 street) great donuts - $$ walkable</li>
+                <li><span className="font-semibold mr-2"><a href="https://www.ocstreetfoodmd.com/"  target="_blank" rel="noreferrer">OC Street Food <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (112 Street- bay side) – $  walkable</li>
+                <li><span className="font-semibold mr-2"><a href="https://www.sophiasitalianrestaurantoceancity.com/"  target="_blank" rel="noreferrer">Sophia’s Italian <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (112 Street -bay side) $$ – walkable</li>
+                <li><span className="font-semibold mr-2"><a href="https://locations.dennys.com/MD/OCEAN-CITY/246555"  target="_blank" rel="noreferrer">Denny’s <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (112 Street – bay side) very affordable breakfast (if you order the special) - $ walkable</li>
+                <li><span className="font-semibold mr-2"><a href="http://www.bluefishocmd.com/"  target="_blank" rel="noreferrer">Blue Fish <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (94 Street- Bay Side) Japanese – $$ </li>
+                <li><span className="font-semibold mr-2"><a href="https://lombardisrestaurant.com/"  target="_blank" rel="noreferrer">Trattoria Lombardi’s <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (94 Street – bay side) Pizza &amp; Italian Food – $$ walkable</li>
+                <li><span className="font-semibold mr-2"><a href="https://www.bullonthebeachoc.com/"  target="_blank" rel="noreferrer">Bull on the Beach <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (94 Street – beach side) Roast Beef / Ribs – $$ walkable</li>
+                <li><span className="font-semibold mr-2"><a href="https://tinosmexicangrill.com/"  target="_blank" rel="noreferrer">Tinos Mexican Grill <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (84st street- bay side) small, great for takeout - $ </li>
+                <li><span className="font-semibold mr-2"><a href="https://www.dry85.com/ocean-city/"  target="_blank" rel="noreferrer">Dry 85 <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (48 Street – beach side) Great food &amp; Cocktails – $$$ </li>
               </ul>
             </div>
           </article>
+
+         
           <article>
-            <Heading level={HeadingLevel.H6} id="breweries">Breweries:</Heading>
+            <Heading level={HeadingLevel.H6} id="breweries">Breweries / Wineries:</Heading>
             <div className="mb-5">
               OCMD Holds a number of Craft Beer Events throughout the year. ( <a href="https://shorecraftbeer.com/"  target="_blank" rel="noreferrer">Shore Craft Beer <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> )<br/>
               <div className="ml-3 mt-2 text-sm">
@@ -94,6 +103,16 @@ export const ExploreDining: React.FC<any> = (_props) => {
                   <span className="font-semibold mr-2"><a href="https://www.sinbrewing.com/"  target="_blank" rel="noreferrer">Sinepuxent Brewing Company <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
                   Berlin, MD (10.3 mi)
                   <a href="https://goo.gl/maps/8EGUW5mwM6v5bNWU6" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
+                </li>
+                <li>
+                  <span className="font-semibold mr-2"><a href="https://windmillcreekvineyard.com/"  target="_blank" rel="noreferrer">Windmill Creek Winery <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  Berlin, MD (10.6 mi)
+                  <a href="https://g.page/Windmillcreekvineyard?share" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
+                </li>
+                <li>
+                  <span className="font-semibold mr-2"><a href="https://www.saltedvines.com/"  target="_blank" rel="noreferrer">Salted Vines Winery <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  Frankfort, DE (12.4 mi)
+                  <a href="https://g.page/Saltedvines?share" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
                 </li>
                 <li>
                   <span className="font-semibold mr-2"><a href="https://burleyoak.com/"  target="_blank" rel="noreferrer">Burley Oak Brewing Company <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
