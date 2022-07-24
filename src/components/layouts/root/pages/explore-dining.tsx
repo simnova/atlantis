@@ -24,15 +24,41 @@ export const ExploreDining: React.FC<any> = (_props) => {
         
         <div className={['space-y-5', styles['container']].join(' ') }>
           <div>
-            <Link to={'#breweries'} smooth scroll={scrollWithOffset}>Breweries</Link>  |&nbsp;
-            <Link to={'#fun-bars-restaurants'} smooth scroll={scrollWithOffset}>Fun Bars / Restaurants</Link> 
+            <Link to={'#fun-bars-restaurants'} smooth scroll={scrollWithOffset}>Fun Bars / Restaurants</Link>   |&nbsp;
+            <Link to={'#breweries'} smooth scroll={scrollWithOffset}>Breweries</Link>
           </div>
+          
+
+          <article>
+            <Heading level={HeadingLevel.H5} id="fun-bars-restaurants">Fun Bars / Restaurants:</Heading>
+            <div>
+              <ul className="list-disc ml-5 mb-8">
+                <li><span className="font-semibold mr-2"><a href="https://thegreeneturtle.com"  target="_blank" rel="noreferrer">Green Turtle <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>(~115 Street) – walkable</li>
+                <li><span className="font-semibold mr-2">
+                <a href="https://ocbeachresort.com/dining-nightlife/lennys-beach-bar-and-grill/"  target="_blank" rel="noreferrer">Lenny's Beach Bar & Grill <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>(next door at Fontainebleau Hotel)
+                  <ul className="list-disc ml-5">
+                    <li>Live music most nights (4-7pm)</li>
+                    <li>Happy Hour 4-7PM M-F / 2-4 Sa-Su ( $7 burger / $3 domestic / $6 crushes)</li>
+                  </ul>
+                </li>
+                <li><span className="font-semibold mr-2"><a href="https://www.deadfreddies.com/"  target="_blank" rel="noreferrer">Dead Freddies <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (64 Street – bay side) family friendly</li>
+                <li><span className="font-semibold mr-2"><a href="https://seacrets.com/"  target="_blank" rel="noreferrer">Seacrets <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (49 Street – bay front) huge place, live music – 21+ crowd</li>
+                <li><span className="font-semibold mr-2"><a href="https://ocfishtales.com/"  target="_blank" rel="noreferrer">Fish Tales <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (22 Street – bay front)</li>
+                <li><span className="font-semibold mr-2"><a href="https://picklesoc.com/"  target="_blank" rel="noreferrer">Pickles Pub <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (8 Street & Philadelphia Ave) - good wings</li>
+                <li><span className="font-semibold mr-2"><a href="https://www.ocshenanigans.com/"  target="_blank" rel="noreferrer">Shenanigan’s Irish Pub <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (On Boardwalk)</li>
+                <li><span className="font-semibold mr-2"><a href="https://www.delazylizard.com/"  target="_blank" rel="noreferrer">De Lazy Lizard <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (1 Street- bay front)</li>
+              </ul>
+            </div>
+          </article>
           <article>
             <Heading level={HeadingLevel.H6} id="breweries">Breweries:</Heading>
-            <p className="mb-5">
+            <div className="mb-5">
               OCMD Holds a number of Craft Beer Events throughout the year. ( <a href="https://shorecraftbeer.com/"  target="_blank" rel="noreferrer">Shore Craft Beer <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> )<br/>
-              Other resources: https://www.oceancity.com/craft-beer/
-            </p>
+              <div className="ml-3 mt-2 text-sm">
+                Other resources: <br/>
+                <a href="https://www.oceancity.com/craft-beer/" target="_blank" rel="noreferrer">OCMD Site Listing <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> 
+              </div>
+            </div>
 
             <div className="ml-3">
               <div className="font-semibold">South and West:</div>
@@ -99,28 +125,6 @@ export const ExploreDining: React.FC<any> = (_props) => {
                   Ocean City  (2.1 mi)
                   <a href="https://goo.gl/maps/xEbjpLBD11Th3PiCA" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
                 </li>
-              </ul>
-            </div>
-          </article>
-
-          <article>
-            <Heading level={HeadingLevel.H5} id="fun-bars-restaurants">Fun Bars / Restaurants:</Heading>
-            <div>
-              <ul className="list-disc ml-5 mb-8">
-                <li><span className="font-semibold mr-2"><a href="https://thegreeneturtle.com"  target="_blank" rel="noreferrer">Green Turtle <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>(~115 Street) – walkable</li>
-                <li><span className="font-semibold mr-2">
-                <a href="https://ocbeachresort.com/dining-nightlife/lennys-beach-bar-and-grill/"  target="_blank" rel="noreferrer">Lenny's Beach Bar & Grill <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>(next door at Fontainebleau Hotel)
-                  <ul className="list-disc ml-5">
-                    <li>Live music most nights (4-7pm)</li>
-                    <li>Happy Hour 4-7PM M-F / 2-4 Sa-Su ( $7 burger / $3 domestic / $6 crushes)</li>
-                  </ul>
-                </li>
-                <li><span className="font-semibold mr-2"><a href="https://www.deadfreddies.com/"  target="_blank" rel="noreferrer">Dead Freddies <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (64 Street – bay side) family friendly</li>
-                <li><span className="font-semibold mr-2"><a href="https://seacrets.com/"  target="_blank" rel="noreferrer">Seacrets <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (49 Street – bay front) huge place, live music – 21+ crowd</li>
-                <li><span className="font-semibold mr-2"><a href="https://ocfishtales.com/"  target="_blank" rel="noreferrer">Fish Tales <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (22 Street – bay front)</li>
-                <li><span className="font-semibold mr-2"><a href="https://picklesoc.com/"  target="_blank" rel="noreferrer">Pickles Pub <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (8 Street & Philadelphia Ave) - good wings</li>
-                <li><span className="font-semibold mr-2"><a href="https://www.ocshenanigans.com/"  target="_blank" rel="noreferrer">Shenanigan’s Irish Pub <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (On Boardwalk)</li>
-                <li><span className="font-semibold mr-2"><a href="https://www.delazylizard.com/"  target="_blank" rel="noreferrer">De Lazy Lizard <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (1 Street- bay front)</li>
               </ul>
             </div>
           </article>
