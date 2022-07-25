@@ -86,18 +86,6 @@ let menuConfig: MenuItemType[] = [
         path: '/explore/attractions#',
         parent: 'ROOT'
       },
-      {
-        id: 'gallery',
-        label: 'Gallery',
-        path: '/explore/gallery#',
-        parent: 'ROOT'
-      },
-      {
-        id: 'maps',
-        label: 'Maps',
-        path: '/explore/maps#',
-        parent: 'ROOT'
-      },
     ]
   },
   {
