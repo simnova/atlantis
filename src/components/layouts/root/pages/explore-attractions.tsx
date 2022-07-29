@@ -22,7 +22,16 @@ export const ExploreAttractions: React.FC<any> = (_props) => {
             <div className="ml-3">
               <div className="font-semibold">The Boardwalk</div>
               <div className="ml-3 text-sm">
-                Take a stroll on our 3-mile, <a href="https://www.travelchannel.com/interests/beaches/articles/americas-favorite-boardwalks"  target="_blank" rel="noreferrer">award-winning <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> boardwalk! <br/><br/>
+                Take a stroll on our amazing 3-mile, boardwalk! <br/><br/>
+
+                Don't just take our word for it..
+                <ul className="list-disc ml-3">
+                  <li><a href="https://www.fodors.com/news/photos/americas-12-greatest-boardwalks"  target="_blank" rel="noreferrer">Fodors <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> says that the OCMD boardwalk is in the top 12 in America. </li>
+                  <li><a href="https://www.travelchannel.com/interests/beaches/articles/americas-favorite-boardwalks"  target="_blank" rel="noreferrer">The Travel Channel <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> says the the OCMD boardwalk is one of the top 5 in America (Actually #1). </li>
+                </ul>
+                <br/>
+                
+                
     
                 There are plenty of restaurants to grab a bite.  Don't want to miss a second of the action on the boardwalk?  Grab a slice of pizza from The Dough Roller, a bucket of Thrasher's fries, or a cone from Kohr Bros. or Dumser's Dairyland.  Or choose to be seated in one of the many restaurants along the boardwalk.<br/><br/>
                 

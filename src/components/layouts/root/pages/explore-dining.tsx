@@ -78,7 +78,19 @@ export const ExploreDining: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H6} id="breweries">Breweries / Wineries:</Heading>
             <div className="mb-5">
-              OCMD Holds a number of Craft Beer Events throughout the year. ( <a href="https://shorecraftbeer.com/"  target="_blank" rel="noreferrer">Shore Craft Beer <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> )<br/>
+              OCMD Holds a number of Craft Beer Events throughout the year:
+              
+              <ul className="list-disc ml-3">
+                <li><a href="https://shorecraftbeer.com/events/"  target="_blank" rel="noreferrer">Shore Craft Beer Events <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a></li>
+                <li><a href="https://www.winefest.com/"  target="_blank" rel="noreferrer">WineFest <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> Sept 9th - 10th, 2022</li>
+              </ul>
+              
+  
+             
+              
+              
+
+              
               <div className="ml-3 mt-2 text-sm">
                 Other resources: <br/>
                 <a href="https://www.oceancity.com/craft-beer/" target="_blank" rel="noreferrer">OCMD Site Listing <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> 
@@ -140,14 +152,14 @@ export const ExploreDining: React.FC<any> = (_props) => {
               <div className="font-semibold">North:</div>
               <ul className="list-disc ml-5 mb-8">
                 <li>
-                  <span className="font-semibold mr-2"><a href="https://www.bethanybrewing.net/"  target="_blank" rel="noreferrer">Bethany Brewing Company <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  Ocean View, DE (11.9 mi)
-                  <a href="https://goo.gl/maps/5FXFg1oeGWcq8nP19" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
-                </li>
-                <li>
                   <span className="font-semibold mr-2"><a href="https://www.oceanviewbrewingde.com/"  target="_blank" rel="noreferrer">Ocean View Brewing Company <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
                   Ocean View, DE (10 mi)
                   <a href="https://goo.gl/maps/J4uJFD3gwAHxkuRg6" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
+                </li>
+                <li>
+                  <span className="font-semibold mr-2"><a href="https://www.bethanybrewing.net/"  target="_blank" rel="noreferrer">Bethany Brewing Company <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  Ocean View, DE (11.9 mi)
+                  <a href="https://goo.gl/maps/5FXFg1oeGWcq8nP19" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
                 </li>
                 <li>
                   <span className="font-semibold mr-2"><a href="https://www.dogfish.com/"  target="_blank" rel="noreferrer">Dogfish Head Brewpub <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
@@ -157,7 +169,7 @@ export const ExploreDining: React.FC<any> = (_props) => {
               </ul>
             </div>
             <div  className="ml-3">
-              <div className="font-semibold">Good Variety Craft Beer on Tap:</div>
+              <div className="font-semibold">Nearby Places with a Good Variety Craft Beer on Tap:</div>
               <ul className="list-disc ml-5 mb-8">
                 <li>
                   <span className="font-semibold mr-2"><a href="http://www.octaphouses.com/"  target="_blank" rel="noreferrer">Taphouse Tavern <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
