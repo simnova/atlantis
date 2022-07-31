@@ -8,7 +8,7 @@ interface ResponsiveImageOutput {
   toString: () => string
 }
   
-declare module '*&format=webp' {
+declare module '*useResponsiveLoader=true' {
   const src: ResponsiveImageOutput
   export default src
 }

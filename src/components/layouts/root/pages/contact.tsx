@@ -2,8 +2,8 @@ import { Helmet } from "react-helmet"
 import { Heading, HeadingLevel } from "../../../ui/atoms/heading"
 import styles from './contact.module.css'; 
 
-import MelvinRostek from '../../../../assets/staff-melvin-rostek.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
-import JennaElliott from '../../../../assets/staff-jenna-elliott.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
+import MelvinRostek from '../../../../assets/staff-melvin-rostek.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
+import JennaElliott from '../../../../assets/staff-jenna-elliott.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
 
 
 

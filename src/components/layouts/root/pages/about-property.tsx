@@ -2,8 +2,8 @@ import { Helmet } from "react-helmet";
 import { BiLinkExternal } from "react-icons/bi";
 import { Heading, HeadingLevel } from "../../../ui/atoms/heading"
 import styles from './about-property.module.css'; 
-import atlantisFrontUpwards from '../../../../assets/atlantis-front-upwards.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
-import floorPlan01 from '../../../../assets/floor-plan-01.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
+import atlantisFrontUpwards from '../../../../assets/atlantis-front-upwards.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
+import floorPlan01 from '../../../../assets/floor-plan-01.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
 
 export const AboutProperty: React.FC<any> = (_props) => {
   return (

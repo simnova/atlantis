@@ -1,10 +1,10 @@
 import { Heading, HeadingLevel } from '../../../ui/atoms/heading';
 import { Helmet } from 'react-helmet';
 
-import MelvinRostek from '../../../../assets/staff-melvin-rostek.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
-import BrooksTruitt from '../../../../assets/staff-brooks-truitt.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
-import RossPhillips from '../../../../assets/staff-ross-phillips.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
-import TristanNelson from '../../../../assets/staff-tristan-nelson.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
+import MelvinRostek from '../../../../assets/staff-melvin-rostek.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
+import BrooksTruitt from '../../../../assets/staff-brooks-truitt.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
+import RossPhillips from '../../../../assets/staff-ross-phillips.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
+import TristanNelson from '../../../../assets/staff-tristan-nelson.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
 
 
 export const AboutMaintenance: React.FC<any> = (_props) => {

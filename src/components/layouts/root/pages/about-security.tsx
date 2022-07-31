@@ -1,11 +1,11 @@
 import { Heading, HeadingLevel } from '../../../ui/atoms/heading';
 import { Helmet } from 'react-helmet';
 
-import MichelleJones from '../../../../assets/staff-michelle-jones.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
-import KenBruce from '../../../../assets/staff-ken-bruce.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
-import LucreceBruce from '../../../../assets/staff-lucrece-bruce.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
-import LaurentBruce from '../../../../assets/staff-laurent-bruce.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
-import MichelleBruce from '../../../../assets/staff-michelle-bruce.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
+import MichelleJones from '../../../../assets/staff-michelle-jones.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
+import KenBruce from '../../../../assets/staff-ken-bruce.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
+import LucreceBruce from '../../../../assets/staff-lucrece-bruce.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
+import LaurentBruce from '../../../../assets/staff-laurent-bruce.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
+import MichelleBruce from '../../../../assets/staff-michelle-bruce.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
 
 
 export const AboutSecurity: React.FC<any> = (_props) => {
