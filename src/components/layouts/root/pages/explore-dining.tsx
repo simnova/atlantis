@@ -77,18 +77,13 @@ export const ExploreDining: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H6} id="breweries">Breweries / Wineries:</Heading>
             <div className="mb-5">
-              OCMD Holds a number of Craft Beer Events throughout the year:
+              OCMD Holds a number of Craft Beer and Wine Events throughout the year:
               
               <ul className="list-disc ml-3">
                 <li><a href="https://shorecraftbeer.com/events/"  target="_blank" rel="noreferrer">Shore Craft Beer Events <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a></li>
                 <li><a href="https://www.winefest.com/"  target="_blank" rel="noreferrer">WineFest <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> Sept 9th - 10th, 2022</li>
+                <li><a href="https://fagers.ticketleap.com/wbw22/"  target="_blank" rel="noreferrer">Winder Bee and Wine Fest <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> Dec 10th, 2022</li>
               </ul>
-              
-  
-             
-              
-              
-
               
               <div className="ml-3 mt-2 text-sm">
                 Other resources: <br/>
@@ -168,12 +163,19 @@ export const ExploreDining: React.FC<any> = (_props) => {
               </ul>
             </div>
             <div  className="ml-3">
-              <div className="font-semibold">Nearby Places with a Good Variety Craft Beer on Tap:</div>
+              <div className="font-semibold">Nearby Places of Interest:</div>
               <ul className="list-disc ml-5 mb-8">
                 <li>
-                  <span className="font-semibold mr-2"><a href="http://www.octaphouses.com/"  target="_blank" rel="noreferrer">Taphouse Tavern <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  <span className="font-semibold mr-2"><a href="https://octaphouses.com/locations/137th-street/"  target="_blank" rel="noreferrer">Taphouse Tavern <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
                   Ocean City  (2.1 mi)
-                  <a href="https://goo.gl/maps/xEbjpLBD11Th3PiCA" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a>
+                  <a href="https://goo.gl/maps/xEbjpLBD11Th3PiCA" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br />
+                  Good Variety of Craft Beer on Tap
+                </li>
+                <li>
+                  <span className="font-semibold mr-2"><a href="https://www.thebuzzedword.com/"  target="_blank" rel="noreferrer">Buzzed Word <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  Ocean City  (0.8 mi)
+                  <a href="https://goo.gl/maps/5QEoMNEGiqNKig8GA" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br />
+                  A Really Unique Wine Store / Bar plus Book Store all rolled into one fun experience.
                 </li>
               </ul>
             </div>

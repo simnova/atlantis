@@ -29,7 +29,7 @@ export const VisitingAmenities: React.FC<any> = (_props) => {
             <div>
                 <Heading level={HeadingLevel.H4}>Beach:</Heading>
 
-                Ocean City has one of the best beaches on the east coast [&nbsp;<a href="https://travel.usnews.com/gallery/the-top-east-coast-beaches-to-visit"  target="_blank" rel="noreferrer">source:US News <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a>] and being at the Atlantis, all units have a great view of the beach. Beach access couldn't be easier, with walkways on both the north and south edges of the property. <br/><br/>
+                Ocean City has one of the best beaches on the east coast [&nbsp;<a href="https://travel.usnews.com/gallery/the-top-east-coast-beaches-to-visit"  target="_blank" rel="noreferrer">source:US News <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a>]; all units have a great view of the beach. Beach access couldn't be easier, with walkways on both the north and south edges of the property. <br/><br/>
 
                 Ocean City Beaches are free to the public (no beach passes required). <br/><br/>
 

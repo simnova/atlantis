@@ -88,7 +88,7 @@ export const ExploreAttractions: React.FC<any> = (_props) => {
                 </li>
                 <li>
                   <span className="font-semibold mr-2"><a href="https://jollyrogerpieroc.com/"  target="_blank" rel="noreferrer">Jolly Roger at the Pier<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
-                  On the Boardwalk (7.0 mi )
+                  On the Boardwalk (7.0 mi)
                   <a href="https://goo.gl/maps/w1V4XpiToy3nJZFn8" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
                   Enjoy the views from the Giant Wheel and all the fun rides with Jolly Rodger on the pier at the southern end of the boardwalk.              
                 </li>
