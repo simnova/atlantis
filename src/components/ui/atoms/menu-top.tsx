@@ -1,13 +1,8 @@
 import React, { useState} from 'react';
-import { MenuItem } from './menu-item';
+import { MenuItem } from "./menu-item";
+import { MenuItemType } from "./menu-item-type";
 
-export interface MenuItemType {
-    id: string;
-    path?: string;
-    label: React.ReactNode | string;
-    children?: MenuItemType[];
-    parent: null | string;
-}
+
 
 export interface MenuTopProps {
     menuItems: MenuItemType[];

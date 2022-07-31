@@ -8,7 +8,7 @@ import { About } from './pages/about';
 import { Contact } from './pages/contact';
 
 
-import { MenuItemType } from '../../ui/atoms/menu-top';
+import { MenuItemType } from '../../ui/atoms/menu-item-type';
 import { Explore } from './pages/explore';
 
 

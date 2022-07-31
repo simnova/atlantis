@@ -2,6 +2,8 @@ import { Helmet } from "react-helmet";
 import { BiLinkExternal } from "react-icons/bi";
 import { Heading, HeadingLevel } from "../../../ui/atoms/heading"
 import styles from './about-property.module.css'; 
+import atlantisFrontUpwards from '../../../../assets/atlantis-front-upwards.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
+import floorPlan01 from '../../../../assets/floor-plan-01.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
 
 export const AboutProperty: React.FC<any> = (_props) => {
   return (
@@ -10,6 +12,11 @@ export const AboutProperty: React.FC<any> = (_props) => {
         <title>The Property</title>
       </Helmet>
       <Heading level={HeadingLevel.H1}>History</Heading>
+      <img 
+        src={((atlantisFrontUpwards.src) as any)} 
+        srcSet={atlantisFrontUpwards.srcSet}
+        alt="Atlantis Front"
+        className="mb-5" />
       <p className={styles['p']}>
         Built in 1975, at roughly 247 feet tall, the Atlantis is one of the <a href="https://www.emporis.com/statistics/tallest-buildings/city/102627/ocean-city-md-usa" target={'_blank'} rel={'noopener noreferrer'}>top 10<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> tallest buildings in Ocean City, Maryland offering co-owners and guests views of both the ocean and the bay.<br/><br/>
 
@@ -25,6 +32,11 @@ export const AboutProperty: React.FC<any> = (_props) => {
         <ul className="list-disc ml-4">
           <li>
             <strong>#1</strong><br/>
+            <img 
+        src={((floorPlan01.src) as any)} 
+        srcSet={floorPlan01.srcSet}
+        alt="Atlantis Front"
+        className="mb-5" />
             #1 Unit (2 bedroom w/ Beach & Bay Views - window in kitchen<br/>
             1 with bay view  (curved window) / 1 beach view + curved window
           </li>

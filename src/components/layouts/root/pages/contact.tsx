@@ -1,14 +1,13 @@
 import { Helmet } from "react-helmet"
 import { Heading, HeadingLevel } from "../../../ui/atoms/heading"
-
-import { StaffFormat } from '../../../../content/staff-format';
-import OfficeStaff from '../../../../content/office-staff.json';
-import { StaffMember } from '../../../ui/organisms/staff-member';
 import styles from './contact.module.css'; 
+
+import MelvinRostek from '../../../../assets/staff-melvin-rostek.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
+import JennaElliott from '../../../../assets/staff-jenna-elliott.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
+
 
 
 export const Contact: React.FC<any> = (_props) => {
-  let officeStaff: StaffFormat.RootObject = OfficeStaff;
   return (
     <>
       <Helmet>
@@ -27,11 +26,23 @@ export const Contact: React.FC<any> = (_props) => {
         <article>
           <Heading level={HeadingLevel.H5}>Office Staff:</Heading>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-              {officeStaff.staff.map(
-              (staffMember: StaffFormat.StaffMember, index) => {
-                  return (<StaffMember key={`staff-member-${index}`} data={staffMember} />)
-              })
-              }
+
+            <div className="flex items-center inline-block">
+              <img src={MelvinRostek.src}  srcSet={MelvinRostek.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
+              <div className='ml-6'>
+                <strong>Melvin Rostek</strong><br/>
+                <span>General Manager</span>
+              </div>
+            </div>
+
+            <div className="flex items-center inline-block">
+              <img src={JennaElliott.src}  srcSet={JennaElliott.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
+              <div className='ml-6'>
+                <strong>Jenna Elliott</strong><br/>
+                <span>Administrative Assistant</span>
+              </div>
+            </div>
+
           </div>
         </article>
       </div>

@@ -1,10 +1,11 @@
 import React, {useState} from 'react';
-import { MenuItem } from './menu-item';
+import { MenuItem } from "./menu-item";
+import { MenuItemType } from "./menu-item-type";
 
 
 
 export interface MenuTopProps {
-    menuItems: MenuItem[];
+    menuItems: MenuItemType[];
     visible: boolean;
     align?:  'right';
 }

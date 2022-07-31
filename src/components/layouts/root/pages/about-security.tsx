@@ -1,12 +1,14 @@
 import { Heading, HeadingLevel } from '../../../ui/atoms/heading';
 import { Helmet } from 'react-helmet';
-import { StaffFormat } from '../../../../content/staff-format';
-import SecurityStaff from '../../../../content/security-staff.json';
 
-import { StaffMember } from '../../../ui/organisms/staff-member';
+import MichelleJones from '../../../../assets/staff-michelle-jones.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
+import KenBruce from '../../../../assets/staff-ken-bruce.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
+import LucreceBruce from '../../../../assets/staff-lucrece-bruce.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
+import LaurentBruce from '../../../../assets/staff-laurent-bruce.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
+import MichelleBruce from '../../../../assets/staff-michelle-bruce.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
+
 
 export const AboutSecurity: React.FC<any> = (_props) => {
-    let securityStaff: StaffFormat.RootObject = SecurityStaff;
     return (
       <>
         <Helmet>
@@ -34,11 +36,48 @@ export const AboutSecurity: React.FC<any> = (_props) => {
         <article>
         <Heading level={HeadingLevel.H5}>Security Staff:</Heading>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            {securityStaff.staff.map(
-            (staffMember: StaffFormat.StaffMember, index) => {
-                return (<StaffMember key={`staff-member-${index}`} data={staffMember} />)
-            })
-            }
+
+          <div className="flex items-center inline-block">
+            <img src={MichelleJones.src}  srcSet={MichelleJones.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
+            <div className='ml-6'>
+              <strong>Michelle Jones</strong><br/>
+              <span>Security Manager</span>
+            </div>
+          </div>
+
+          <div className="flex items-center inline-block">
+            <img src={KenBruce.src}  srcSet={KenBruce.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
+            <div className='ml-6'>
+              <strong>Ken Bruce</strong><br/>
+              <span>Security</span>
+            </div>
+          </div>
+
+          <div className="flex items-center inline-block">
+            <img src={LucreceBruce.src}  srcSet={LucreceBruce.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
+            <div className='ml-6'>
+              <strong>Lucrece Bruce</strong><br/>
+              <span>Security</span>
+            </div>
+          </div>
+
+          <div className="flex items-center inline-block">
+            <img src={LaurentBruce.src}  srcSet={LaurentBruce.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
+            <div className='ml-6'>
+              <strong>Laurent Bruce</strong><br/>
+              <span>Security</span>
+            </div>
+          </div>
+
+          <div className="flex items-center inline-block">
+            <img src={MichelleBruce.src}  srcSet={MichelleBruce.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
+            <div className='ml-6'>
+              <strong>Michelle Bruce</strong><br/>
+              <span>Security</span>
+            </div>
+          </div>
+
+          
         </div>
         </article>
       </>

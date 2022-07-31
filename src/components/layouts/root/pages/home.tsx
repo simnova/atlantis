@@ -5,9 +5,12 @@ import "swiper/css/navigation";
 
 import { Autoplay, Pagination, Navigation } from "swiper";
 import { Helmet } from 'react-helmet';
-import { motion, useAnimation } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { HashLink as Link } from 'react-router-hash-link';
 
+
+
+//@ts-ignore 
 /*
 
 IMAGE COMPRESSOR:
@@ -42,7 +45,6 @@ export const Home: React.FC<any> = (_props) => {
            navigation={true}
            modules={[Autoplay, Pagination, Navigation]}
            className="mySwiper"
-           
         >
         <SwiperSlide>
           <picture>

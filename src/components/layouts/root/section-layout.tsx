@@ -5,7 +5,8 @@ import { FaFax } from 'react-icons/fa';
 import { Heading, HeadingLevel } from '../../ui/atoms/heading';
 import { Container } from '../../ui/atoms/container';
 import { Logo, LogoSize } from '../../ui/atoms/logo';
-import { MenuTop, MenuItemType } from '../../ui/atoms/menu-top';
+import { MenuTop } from '../../ui/atoms/menu-top';
+import { MenuItemType } from '../../ui/atoms/menu-item-type';
 import { Outlet } from "react-router-dom";
 import { MenuMobile } from '../../ui/atoms/menu-mobile';
 

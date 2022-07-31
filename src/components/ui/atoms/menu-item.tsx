@@ -1,17 +1,10 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import { MenuDropdown } from './menu-dropdown';
-
-export interface MenuItem {
-    id: string;
-    path?: string;
-    label: React.ReactNode | string;
-    children?: MenuItem[];
-    parent: null | string;
-}
+import { MenuItemType } from './menu-item-type';
 
 export interface MenuItemProps {
-    menuItem: MenuItem;
+    menuItem: MenuItemType;
     onShowChildren?: (show:boolean) => void;
     showChildren?: boolean;
 }

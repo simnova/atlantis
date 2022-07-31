@@ -18,8 +18,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    
   },
+  "files": ["index.d.ts"],
   "include": [
     "src"
   ]

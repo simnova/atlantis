@@ -3,12 +3,12 @@
         {
             "name": "Melvin Rostek",
             "title": "General Manager",
-            "profileImage":"https://via.placeholder.com/200"
+            "profileImage":"/assets/staff-melvin-rostek.jpg"
         },
         {
             "name": "Jenna Elliott",
             "title": "Administrative Assistant",
-            "profileImage":"https://via.placeholder.com/200"
+            "profileImage":"/assets/staff-jenna-elliott.jpg"
         }
     ]
 }
