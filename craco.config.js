@@ -9,6 +9,7 @@ module.exports = {
           loader: 'responsive-loader',
           options: {
             adapter: require('responsive-loader/sharp'),
+            name: 'static/media/[name]-[width].[hash:8].[ext]',
           },
         },
       }
