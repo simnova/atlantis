@@ -175,7 +175,8 @@ export const ExploreDining: React.FC<any> = (_props) => {
                   <span className="font-semibold mr-2"><a href="https://www.thebuzzedword.com/"  target="_blank" rel="noreferrer">Buzzed Word <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
                   Ocean City  (0.8 mi)
                   <a href="https://goo.gl/maps/5QEoMNEGiqNKig8GA" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br />
-                  A Really Unique Wine Store / Bar plus Book Store all rolled into one fun experience.
+                  A Really Unique Wine Store / Bar plus Book Store all rolled into one fun experience. <br/>
+                  Hosts regular tasting events and has a great selection of wines.
                 </li>
               </ul>
             </div>

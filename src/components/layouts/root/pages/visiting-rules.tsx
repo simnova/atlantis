@@ -89,11 +89,10 @@ export const VisitingRules: React.FC<any> = (_props) => {
             <Heading level={HeadingLevel.H5} id="dog-lot">Pets / Dog Lot:</Heading>
             <p>
               <ul className="list-disc ml-5 mb-8">
-                <li><span className="font-semibold mr-2">Availability :</span>For Co-owners only.</li>
+ 
                 <li><span className="font-semibold mr-2">Location :</span> North-east corner of property.</li>
               </ul>
               Additional Details:<br/>
-              ONLY “Co-Owners” are allowed to bring their pets to the property. 
               After using the pet area please be sure to pick up your “fur baby's” messes.
               Please keep your pups leashed at all times and, be VERY MINDFUL when exiting the elevators/lobbies with your dogs. 
               
