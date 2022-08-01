@@ -108,7 +108,7 @@ export const VisitingRules: React.FC<any> = (_props) => {
                 <li><span className="font-semibold mr-2">Hours :</span>9:00AM - 10:00PM</li>
                 <li><span className="font-semibold mr-2">Adult Swim :</span>9:00AM - 10:00AM</li>
                 <li>No splashing, diving</li>
-                <li>No yelling, no loud music.</li>
+                <li>No yelling, no loud music (use headphones instead).</li>
                 <li>No balls/toys.</li>
                 <li>No glass containers.</li>
                 <li>Under 16 is not permitted without a parent or guardian</li>

@@ -81,7 +81,7 @@ export const VisitingAmenities: React.FC<any> = (_props) => {
                     20oz bottles of water and soda
                   </li>
                   <li className="mb-2">
-                    <span className="font-semibold">$2.00 : </span> 
+                    <span className="font-semibold">$1.00 : </span> 
                     bag of chips
                   </li>
                 </ul>
