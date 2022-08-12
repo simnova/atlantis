@@ -4,6 +4,9 @@ import { BiLinkExternal } from "react-icons/bi";
 import { Heading, HeadingLevel } from "../../../ui/atoms/heading"
 import styles from './explore-activities.module.css'; 
 
+import AssawomanWildlifeArea from '../../../../assets/assawoman-wildlife-area.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
+
+
 export const ExploreActivities: React.FC<any> = (_props) => {
     return (
       <>
@@ -12,6 +15,9 @@ export const ExploreActivities: React.FC<any> = (_props) => {
         </Helmet>
         <Heading level={HeadingLevel.H1}>Activities</Heading>
         <div className="mb-8 italic text-sm">Curated by Atlantis Co-Owners and Staff</div>
+
+        <img src={AssawomanWildlifeArea.src}  srcSet={AssawomanWildlifeArea.srcSet}  alt={`Assawoman Wildlife Area`} className="object-fill mt-6  mb-6"/>
+
         
         
         <div className={['space-y-5', styles['container']].join(' ') }>
