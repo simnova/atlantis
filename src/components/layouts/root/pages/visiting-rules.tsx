@@ -23,24 +23,21 @@ export const VisitingRules: React.FC<any> = (_props) => {
               <ul className="list-disc ml-5 mb-8">
                 <li>Registration form needs to list all persons occupying the unit </li>
                 <li><span className="font-semibold mr-2">Registration Location:</span>Security Office on ground floor</li>
+                <li>No boats, trailers, jet skis or motor homes.</li>
               </ul>
               
               Registration Charge: (includes one Parking Permit)<br/>
-              <ul className="list-disc ml-5 mb-8">
+              <ul className="list-disc ml-5 mb-4">
                 <li><span className="font-semibold mr-2">Amount :</span>$50.</li>
                 <li><span className="font-semibold mr-2">Payment Method :</span>Credit Card Only (No cash)</li>
-                <li><span className="font-semibold mr-2">Additional Parking :</span>If space permits $50/week or $10/day  (for registered guests, if space permits)</li>
+                <li><span className="font-semibold mr-2">Additional Onsite Parking :</span>If space permits $50/week or $10/day  (for registered guests, if space permits)</li>
               </ul>
-          
-          
-              
-              No boats, trailers, jet skis or motor homes.<br/>
 
-              <strong>Additional Parking</strong> across the street by the Library (100th Street Municipal lot):<br/>
+              <strong>Nearby Additional Parking :</strong> across the street by the Library (100th Street Municipal lot):<br/>
               <ul className="list-disc ml-5 mb-8">
                 <li><span className="font-semibold mr-2"><a href="https://www.ococean.com/parking-information" target={'_blank'} rel={'noopener noreferrer'}>Vehicle Parking<BiLinkExternal className="align-text-bottom inline-block mb-px"/></a> :</span>$40/week - $10/day<br/></li>
                 <li><span className="font-semibold mr-2"><a href="https://oceancitymd.gov/oc/ocean-city-parking/#trailer-oversized-vehicle-parking" target={'_blank'} rel={'noopener noreferrer'}>Boat Trailer & Oversized Vehicle Parking<BiLinkExternal className="align-text-bottom inline-block mb-px"/></a> :</span>$50/week - $10/day<br/></li>
-                <li><span className="font-semibold mr-2"><a href="https://oceancitymd.gov/oc/electric-vehicle-charging-stations/" target={'_blank'} rel={'noopener noreferrer'}>EV Charging<BiLinkExternal className="align-text-bottom inline-block mb-px"/></a></span>is available</li>
+                <li><span className="font-semibold mr-2"><a href="https://oceancitymd.gov/oc/electric-vehicle-charging-stations/" target={'_blank'} rel={'noopener noreferrer'}>EV Charging : <BiLinkExternal className="align-text-bottom inline-block mb-px"/></a></span>$4/h - J1772 - ParkMobile Zone: 62560</li>
               </ul>
 
        
