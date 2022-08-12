@@ -47,6 +47,8 @@ export const AboutOwnership: React.FC<any> = (_props) => {
                 With 2 grocery stores less than a mile away, countless restaurants and bars, and a wide variety of amenities, the Atlantis is a great place to call home.
             </p>
         </article>
+
+
       </div>
     </>
   )

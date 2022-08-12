@@ -29,15 +29,20 @@ export const VisitingAmenities: React.FC<any> = (_props) => {
             <div>
                 <Heading level={HeadingLevel.H4}>Beach:</Heading>
 
-                Ocean City has one of the best beaches on the east coast [&nbsp;<a href="https://travel.usnews.com/gallery/the-top-east-coast-beaches-to-visit"  target="_blank" rel="noreferrer">source:US News <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a>]; all units have a great view of the beach. Beach access couldn't be easier, with walkways on both the north and south edges of the property. <br/><br/>
-
-                Ocean City Beaches are free to the public (no beach passes required). <br/><br/>
-
-                Enjoy a bonfire on the beach at night. There is a <a href="https://ocbonfires.com/"  target="_blank" rel="noreferrer">$75 permit <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> required in order to have a bonfire.
-
+                Ocean City has one of the best beaches on the east coast [&nbsp;<a href="https://travel.usnews.com/gallery/the-top-east-coast-beaches-to-visit"  target="_blank" rel="noreferrer">source:US News <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a>]; all units have a great view of the beach. <br/><br/>
                 
-
-                
+                Beach access couldn't be easier, with walkways on both the north and south edges of the property. 
+                <ul className="text-sm list-disc ml-5 mb-3 mt-2">
+                  <li className="mb-2">
+                    Ocean City Beaches are free to the public (no beach passes required).
+                  </li>
+                  <li className="mb-2">
+                    Enjoy a bonfire on the beach at night. There is a <a href="https://ocbonfires.com/"  target="_blank" rel="noreferrer">$75 permit <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> required in order to have a bonfire.
+                  </li>
+                  <li className="mb-2">
+                    <a href="https://sandhelper.com/"  target="_blank" rel="noreferrer">Beach Wheelchairs <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> are available to rent.   
+                  </li>
+                </ul>
             </div>
             <div>
                 <Heading level={HeadingLevel.H4}>Outdoor Showers:</Heading>
@@ -68,8 +73,18 @@ export const VisitingAmenities: React.FC<any> = (_props) => {
             </div>
 
             <div>
-                <Heading level={HeadingLevel.H4}>Water / Ice Machine:</Heading>
+                <Heading level={HeadingLevel.H4}>Filtered Water / Ice Machine:</Heading>
                 Located conveniently between the security office and the pool at ground level.
+                <ul className="text-sm list-disc ml-5 mb-3 mt-2">
+                  <li className="mb-2">
+                    <span className="font-semibold">$2.00 : </span> 
+                    Per Gallon of Water (must supply your own jug)
+                  </li>
+                  <li className="mb-2">
+                    <span className="font-semibold">$4.00 : </span> 
+                    10lb bag of ice (can fill cooler or use bag that is provided)
+                  </li>
+                </ul>
             </div>
 
             <div>

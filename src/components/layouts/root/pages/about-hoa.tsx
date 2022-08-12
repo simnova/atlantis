@@ -1,5 +1,13 @@
-import { Helmet } from "react-helmet"
-import { Heading, HeadingLevel } from "../../../ui/atoms/heading"
+import { Helmet } from 'react-helmet';
+import { Heading, HeadingLevel } from '../../../ui/atoms/heading';
+
+import MelvinRostek from '../../../../assets/staff-melvin-rostek.jpg?sizes[]=200&format=webp&useResponsiveLoader=true';
+import SherrielSullivan from '../../../../assets/staff-sherriel-sullivan.jpg?sizes[]=200&format=webp&useResponsiveLoader=true';
+import JohnFoley from '../../../../assets/staff-john-foley.jpg?sizes[]=200&format=webp&useResponsiveLoader=true';
+import PatrickGidich from '../../../../assets/resident-patrick-gidich.jpg?sizes[]=200&format=webp&useResponsiveLoader=true';
+import JoyceGloekler from '../../../../assets/resident-joyce-gloekler.jpg?sizes[]=200&format=webp&useResponsiveLoader=true';
+import ConnieRamsey from '../../../../assets/resident-connie-ramsey.jpg?sizes[]=200&format=webp&useResponsiveLoader=true';
+import SaraBerchock from '../../../../assets/resident-sara-berchock.jpg?sizes[]=200&format=webp&useResponsiveLoader=true';
 
 export const AboutHOA: React.FC<any> = (_props) => {
   return (
@@ -22,49 +30,48 @@ export const AboutHOA: React.FC<any> = (_props) => {
             <strong>Board Members:</strong>
             <div className="grid text-sm m-9" style={{ gridTemplateColumns:'repeat(auto-fill, 15rem)', gap:'20px'}}>
               <div className="flex items-start inline-block">
-                  <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-[5rem] mr-3"/>
-                  <div>
-                    <strong>Joseph C. Perry,Sr.</strong>
-                    <div className="text-xs">
-                      <p>President</p>
-                      <p>Unit XXX</p>
-                      <p>Term expires April </p>
-                    </div>
-                  
-                  </div>            
+                <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-[5rem] mr-3"/>
+                <div>
+                  <strong>Joseph C. Perry,Sr.</strong>
+                  <div className="text-xs">
+                    <p>President</p>
+                    <p>Unit XXX</p>
+                    <p>Term expires April 2025</p>
+                  </div>
+                </div>            
               </div>
               <div className="flex items-start inline-block">
-                  <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-[5rem] mr-3"/>
-                  <div>
-                    <strong>Melvin Rostek</strong>
-                    <div className="text-xs">
-                      <p>Vice President</p>
-                      <p>Unit XXX</p>
-                      <p>Term expires April </p>
-                    </div>
+                <img src={MelvinRostek.src}  srcSet={MelvinRostek.srcSet}  alt={`Profile of Melvin Rostek`} className="object-cover w-[5rem] rounded-full mr-3"/>
+                <div>
+                  <strong>Melvin Rostek</strong>
+                  <div className="text-xs">
+                    <p>Vice President</p>
+                    <p>Unit XXX</p>
+                    <p>Term expires April 2024</p>
                   </div>
+                </div>
               </div>
               <div className="flex items-start inline-block">
-                  <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-[5rem] mr-3"/>
-                  <div>
-                    <strong>Sherriel Sullivan</strong>
-                    <div className="text-xs">
-                      <p>Treasurer</p>
-                      <p>Unit XXX</p>
-                      <p>Term expires April </p>
-                    </div>
+                <img src={SherrielSullivan.src}  srcSet={SherrielSullivan.srcSet}  alt={`Profile of Sherriel Sullivan`} className="object-cover w-[5rem] rounded-full mr-3"/>
+                <div>
+                  <strong>Sherriel Sullivan</strong>
+                  <div className="text-xs">
+                    <p>Treasurer</p>
+                    <p>Unit XXX</p>
+                    <p>Term expires April 2024</p>
                   </div>
+                </div>
               </div>
               <div className="flex items-start inline-block">
-                  <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-[5rem] mr-3"/>
-                  <div>
-                    <strong>John Foley</strong>
-                    <div className="text-xs">
-                      <p>Secretary</p>
-                      <p>Unit XXX</p>
-                      <p>Term expires April </p>
-                    </div>
+                <img src={JohnFoley.src}  srcSet={JohnFoley.srcSet}  alt={`Profile of John Foley`} className="object-cover w-[5rem] rounded-full mr-3"/>
+                <div>
+                  <strong>John Foley</strong>
+                  <div className="text-xs">
+                    <p>Secretary</p>
+                    <p>Unit XXX</p>
+                    <p>Term expires April 2025</p>
                   </div>
+                </div>
               </div>
               <div className="flex items-start inline-block">
                   <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-[5rem] mr-3"/>
@@ -73,7 +80,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                     <div className="text-xs">
                       <p>Corresponding Secretary</p>
                       <p>Unit XXX</p>
-                      <p>Term expires April </p>
+                      <p>Term expires April 2023</p>
                     </div>
                   </div>
               </div>
@@ -87,54 +94,69 @@ export const AboutHOA: React.FC<any> = (_props) => {
             Co-Owners are encouraged to join and form committees to help advance the mission of the Atlantis. The following are a sampling of the current committees and their recent accomplishments.
           </p>
         </div>
+
+        <article>
+          <Heading level={HeadingLevel.H6}>Pool Committee</Heading>
+          <div className="ml-8 space-y-8"> 
+            <div>
+              <strong>Committee Members:</strong>
+              <div className="grid text-sm ml-9 my-3" style={{ gridTemplateColumns:'repeat(auto-fill, 10rem)', gap:'20px'}}>
+                <div className="flex items-center inline-block">
+                  <img src={ConnieRamsey.src}  srcSet={ConnieRamsey.srcSet}  alt={`Profile of Connie Ramsey`} className="object-cover w-12 rounded-full mr-3"/>
+                  <div>
+                    <strong>Connie Ramsey</strong><br/>
+                    <p>Unit XXX</p>
+                  </div>            
+                </div>
+                <div className="flex items-center inline-block">
+                  <img src={SaraBerchock.src}  srcSet={SaraBerchock.srcSet}  alt={`Profile of Sara Berchock`} className="object-cover w-12 rounded-full mr-3"/>
+                  <div>
+                    <strong>Sara Berchock</strong><br/>
+                    <p>Unit XXX</p>
+                  </div>            
+                </div>
+                <div className="flex items-center inline-block">
+                  <img src={SherrielSullivan.src}  srcSet={SherrielSullivan.srcSet}  alt={`Profile of Sherriel Sullivan`} className="object-cover w-12 rounded-full mr-3"/>
+                  <div>
+                    <strong>Sherriel Sullivan</strong><br/>
+                    <p>Unit XXX</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p>
+              <span className="font-bold">Committee Charter: </span> <br/>
+              The Pool Committee aims to provide ensure the pool environment is secure, clean and welcoming.
+            </p>
+            <p>
+              <span className="font-bold">Recent Accomplishments: </span> 
+              <ul className="text-sm list-disc ml-5 mb-3 mt-2">
+                
+              </ul>
+            </p>
+          </div>
+        </article>
+
         <article>
           <Heading level={HeadingLevel.H6}>Vending Committee</Heading>
           <div className="ml-8 space-y-8"> 
             <div>
               <strong>Committee Members:</strong>
               <div className="grid text-sm ml-9 my-3" style={{ gridTemplateColumns:'repeat(auto-fill, 10rem)', gap:'20px'}}>
-              <div className="flex items-center inline-block">
-                <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
-                <div>
-                  <strong>Xxxx Xxxxxxx</strong><br/>
-                  <p>Unit XXX</p>
-                </div>            
-              </div>
-              <div className="flex items-center inline-block">
-                <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
-                <div>
-                  <strong>Xxxx Xxxxxxx</strong><br/>
-                  <p>Unit XXX</p>
+                <div className="flex items-center inline-block">
+                  <img src={ConnieRamsey.src}  srcSet={ConnieRamsey.srcSet}  alt={`Profile of Connie Ramsey`} className="object-cover w-12 rounded-full mr-3"/>
+                  <div>
+                    <strong>Connie Ramsey</strong><br/>
+                    <p>Unit XXX</p>
+                  </div>            
                 </div>
-              </div>
-              <div className="flex items-center inline-block">
-                <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
-                <div>
-                  <strong>Xxxx Xxxxxxx</strong><br/>
-                  <p>Unit XXX</p>
+                <div className="flex items-center inline-block">
+                  <img src={SherrielSullivan.src}  srcSet={SherrielSullivan.srcSet}  alt={`Profile of Sherriel Sullivan`} className="object-cover w-12 rounded-full mr-3"/>
+                  <div>
+                    <strong>Sherriel Sullivan</strong><br/>
+                    <p>Unit XXX</p>
+                  </div>
                 </div>
-              </div>
-              <div className="flex items-center inline-block">
-                <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
-                <div>
-                  <strong>Xxxx Xxxxxxx</strong><br/>
-                  <p>Unit XXX</p>
-                </div>
-              </div>
-              <div className="flex items-center inline-block">
-                <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
-                <div>
-                  <strong>Xxxx Xxxxxxx</strong><br/>
-                  <p>Unit XXX</p>
-                </div>
-              </div>
-              <div className="flex items-center inline-block">
-                <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
-                <div>
-                  <strong>Xxxx Xxxxxxx</strong><br/>
-                  <p>Unit XXX</p>
-                </div>
-              </div>
               </div>
             </div>
             <p>
@@ -163,44 +185,23 @@ export const AboutHOA: React.FC<any> = (_props) => {
               <strong>Committee Members:</strong>
               <div className="grid text-sm ml-9 my-3" style={{ gridTemplateColumns:'repeat(auto-fill, 10rem)', gap:'20px'}}>
                 <div className="flex items-center inline-block">
-                  <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
+                  <img src={ConnieRamsey.src}  srcSet={ConnieRamsey.srcSet}  alt={`Profile of Connie Ramsey`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
-                    <strong>Xxxx Xxxxxxx</strong><br/>
+                    <strong>Connie Ramsey</strong><br/>
                     <p>Unit XXX</p>
                   </div>            
                 </div>
                 <div className="flex items-center inline-block">
-                  <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
+                  <img src={SaraBerchock.src}  srcSet={SaraBerchock.srcSet}  alt={`Profile of Sara Berchock`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
-                    <strong>Xxxx Xxxxxxx</strong><br/>
+                    <strong>Sara Berchock</strong><br/>
                     <p>Unit XXX</p>
                   </div>
                 </div>
                 <div className="flex items-center inline-block">
-                  <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
+                  <img src={SherrielSullivan.src}  srcSet={SherrielSullivan.srcSet}  alt={`Profile of Sherriel Sullivan`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
-                    <strong>Xxxx Xxxxxxx</strong><br/>
-                    <p>Unit XXX</p>
-                  </div>
-                </div>
-                <div className="flex items-center inline-block">
-                  <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
-                  <div>
-                    <strong>Xxxx Xxxxxxx</strong><br/>
-                    <p>Unit XXX</p>
-                  </div>
-                </div>
-                <div className="flex items-center inline-block">
-                  <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
-                  <div>
-                    <strong>Xxxx Xxxxxxx</strong><br/>
-                    <p>Unit XXX</p>
-                  </div>
-                </div>
-                <div className="flex items-center inline-block">
-                  <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
-                  <div>
-                    <strong>Xxxx Xxxxxxx</strong><br/>
+                    <strong>Sherriel Sullivan</strong><br/>
                     <p>Unit XXX</p>
                   </div>
                 </div>
@@ -234,42 +235,28 @@ export const AboutHOA: React.FC<any> = (_props) => {
                 <div className="flex items-center inline-block">
                   <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
                   <div>
-                    <strong>Xxxx Xxxxxxx</strong><br/>
+                    <strong>Diane McIntyre</strong><br/>
                     <p>Unit XXX</p>
                   </div>            
                 </div>
                 <div className="flex items-center inline-block">
-                  <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
+                  <img src={JoyceGloekler.src}  srcSet={JoyceGloekler.srcSet}  alt={`Profile of Joyce Gloekler`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
-                    <strong>Xxxx Xxxxxxx</strong><br/>
+                    <strong>Joyce Gloekler</strong><br/>
                     <p>Unit XXX</p>
                   </div>
                 </div>
                 <div className="flex items-center inline-block">
-                  <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
+                  <img src={PatrickGidich.src}  srcSet={PatrickGidich.srcSet}  alt={`Profile of Patrick Gidich`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
-                    <strong>Xxxx Xxxxxxx</strong><br/>
-                    <p>Unit XXX</p>
+                    <strong>Patrick Gidich</strong><br/>
+                    <p>Unit 1510</p>
                   </div>
                 </div>
                 <div className="flex items-center inline-block">
-                  <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
+                  <img src={JohnFoley.src}  srcSet={JohnFoley.srcSet}  alt={`Profile of John Foley`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
-                    <strong>Xxxx Xxxxxxx</strong><br/>
-                    <p>Unit XXX</p>
-                  </div>
-                </div>
-                <div className="flex items-center inline-block">
-                  <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
-                  <div>
-                    <strong>Xxxx Xxxxxxx</strong><br/>
-                    <p>Unit XXX</p>
-                  </div>
-                </div>
-                <div className="flex items-center inline-block">
-                  <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
-                  <div>
-                    <strong>Xxxx Xxxxxxx</strong><br/>
+                    <strong>John Foley</strong><br/>
                     <p>Unit XXX</p>
                   </div>
                 </div>
@@ -299,6 +286,169 @@ export const AboutHOA: React.FC<any> = (_props) => {
                 <li className="mb-2">
                     <span className="font-semibold">DEC-2022 : </span> 
                     Established contacts with Comcast and Amtech.
+                </li>
+              </ul>
+            </p>
+          </div>
+        </article>
+        <article>
+          <Heading level={HeadingLevel.H6}>Website Committee</Heading>
+          <div className="ml-8 space-y-8"> 
+            <div>
+              <strong>Committee Members:</strong>
+              <div className="grid text-sm ml-9 my-3" style={{ gridTemplateColumns:'repeat(auto-fill, 10rem)', gap:'20px'}}>
+                
+                <div className="flex items-center inline-block">
+                  <img src={PatrickGidich.src}  srcSet={PatrickGidich.srcSet}  alt={`Profile of Patrick Gidich`} className="object-cover w-12 rounded-full mr-3"/>
+                  <div>
+                    <strong>Patrick Gidich</strong><br/>
+                    <p>Unit 1510</p>
+                  </div>
+                </div>
+                <div className="flex items-center inline-block">
+                  <img src={JohnFoley.src}  srcSet={JohnFoley.srcSet}  alt={`Profile of John Foley`} className="object-cover w-12 rounded-full mr-3"/>
+                  <div>
+                    <strong>John Foley</strong><br/>
+                    <p>Unit XXX</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p>
+              <span className="font-bold">Committee Charter: </span> <br/>
+              The Internet and TV Committee aims to meet the changing needs of co-owners of the Atlantis. This committee will be responsible for the following:
+              <ul className="text-sm list-disc ml-5 mb-3 mt-2">
+                <li className="mb-2">
+                  Determining the service providers that can provide services to the Atlantis, and understand current infrastructure to allow vendors to ascertain the investment needed to meet the needs of the Atlantis and what services are possible.
+                </li>
+                <li className="mb-2">
+                  Surveying the co-owners to determine the willingness to pay for services and what services are desired.
+                </li>
+                <li className="mb-2">
+                  Developing a RFP for the services desired, with a 3 year price-lock guarantee, with optional continued renewal with a maximum of 5% increase at the end the 3rd year, for a period of up to 6 years.
+                </li>
+                <li className="mb-2">
+                  Providing the co-owners with a short list of possible options and allow the co-owners to vote on which plan(s) the Atlantis should offer co-owners.
+                </li>
+              </ul>
+            </p>
+            <p>
+              <span className="font-bold">Recent Accomplishments: </span> 
+              <ul className="text-sm list-disc ml-5 mb-3 mt-2">
+                <li className="mb-2">
+                    <span className="font-semibold">AUG-2022 : </span> 
+                    Designed and Launched the Atlantis Website.
+                </li>
+              </ul>
+            </p>
+          </div>
+        </article>
+        <article>
+          <Heading level={HeadingLevel.H6}>Security Committee</Heading>
+          <div className="ml-8 space-y-8"> 
+            <div>
+              <strong>Committee Members:</strong>
+              <div className="grid text-sm ml-9 my-3" style={{ gridTemplateColumns:'repeat(auto-fill, 10rem)', gap:'20px'}}>
+                
+                <div className="flex items-center inline-block">
+                  <img src={PatrickGidich.src}  srcSet={PatrickGidich.srcSet}  alt={`Profile of Patrick Gidich`} className="object-cover w-12 rounded-full mr-3"/>
+                  <div>
+                    <strong>Patrick Gidich</strong><br/>
+                    <p>Unit 1510</p>
+                  </div>
+                </div>
+                <div className="flex items-center inline-block">
+                  <img src={JohnFoley.src}  srcSet={JohnFoley.srcSet}  alt={`Profile of John Foley`} className="object-cover w-12 rounded-full mr-3"/>
+                  <div>
+                    <strong>John Foley</strong><br/>
+                    <p>Unit XXX</p>
+                  </div>
+                </div>
+                <div className="flex items-center inline-block">
+                  <img src={MelvinRostek.src}  srcSet={MelvinRostek.srcSet}  alt={`Profile of Melvin Rostek`} className="object-cover w-12 rounded-full mr-3"/>
+                  <div>
+                    <strong>Melvin Rostek</strong><br/>
+                    <p>Unit XXX</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p>
+              <span className="font-bold">Committee Charter: </span> <br/>
+              The Internet and TV Committee aims to meet the changing needs of co-owners of the Atlantis. This committee will be responsible for the following:
+              <ul className="text-sm list-disc ml-5 mb-3 mt-2">
+                <li className="mb-2">
+                  Determining the service providers that can provide services to the Atlantis, and understand current infrastructure to allow vendors to ascertain the investment needed to meet the needs of the Atlantis and what services are possible.
+                </li>
+                <li className="mb-2">
+                  Surveying the co-owners to determine the willingness to pay for services and what services are desired.
+                </li>
+                <li className="mb-2">
+                  Developing a RFP for the services desired, with a 3 year price-lock guarantee, with optional continued renewal with a maximum of 5% increase at the end the 3rd year, for a period of up to 6 years.
+                </li>
+                <li className="mb-2">
+                  Providing the co-owners with a short list of possible options and allow the co-owners to vote on which plan(s) the Atlantis should offer co-owners.
+                </li>
+              </ul>
+            </p>
+            <p>
+              <span className="font-bold">Recent Accomplishments: </span> 
+              <ul className="text-sm list-disc ml-5 mb-3 mt-2">
+                <li className="mb-2">
+                    <span className="font-semibold">AUG-2022 : </span> 
+                    Designed and Launched the Atlantis Website.
+                </li>
+              </ul>
+            </p>
+          </div>
+        </article>
+        <article>
+          <Heading level={HeadingLevel.H6}>EV Charging Station Committee</Heading>
+          <div className="ml-8 space-y-8"> 
+            <div>
+              <strong>Committee Members:</strong>
+              <div className="grid text-sm ml-9 my-3" style={{ gridTemplateColumns:'repeat(auto-fill, 10rem)', gap:'20px'}}>
+                
+                <div className="flex items-center inline-block">
+                  <img src={PatrickGidich.src}  srcSet={PatrickGidich.srcSet}  alt={`Profile of Patrick Gidich`} className="object-cover w-12 rounded-full mr-3"/>
+                  <div>
+                    <strong>Patrick Gidich</strong><br/>
+                    <p>Unit 1510</p>
+                  </div>
+                </div>
+                <div className="flex items-center inline-block">
+                  <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
+                  <div>
+                    <strong>George & Helen Akparanta</strong><br/>
+                    <p>Unit XXX</p>
+                  </div>
+                </div>                
+              </div>
+            </div>
+            <p>
+              <span className="font-bold">Committee Charter: </span> <br/>
+              The Internet and TV Committee aims to meet the changing needs of co-owners of the Atlantis. This committee will be responsible for the following:
+              <ul className="text-sm list-disc ml-5 mb-3 mt-2">
+                <li className="mb-2">
+                  Determining the service providers that can provide services to the Atlantis, and understand current infrastructure to allow vendors to ascertain the investment needed to meet the needs of the Atlantis and what services are possible.
+                </li>
+                <li className="mb-2">
+                  Surveying the co-owners to determine the willingness to pay for services and what services are desired.
+                </li>
+                <li className="mb-2">
+                  Developing a RFP for the services desired, with a 3 year price-lock guarantee, with optional continued renewal with a maximum of 5% increase at the end the 3rd year, for a period of up to 6 years.
+                </li>
+                <li className="mb-2">
+                  Providing the co-owners with a short list of possible options and allow the co-owners to vote on which plan(s) the Atlantis should offer co-owners.
+                </li>
+              </ul>
+            </p>
+            <p>
+              <span className="font-bold">Recent Accomplishments: </span> 
+              <ul className="text-sm list-disc ml-5 mb-3 mt-2">
+                <li className="mb-2">
+                    <span className="font-semibold">AUG-2022 : </span> 
+                    Designed and Launched the Atlantis Website.
                 </li>
               </ul>
             </p>
