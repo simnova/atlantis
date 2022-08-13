@@ -316,19 +316,10 @@ export const AboutHOA: React.FC<any> = (_props) => {
             </div>
             <p>
               <span className="font-bold">Committee Charter: </span> <br/>
-              The Internet and TV Committee aims to meet the changing needs of co-owners of the Atlantis. This committee will be responsible for the following:
+              The Website Committee aims to deliver a solution to both meet the needs of guests and co-owners of the Atlantis. This committee will be responsible for the following:
               <ul className="text-sm list-disc ml-5 mb-3 mt-2">
                 <li className="mb-2">
-                  Determining the service providers that can provide services to the Atlantis, and understand current infrastructure to allow vendors to ascertain the investment needed to meet the needs of the Atlantis and what services are possible.
-                </li>
-                <li className="mb-2">
-                  Surveying the co-owners to determine the willingness to pay for services and what services are desired.
-                </li>
-                <li className="mb-2">
-                  Developing a RFP for the services desired, with a 3 year price-lock guarantee, with optional continued renewal with a maximum of 5% increase at the end the 3rd year, for a period of up to 6 years.
-                </li>
-                <li className="mb-2">
-                  Providing the co-owners with a short list of possible options and allow the co-owners to vote on which plan(s) the Atlantis should offer co-owners.
+                  Deliver a public facing website as well as a private portal for the co-owners to interact with the Atlantis.
                 </li>
               </ul>
             </p>
@@ -375,16 +366,16 @@ export const AboutHOA: React.FC<any> = (_props) => {
             </div>
             <p>
               <span className="font-bold">Committee Charter: </span> <br/>
-              The Internet and TV Committee aims to meet the changing needs of co-owners of the Atlantis. This committee will be responsible for the following:
+              The Security Committee aims to meet the changing needs of co-owners of the Atlantis. This committee will be responsible for the following:
               <ul className="text-sm list-disc ml-5 mb-3 mt-2">
                 <li className="mb-2">
-                  Determining the service providers that can provide services to the Atlantis, and understand current infrastructure to allow vendors to ascertain the investment needed to meet the needs of the Atlantis and what services are possible.
+                  Determining upgrade path for the Video Surveillance System currently installed at the Atlantis, and understand current infrastructure to allow vendors to ascertain the investment needed to meet the needs of the Atlantis and what services are possible.
                 </li>
                 <li className="mb-2">
                   Surveying the co-owners to determine the willingness to pay for services and what services are desired.
                 </li>
                 <li className="mb-2">
-                  Developing a RFP for the services desired, with a 3 year price-lock guarantee, with optional continued renewal with a maximum of 5% increase at the end the 3rd year, for a period of up to 6 years.
+                  Developing a RFP for the services desired, with a price forecast of replacing the entire system using a phased based approach addressing immediate needs first.
                 </li>
                 <li className="mb-2">
                   Providing the co-owners with a short list of possible options and allow the co-owners to vote on which plan(s) the Atlantis should offer co-owners.
@@ -396,7 +387,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
               <ul className="text-sm list-disc ml-5 mb-3 mt-2">
                 <li className="mb-2">
                     <span className="font-semibold">AUG-2022 : </span> 
-                    Designed and Launched the Atlantis Website.
+                    Involved 3 vendors in the analysis of the Video Surveillance System.
                 </li>
               </ul>
             </p>
@@ -427,16 +418,16 @@ export const AboutHOA: React.FC<any> = (_props) => {
             </div>
             <p>
               <span className="font-bold">Committee Charter: </span> <br/>
-              The Internet and TV Committee aims to meet the changing needs of co-owners of the Atlantis. This committee will be responsible for the following:
+              The Electric Vehicle Charging Committee seeks to determine the feasibility of offering a cost effective charging solution for guests and co-owners of the Atlantis. This committee will be responsible for the following:
               <ul className="text-sm list-disc ml-5 mb-3 mt-2">
                 <li className="mb-2">
-                  Determining the service providers that can provide services to the Atlantis, and understand current infrastructure to allow vendors to ascertain the investment needed to meet the needs of the Atlantis and what services are possible.
+                  Determining what types of charging stations can be installed at the Atlantis, and understand the investment needed to install and provide charging services and if it can be run profitably and competitively.
                 </li>
                 <li className="mb-2">
                   Surveying the co-owners to determine the willingness to pay for services and what services are desired.
                 </li>
                 <li className="mb-2">
-                  Developing a RFP for the services desired, with a 3 year price-lock guarantee, with optional continued renewal with a maximum of 5% increase at the end the 3rd year, for a period of up to 6 years.
+                  Developing a RFP for the services desired, with a 3 year investment and payback schedule, with a 5yr outlook of profit/loss.
                 </li>
                 <li className="mb-2">
                   Providing the co-owners with a short list of possible options and allow the co-owners to vote on which plan(s) the Atlantis should offer co-owners.
@@ -448,7 +439,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
               <ul className="text-sm list-disc ml-5 mb-3 mt-2">
                 <li className="mb-2">
                     <span className="font-semibold">AUG-2022 : </span> 
-                    Designed and Launched the Atlantis Website.
+                    Contacted Tesla about new features of charging stations allowing charging station owners to set rates for charging.
                 </li>
               </ul>
             </p>
