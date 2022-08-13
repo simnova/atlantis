@@ -68,7 +68,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <strong>John Foley</strong>
                   <div className="text-xs">
                     <p>Secretary</p>
-                    <p>Unit XXX</p>
+                    <p>Unit 503</p>
                     <p>Term expires April 2025</p>
                   </div>
                 </div>
@@ -243,7 +243,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img src={JoyceGloekler.src}  srcSet={JoyceGloekler.srcSet}  alt={`Profile of Joyce Gloekler`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>Joyce Gloekler</strong><br/>
-                    <p>Unit XXX</p>
+                    <p>Unit 704</p>
                   </div>
                 </div>
                 <div className="flex items-center inline-block">
@@ -257,7 +257,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img src={JohnFoley.src}  srcSet={JohnFoley.srcSet}  alt={`Profile of John Foley`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>John Foley</strong><br/>
-                    <p>Unit XXX</p>
+                    <p>Unit 503</p>
                   </div>
                 </div>
               </div>
@@ -309,7 +309,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img src={JohnFoley.src}  srcSet={JohnFoley.srcSet}  alt={`Profile of John Foley`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>John Foley</strong><br/>
-                    <p>Unit XXX</p>
+                    <p>Unit 503</p>
                   </div>
                 </div>
               </div>
@@ -335,7 +335,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
           </div>
         </article>
         <article>
-          <Heading level={HeadingLevel.H6}>Security Committee</Heading>
+          <Heading level={HeadingLevel.H6}>Security and Smart Lock Committee</Heading>
           <div className="ml-8 space-y-8"> 
             <div>
               <strong>Committee Members:</strong>
@@ -352,7 +352,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img src={JohnFoley.src}  srcSet={JohnFoley.srcSet}  alt={`Profile of John Foley`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>John Foley</strong><br/>
-                    <p>Unit XXX</p>
+                    <p>Unit 503</p>
                   </div>
                 </div>
                 <div className="flex items-center inline-block">
@@ -370,6 +370,9 @@ export const AboutHOA: React.FC<any> = (_props) => {
               <ul className="text-sm list-disc ml-5 mb-3 mt-2">
                 <li className="mb-2">
                   Determining upgrade path for the Video Surveillance System currently installed at the Atlantis, and understand current infrastructure to allow vendors to ascertain the investment needed to meet the needs of the Atlantis and what services are possible.
+                </li>
+                <li className="mb-2">
+                  Determining feasibility of using smart locks for residential units as well as ground-floor locks at the Atlantis.
                 </li>
                 <li className="mb-2">
                   Surveying the co-owners to determine the willingness to pay for services and what services are desired.
@@ -411,7 +414,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
                   <div>
                     <strong>George & Helen Akparanta</strong><br/>
-                    <p>Unit XXX</p>
+                    <p>Unit 1610</p>
                   </div>
                 </div>                
               </div>
@@ -437,9 +440,13 @@ export const AboutHOA: React.FC<any> = (_props) => {
             <p>
               <span className="font-bold">Recent Accomplishments: </span> 
               <ul className="text-sm list-disc ml-5 mb-3 mt-2">
-                <li className="mb-2">
+              <li className="mb-2">
                     <span className="font-semibold">AUG-2022 : </span> 
-                    Contacted Tesla about new features of charging stations allowing charging station owners to set rates for charging.
+                    Contacted Tesla about about recently released pay-per-use functionality.
+                </li>
+                <li className="mb-2">
+                    <span className="font-semibold">JAN-2021 : </span> 
+                    Contacted Tesla about destination charging and pay-per-use charging functionality - Tesla noted pay-per-use was coming in 2022.
                 </li>
               </ul>
             </p>
