@@ -105,7 +105,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img src={ConnieRamsey.src}  srcSet={ConnieRamsey.srcSet}  alt={`Profile of Connie Ramsey`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>Connie Ramsey</strong><br/>
-                    <p>Unit XXX</p>
+                    <p>Unit 603</p>
                   </div>            
                 </div>
                 <div className="flex items-center inline-block">
@@ -147,7 +147,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img src={ConnieRamsey.src}  srcSet={ConnieRamsey.srcSet}  alt={`Profile of Connie Ramsey`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>Connie Ramsey</strong><br/>
-                    <p>Unit XXX</p>
+                    <p>Unit 603</p>
                   </div>            
                 </div>
                 <div className="flex items-center inline-block">
@@ -188,7 +188,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img src={ConnieRamsey.src}  srcSet={ConnieRamsey.srcSet}  alt={`Profile of Connie Ramsey`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>Connie Ramsey</strong><br/>
-                    <p>Unit XXX</p>
+                    <p>Unit 603</p>
                   </div>            
                 </div>
                 <div className="flex items-center inline-block">
@@ -236,7 +236,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
                   <div>
                     <strong>Diane McIntyre</strong><br/>
-                    <p>Unit XXX</p>
+                    <p>Unit 604</p>
                   </div>            
                 </div>
                 <div className="flex items-center inline-block">
@@ -414,7 +414,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
                   <div>
                     <strong>George & Helen Akparanta</strong><br/>
-                    <p>Unit 1610</p>
+                    <p>Unit 1601</p>
                   </div>
                 </div>                
               </div>
