@@ -1,5 +1,9 @@
 import { Helmet } from "react-helmet"
 import { Heading, HeadingLevel } from "../../../ui/atoms/heading"
+import styles from './about-ownership.module.css'; 
+import { BiLinkExternal } from "react-icons/bi";
+
+
 
 export const AboutOwnership: React.FC<any> = (_props) => {
   return (
@@ -12,7 +16,7 @@ export const AboutOwnership: React.FC<any> = (_props) => {
         Whether you are looking for an <strong>investment property</strong>, a <strong>personal summertime getaway</strong> or a <strong>new place to call home</strong>, learn why Atlantis may be for you.<br/><br/>
       </p>
 
-      <div className="space-y-5">
+      <div className={['space-y-5', styles['container']].join(' ') }>
 
         <article>
             <Heading level={HeadingLevel.H5}>Your Next Investment Property</Heading>
@@ -24,8 +28,8 @@ export const AboutOwnership: React.FC<any> = (_props) => {
                 The area provides local full-service rental services attractive to those seeking a more passive income stream. Coupled with the full-time security and maintenance staff at the Atlantis, the property offers a unique opportunity for owners to generate income while they are away.
 
                 <ul>
-                    <li><a href="https://oceancitymd.gov/oc/departments/planning-community-development/comprehensive-plan/">Ocean City Comprehensive Plan</a></li>
-                    <li><a href="https://ocdc.org/">Ocean City Development Corporation</a></li>
+                    <li><a href="https://oceancitymd.gov/oc/departments/planning-community-development/comprehensive-plan/" target="_blank" rel="noreferrer">Ocean City Comprehensive Plan <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a></li>
+                    <li><a href="https://ocdc.org/"  target="_blank" rel="noreferrer">Ocean City Development Corporation <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a></li>
                 </ul>
             </p>
         </article>

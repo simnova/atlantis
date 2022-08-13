@@ -67,7 +67,7 @@ export const ExploreActivities: React.FC<any> = (_props) => {
                   Right on the beach!<br/>
                 </li>
                 <li>
-                  <span className="font-semibold mr-2"><a href="https://oceancitymd.gov/oc/surf-fishing-in-ocean-city/"  target="_blank" rel="noreferrer">Northide Park Pier Fishing<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  <span className="font-semibold mr-2"><a href="https://dnr.maryland.gov/fisheries/pages/license-free.aspx/"  target="_blank" rel="noreferrer">Northide Park Pier Fishing<BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
                   (1.2 mi)
                   <a href="https://goo.gl/maps/T64x2ZN48xHMkeVX6" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>  
                   Ocean City has two free fishing zones - The Pier at Northside park is one of them and is close by!<br/>
@@ -149,6 +149,11 @@ export const ExploreActivities: React.FC<any> = (_props) => {
                   <a href="https://goo.gl/maps/rfqcWcQaRGAnnsa69" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>
                   Rotating art gallery - always something new to see!       
                 </li>                
+                <li>
+                  <span className="font-semibold mr-2"><a href="https://www.discoversea.com/"  target="_blank" rel="noreferrer">DiscoverSea Shipwreck Museum <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
+                  Fenwick Island (3 mi)
+                  <a href="https://goo.gl/maps/w31dn96wJA4T4hwV7" target="_blank" rel="noreferrer" ><AiOutlineEnvironment  className="align-text-bottom inline-block mb-px mr-px" />Map</a><br/>         
+                </li>
                 <li>
                   <span className="font-semibold mr-2"><a href="https://www.berlinmermaidmuseum.com/"  target="_blank" rel="noreferrer">The Mermaid Museum <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span>
                   Berlin (14.5 mi)

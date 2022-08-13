@@ -151,13 +151,6 @@ export const VisitingRules: React.FC<any> = (_props) => {
           </article>
 
           <article>
-            <Heading level={HeadingLevel.H5} id="safety">Safety</Heading>
-            <p>
-              NO WEAPONS OR FIREARMS ARE ALLOWED ON THE PROPERTY OR IN THE UNITS
-            </p>
-          </article>
-
-          <article>
             <Heading level={HeadingLevel.H5} id="damages">Damages</Heading>
             <p>
               We ask that our guests report any breakage or damage and settle such matters before your departure. All rental units are checked carefully after each guest departs and any unsettled breakage or damages beyond normal wear and tear may result in additional charges. Also if excessive cleaning is required this will be considered damage.

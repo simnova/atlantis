@@ -13,7 +13,7 @@ export const AboutProperty: React.FC<any> = (_props) => {
       <Helmet>
         <title>The Property</title>
       </Helmet>
-      <Heading level={HeadingLevel.H1}>History</Heading>
+      <Heading level={HeadingLevel.H1}>The Property</Heading>
       <img 
         src={((atlantisFrontUpwards.src) as any)} 
         srcSet={atlantisFrontUpwards.srcSet}
