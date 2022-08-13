@@ -21,6 +21,7 @@ export const AboutSecurity: React.FC<any> = (_props) => {
             <br/><br/>
             <span className="font-bold">Availability :</span><br/>
             Security staff is available 7 days a week 24hrs a day year round.<br/><br/>
+            443-373-1894<br/><br/>
 
         
             <span className="font-bold">Services Provided Include: </span> 
