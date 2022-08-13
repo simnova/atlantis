@@ -112,7 +112,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img src={SaraBerchock.src}  srcSet={SaraBerchock.srcSet}  alt={`Profile of Sara Berchock`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>Sara Berchock</strong><br/>
-                    <p>Unit XXX</p>
+                    <p>Unit 906</p>
                   </div>            
                 </div>
                 <div className="flex items-center inline-block">
@@ -195,7 +195,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img src={SaraBerchock.src}  srcSet={SaraBerchock.srcSet}  alt={`Profile of Sara Berchock`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>Sara Berchock</strong><br/>
-                    <p>Unit XXX</p>
+                    <p>Unit 906</p>
                   </div>
                 </div>
                 <div className="flex items-center inline-block">
