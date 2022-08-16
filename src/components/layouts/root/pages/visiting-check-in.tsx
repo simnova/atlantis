@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet';
 import { HashLink as Link } from 'react-router-hash-link';
 import { Heading, HeadingLevel } from '../../../ui/atoms/heading';
 import styles from './visiting-transportation.module.css';
+import SecurityOffice from '../../../../assets/security-office.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=1216&format=webp&useResponsiveLoader=true';
 
 export const VisitingCheckIn: React.FC<any> = (_props) => {
   const scrollWithOffset = (el:HTMLElement) => {
@@ -30,7 +31,7 @@ export const VisitingCheckIn: React.FC<any> = (_props) => {
               <Heading level={HeadingLevel.H4}>Registration and Parking</Heading>
               <p>
                 <ul className="list-disc ml-5 mb-8">
-                  <li><span className="font-semibold mr-2">Fee :</span>$50 (includes 1 parking pass)</li>
+                  <li><span className="font-semibold mr-2">Fee :</span>$40 (includes 1 parking pass)</li>
                   <li><span className="font-semibold mr-2">Payment Method :</span>Credit Card Only (no cash)</li>
                   <li><span className="font-semibold mr-2">Additional Parking :</span> $50/week or $10/day (for registered guests, if space permits)</li>
                 </ul>
@@ -50,6 +51,9 @@ export const VisitingCheckIn: React.FC<any> = (_props) => {
                 <Link to={'/visiting/rules#luggage-carts'} smooth scroll={scrollWithOffset}>Learn more</Link>
               </p>
             </article>
+
+            <img src={SecurityOffice.src}  srcSet={SecurityOffice.srcSet}  alt={`Location of Security Office`} className='md:px-52 mt-8' />
+
           </div>
           
 
