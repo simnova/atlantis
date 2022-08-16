@@ -38,7 +38,7 @@ export const ExploreEvents: React.FC<any> = (_props) => {
           </div>
           <div>
             <ul className="list-disc ml-5 mb-8">
-              <li><span className="font-semibold mr-2"><a href="https://oceancitymd.gov/oc/departments/special-events/oc-beach-dance-party/"  target="_blank" rel="noreferrer">Sunset Park Party Nights <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> <b>Monday Evenings</b> from July 11  – August 29, 2022 at Caroline Street Stage</li>
+              <li><span className="font-semibold mr-2"><a href="https://oceancitymd.gov/oc/departments/special-events/oc-beach-dance-party/"  target="_blank" rel="noreferrer">OC Beach Dance Party <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> <b>Monday Evenings</b> from July 11  – August 29, 2022 at Caroline Street Stage</li>
               <li><span className="font-semibold mr-2"><a href="https://oceancitymd.gov/oc/departments/special-events/sunset-park-party-nights/"  target="_blank" rel="noreferrer">Sunset Park Party Nights <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> <b>Thursday Evenings</b> from July 7, 2022 – August 25, 2022 at South Division Street & The Bay</li>
               <li><span className="font-semibold mr-2"><a href="https://oceancitymd.gov/oc/departments/special-events/sundaes-in-the-park/"  target="_blank" rel="noreferrer">Sundaes in The Park <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> <b>Sunday Evenings</b> from June 12 – September 4, 2022 at Northside Park</li>
             </ul>
