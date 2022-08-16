@@ -3,6 +3,7 @@ import { AiOutlineEnvironment } from "react-icons/ai";
 import { BiLinkExternal } from "react-icons/bi";
 import { Heading, HeadingLevel } from "../../../ui/atoms/heading"
 import styles from './explore-attractions.module.css'; 
+import AssateagueIsland from '../../../../assets/assateague-island.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
 
 export const ExploreAttractions: React.FC<any> = (_props) => {
     return (
@@ -12,6 +13,15 @@ export const ExploreAttractions: React.FC<any> = (_props) => {
         </Helmet>
         <Heading level={HeadingLevel.H1}>Attractions</Heading>
         <div className="mb-8 italic text-sm">Curated by Atlantis Co-Owners and Staff</div>
+
+
+        <figure className="relative  mb-16">
+          <img src={AssateagueIsland.src}  srcSet={AssateagueIsland.srcSet}  alt={`Assateague Island`} className="object-fill mt-3  mb-3"/>
+          <figcaption className="absolute -bottom-11 md:bottom-0 z-90 md:w-3/4 bg-black/50 px-5 py-2 text-white font-small">
+            Assateague Island
+          </figcaption>
+        </figure>
+
         <div className={['space-y-5', styles['container']].join(' ') }>
           <article>
             <Heading level={HeadingLevel.H6}>Must See Attractions:</Heading>
