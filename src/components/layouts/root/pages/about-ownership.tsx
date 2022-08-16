@@ -23,14 +23,14 @@ export const AboutOwnership: React.FC<any> = (_props) => {
             <p> 
                 Offering investment property owners a seasonal income stream, with high demand in the summer season.<br/><br/>
                 
-                With recent public and private strategic investments to attract visitors to Ocean City year-round the potential for future year-round income exists. <br/><br/>
-
-                The area provides local full-service rental services attractive to those seeking a more passive income stream. Coupled with the full-time security and maintenance staff at the Atlantis, the property offers a unique opportunity for owners to generate income while they are away.
-
-                <ul>
+                With recent public and private strategic investments to attract visitors to Ocean City year-round the potential for future year-round income exists. 
+                <ul className="text-sm list-disc ml-5 mb-5 mt-2">
                     <li><a href="https://oceancitymd.gov/oc/departments/planning-community-development/comprehensive-plan/" target="_blank" rel="noreferrer">Ocean City Comprehensive Plan <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a></li>
                     <li><a href="https://ocdc.org/"  target="_blank" rel="noreferrer">Ocean City Development Corporation <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a></li>
                 </ul>
+
+                The area provides local full-service rental services attractive to those seeking a more passive income stream. Coupled with the full-time security and maintenance staff at the Atlantis, the property offers a unique opportunity for owners to generate income while they are away.
+
             </p>
         </article>
         <article>
