@@ -54,7 +54,7 @@ export const ExploreDining: React.FC<any> = (_props) => {
             </div>
           </article>
           <article>
-            <Heading level={HeadingLevel.H5} id="restaurants">Restaurants:</Heading>
+            <Heading level={HeadingLevel.H5} id="restaurants">Nearby Restaurants:</Heading>
             <div className="ml-3 text-sm">
               Atlantis co-owners/staff have selected the following nearby restaurants that will help you get started in exploring OCMD.
             </div>
@@ -69,6 +69,33 @@ export const ExploreDining: React.FC<any> = (_props) => {
                 <li><span className="font-semibold mr-2"><a href="https://www.bullonthebeachoc.com/"  target="_blank" rel="noreferrer">Bull on the Beach <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (94 Street – beach side) Roast Beef / Ribs – $$ walkable</li>
                 <li><span className="font-semibold mr-2"><a href="https://tinosmexicangrill.com/"  target="_blank" rel="noreferrer">Tinos Mexican Grill <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (84st street- bay side) small, great for takeout - $ </li>
                 <li><span className="font-semibold mr-2"><a href="https://www.dry85.com/ocean-city/"  target="_blank" rel="noreferrer">Dry 85 <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> (48 Street – beach side) Great food &amp; Cocktails – $$$ </li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <Heading level={HeadingLevel.H5} id="restaurants">Top Rated Restaurants:</Heading>
+            <div className="ml-3 text-sm">
+              Looking for a meal that won't disappoint - this list of restaurants contains the highest rated from co-owners/staff.
+            </div>
+            <div>
+              <ul className="list-disc ml-5 mb-8">
+                <li><span className="font-semibold mr-2"><a href="http://www.cafemirageocmd.com/"  target="_blank" rel="noreferrer">Cafe Mirage <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> $$</li>
+                <li><span className="font-semibold mr-2"><a href="https://www.longboardcafe.net/"  target="_blank" rel="noreferrer">Longboard Cafe <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> $$</li>
+                <li><span className="font-semibold mr-2"><a href="https://www.captainmacsfishhouse.com/"  target="_blank" rel="noreferrer">Captain Mac's Fish House <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> $$</li>
+                <li><span className="font-semibold mr-2"><a href="https://ocsunsetgrille.com/"  target="_blank" rel="noreferrer">Sunset Grill <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> $$</li>
+                <li><span className="font-semibold mr-2"><a href="https://ocshark.com/"  target="_blank" rel="noreferrer">Shark on the Harbor <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> $$</li>
+                <li><span className="font-semibold mr-2"><a href="http://bluefishocmd.com/"  target="_blank" rel="noreferrer">Blue Fish <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> $$</li>
+                <li><span className="font-semibold mr-2"><a href="https://la94.com/"  target="_blank" rel="noreferrer">Liquid Assets <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> $$</li>
+                <li><span className="font-semibold mr-2"><a href="https://whiskerspub.com/"  target="_blank" rel="noreferrer">Whiskers Pub <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> $$</li>
+                <li><span className="font-semibold mr-2"><a href="https://www.thaiochamd.com/"  target="_blank" rel="noreferrer">Thai O-Cha <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> $$</li>
+                <li><span className="font-semibold mr-2"><a href="https://thebaysideskillet.com/"  target="_blank" rel="noreferrer">Bayside Skillet  <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> $$</li>
+                <li><span className="font-semibold mr-2"><a href="https://www.rosenfeldsjewishdeli.com/oclocation"  target="_blank" rel="noreferrer">Rosenfeld's Delicatessen  <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> $$</li>
+                <li><span className="font-semibold mr-2"><a href="https://barrio64.com/"  target="_blank" rel="noreferrer">Barrio Taco  <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> $</li>
+                <li><span className="font-semibold mr-2"><a href="https://annabellesbbq.com/"  target="_blank" rel="noreferrer">Annabelle's BBQ &amp; Creamery <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> $$</li>
+                <li><span className="font-semibold mr-2"><a href="https://packdabowl.square.site/"  target="_blank" rel="noreferrer">Pack Da Bowl  <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> $</li>
+                <li><span className="font-semibold mr-2"><a href="https://crabcake-factory-online.myshopify.com/"  target="_blank" rel="noreferrer">Crabcake Factory  <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> $$</li>
+                <li><span className="font-semibold mr-2"><a href="https://ocmcrabs.biz/"  target="_blank" rel="noreferrer">OCM Crabs  <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> $$</li>
+                <li><span className="font-semibold mr-2"><a href="https://nantucketsrestaurant.com/"  target="_blank" rel="noreferrer">David Twining's Nantuckets Restaurant  <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> : </span> $$</li>
               </ul>
             </div>
           </article>

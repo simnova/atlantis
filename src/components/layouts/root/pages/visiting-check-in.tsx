@@ -52,7 +52,13 @@ export const VisitingCheckIn: React.FC<any> = (_props) => {
               </p>
             </article>
 
-            <img src={SecurityOffice.src}  srcSet={SecurityOffice.srcSet}  alt={`Location of Security Office`} className='md:px-52 mt-8' />
+
+            <figure className="relative md:px-52 mt-8">
+              <img src={SecurityOffice.src}  srcSet={SecurityOffice.srcSet}  alt={`Location of Security Office`} className='' />
+              <figcaption className="absolute bottom-0 z-90 bg-black/50 px-5 py-2 text-white font-small">
+                Security Office - Registration Location
+              </figcaption>
+            </figure>
 
           </div>
           

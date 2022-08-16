@@ -16,7 +16,13 @@ export const ExploreActivities: React.FC<any> = (_props) => {
         <Heading level={HeadingLevel.H1}>Activities</Heading>
         <div className="mb-8 italic text-sm">Curated by Atlantis Co-Owners and Staff</div>
 
-        <img src={AssawomanWildlifeArea.src}  srcSet={AssawomanWildlifeArea.srcSet}  alt={`Assawoman Wildlife Area`} className="object-fill mt-6  mb-6"/>
+        <figure className="relative  mb-16">
+          <img src={AssawomanWildlifeArea.src}  srcSet={AssawomanWildlifeArea.srcSet}  alt={`Assawoman Wildlife Area`} className="object-fill mt-3  mb-3"/>
+          <figcaption className="absolute -bottom-11 md:bottom-0 z-90 md:w-3/4 bg-black/50 px-5 py-2 text-white font-small">
+            Assawoman Wildlife Area
+          </figcaption>
+        </figure>
+
 
         
         
