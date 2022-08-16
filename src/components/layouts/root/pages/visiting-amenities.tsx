@@ -105,7 +105,7 @@ export const VisitingAmenities: React.FC<any> = (_props) => {
 
             <div>
                 <Heading level={HeadingLevel.H4}>Dog Lot:</Heading>
-                Located conveniently by the pool, the dog lot is a secure and easy way to allow your dogs to relieve themselves.<br/>
+                Located conveniently at the north-east corner of the parking lot, the dog lot is a secure and easy way to allow your dogs to relieve themselves.<br/>
                 <Link to={'/visiting/rules#dog-lot'} smooth scroll={scrollWithOffset}>Learn more</Link> 
             </div>
 
