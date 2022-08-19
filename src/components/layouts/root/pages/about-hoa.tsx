@@ -35,7 +35,6 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <strong>Joseph C. Perry,Sr.</strong>
                   <div className="text-xs">
                     <p>President</p>
-                    <p>Unit XXX</p>
                     <p>Term expires April 2025</p>
                   </div>
                 </div>            
@@ -46,7 +45,6 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <strong>Melvin Rostek</strong>
                   <div className="text-xs">
                     <p>Vice President</p>
-                    <p>Unit XXX</p>
                     <p>Term expires April 2024</p>
                   </div>
                 </div>
@@ -57,7 +55,6 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <strong>Sherriel Sullivan</strong>
                   <div className="text-xs">
                     <p>Treasurer</p>
-                    <p>Unit XXX</p>
                     <p>Term expires April 2024</p>
                   </div>
                 </div>
@@ -79,7 +76,6 @@ export const AboutHOA: React.FC<any> = (_props) => {
                     <strong>Marty Levy</strong>
                     <div className="text-xs">
                       <p>Corresponding Secretary</p>
-                      <p>Unit XXX</p>
                       <p>Term expires April 2023</p>
                     </div>
                   </div>
@@ -105,21 +101,18 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img src={ConnieRamsey.src}  srcSet={ConnieRamsey.srcSet}  alt={`Profile of Connie Ramsey`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>Connie Ramsey</strong><br/>
-                    <p>Unit 603</p>
                   </div>            
                 </div>
                 <div className="flex items-center inline-block">
                   <img src={SaraBerchock.src}  srcSet={SaraBerchock.srcSet}  alt={`Profile of Sara Berchock`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>Sara Berchock</strong><br/>
-                    <p>Unit 906</p>
                   </div>            
                 </div>
                 <div className="flex items-center inline-block">
                   <img src={SherrielSullivan.src}  srcSet={SherrielSullivan.srcSet}  alt={`Profile of Sherriel Sullivan`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>Sherriel Sullivan</strong><br/>
-                    <p>Unit XXX</p>
                   </div>
                 </div>
               </div>
@@ -147,14 +140,12 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img src={ConnieRamsey.src}  srcSet={ConnieRamsey.srcSet}  alt={`Profile of Connie Ramsey`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>Connie Ramsey</strong><br/>
-                    <p>Unit 603</p>
                   </div>            
                 </div>
                 <div className="flex items-center inline-block">
                   <img src={SherrielSullivan.src}  srcSet={SherrielSullivan.srcSet}  alt={`Profile of Sherriel Sullivan`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>Sherriel Sullivan</strong><br/>
-                    <p>Unit XXX</p>
                   </div>
                 </div>
               </div>
@@ -188,14 +179,12 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img src={ConnieRamsey.src}  srcSet={ConnieRamsey.srcSet}  alt={`Profile of Connie Ramsey`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>Connie Ramsey</strong><br/>
-                    <p>Unit 603</p>
                   </div>            
                 </div>
                 <div className="flex items-center inline-block">
                   <img src={SaraBerchock.src}  srcSet={SaraBerchock.srcSet}  alt={`Profile of Sara Berchock`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>Sara Berchock</strong><br/>
-                    <p>Unit 906</p>
                   </div>
                 </div>
                 <div className="flex items-center inline-block">
@@ -236,14 +225,12 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
                   <div>
                     <strong>Diane McIntyre</strong><br/>
-                    <p>Unit 604</p>
                   </div>            
                 </div>
                 <div className="flex items-center inline-block">
                   <img src={JoyceGloekler.src}  srcSet={JoyceGloekler.srcSet}  alt={`Profile of Joyce Gloekler`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>Joyce Gloekler</strong><br/>
-                    <p>Unit 704</p>
                   </div>
                 </div>
                 <div className="flex items-center inline-block">
@@ -359,7 +346,6 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img src={MelvinRostek.src}  srcSet={MelvinRostek.srcSet}  alt={`Profile of Melvin Rostek`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
                     <strong>Melvin Rostek</strong><br/>
-                    <p>Unit XXX</p>
                   </div>
                 </div>
               </div>
@@ -414,7 +400,6 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-12 mr-3"/>
                   <div>
                     <strong>George & Helen Akparanta</strong><br/>
-                    <p>Unit 1601</p>
                   </div>
                 </div>                
               </div>
