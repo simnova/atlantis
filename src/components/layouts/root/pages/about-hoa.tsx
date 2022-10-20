@@ -29,6 +29,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
           <div>
             <strong>Board Members:</strong>
             <div className="grid text-sm m-9" style={{ gridTemplateColumns:'repeat(auto-fill, 15rem)', gap:'20px'}}>
+
               <div className="flex items-start inline-block">
                 <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-[5rem] mr-3"/>
                 <div>
@@ -39,16 +40,19 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   </div>
                 </div>            
               </div>
+
               <div className="flex items-start inline-block">
-                <img src={MelvinRostek.src}  srcSet={MelvinRostek.srcSet}  alt={`Profile of Melvin Rostek`} className="object-cover w-[5rem] rounded-full mr-3"/>
+                <img src={JohnFoley.src}  srcSet={JohnFoley.srcSet}  alt={`Profile of John Foley`} className="object-cover w-[5rem] rounded-full mr-3"/>
                 <div>
-                  <strong>Melvin Rostek</strong>
+                  <strong>John Foley</strong>
                   <div className="text-xs">
                     <p>Vice President</p>
+                    <p>Unit 503</p>
                     <p>Term expires April 2024</p>
                   </div>
                 </div>
               </div>
+              
               <div className="flex items-start inline-block">
                 <img src={SherrielSullivan.src}  srcSet={SherrielSullivan.srcSet}  alt={`Profile of Sherriel Sullivan`} className="object-cover w-[5rem] rounded-full mr-3"/>
                 <div>
@@ -59,17 +63,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   </div>
                 </div>
               </div>
-              <div className="flex items-start inline-block">
-                <img src={JohnFoley.src}  srcSet={JohnFoley.srcSet}  alt={`Profile of John Foley`} className="object-cover w-[5rem] rounded-full mr-3"/>
-                <div>
-                  <strong>John Foley</strong>
-                  <div className="text-xs">
-                    <p>Secretary</p>
-                    <p>Unit 503</p>
-                    <p>Term expires April 2025</p>
-                  </div>
-                </div>
-              </div>
+          
               <div className="flex items-start inline-block">
                   <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-[5rem] mr-3"/>
                   <div>
@@ -80,6 +74,19 @@ export const AboutHOA: React.FC<any> = (_props) => {
                     </div>
                   </div>
               </div>
+
+              <div className="flex items-start inline-block">
+                <img src={PatrickGidich.src}  srcSet={PatrickGidich.srcSet}  alt={`Profile of Patrick Gidich`} className="object-cover w-[5rem] rounded-full mr-3"/>
+                <div>
+                  <strong>Patrick Gidich</strong>
+                  <div className="text-xs">
+                    <p>Secretary</p>
+                    <p>Unit 1510</p>
+                    <p>Term expires April 2025</p>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
 

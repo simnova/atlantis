@@ -1,0 +1,48 @@
+{
+	"@context": "http://schema.org",
+	"@type": "JobPosting",
+	"estimatedSalary": {
+		"@type": "MonetaryAmount",
+		"currency": "USD",
+		"value": {
+			"@type": "QuantitativeValue",
+			"minValue": 80000,
+			"maxValue": "None",
+			"unitText": "YEAR"
+		}
+	},
+	"datePosted": "2022-10-19T00:00:00",
+	"description": "The Community Association Manager plans, directs, recommends, and implements policies and procedures to ensure the services required to maintain the common elements of the association are provided in a first-class manner and in accordance with community rules and regulations.",
+	"title": "Community Association Manager",
+	"validThrough": "2022-12-01T00:00:00",
+	"employmentType": "FULL_TIME",
+	"hiringOrganization": {
+		"@type": "Organization",
+		"name": "Atlantis"
+	},
+	"identifier": {
+		"@type": "PropertyValue",
+		"name": "Atlantis",
+		"value": "atlantis-community-association-manager-2022-10-19"
+	},
+	"jobLocation": {
+		"@type": "Place",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "10300 Coastal Highway",
+			"addressLocality": "Ocean City",
+			"addressRegion": "MD",
+			"postalCode": "28142",
+			"addressCountry": "US"
+		}
+	},
+	"baseSalary": {
+		"@type": "MonetaryAmount",
+		"currency": "USD",
+		"value": {
+			"@type": "QuantitativeValue",
+			"value": 80000,
+			"unitText": "YEAR"
+		}
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"@context": "http://schema.org",
+	"@type": "JobPosting",
+	"estimatedSalary": {
+		"@type": "MonetaryAmount",
+		"currency": "USD",
+		"value": {
+			"@type": "QuantitativeValue",
+			"minValue": 40000,
+			"maxValue": "None",
+			"unitText": "YEAR"
+		}
+	},
+	"datePosted": "2022-10-19T00:00:00",
+	"description": "The Property Controller is responsible for all phases of HOA accounting - including general accounting, monthly close, budgeting, cash flow analysis, banking, investments, and insurance. Draft financial statements and audits. Responsible for all internal and external reporting (actual and budgets).",
+	"title": "Property Controller",
+	"validThrough": "2022-12-01T00:00:00",
+	"employmentType": "FULL_TIME",
+	"hiringOrganization": {
+		"@type": "Organization",
+		"name": "Atlantis"
+	},
+	"identifier": {
+		"@type": "PropertyValue",
+		"name": "Atlantis",
+		"value": "atlantis-property-controller-2022-10-19"
+	},
+	"jobLocation": {
+		"@type": "Place",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "10300 Coastal Highway",
+			"addressLocality": "Ocean City",
+			"addressRegion": "MD",
+			"postalCode": "28142",
+			"addressCountry": "US"
+		}
+	},
+	"baseSalary": {
+		"@type": "MonetaryAmount",
+		"currency": "USD",
+		"value": {
+			"@type": "QuantitativeValue",
+			"value": 40000,
+			"unitText": "YEAR"
+		}
+	}
+}

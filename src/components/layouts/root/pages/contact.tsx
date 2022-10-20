@@ -35,13 +35,7 @@ export const Contact: React.FC<any> = (_props) => {
               </div>
             </div>
 
-            <div className="flex items-center inline-block">
-              <img src={JennaElliott.src}  srcSet={JennaElliott.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
-              <div className='ml-6'>
-                <strong>Jenna Elliott</strong><br/>
-                <span>Administrative Assistant</span>
-              </div>
-            </div>
+            
 
           </div>
         </article>

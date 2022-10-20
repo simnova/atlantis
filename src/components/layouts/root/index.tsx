@@ -125,6 +125,12 @@ let menuConfig: MenuItemType[] = [
         path: '/about/hoa#',
         parent: 'ROOT'
       },
+      {
+        id: 'careers',
+        label: 'Careers',
+        path: '/about/careers#',
+        parent: 'ROOT'
+      },
       
       
     ]

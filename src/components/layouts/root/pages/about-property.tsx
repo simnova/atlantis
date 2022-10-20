@@ -55,11 +55,11 @@ export const AboutProperty: React.FC<any> = (_props) => {
           <li>
             <strong>#5,7</strong><br/>
             1bedroom but can be converted to 2 bedrooms (same as 3,4,8,9)<br/>
-            angled bayside room/hallway entrance
+            angled bay side room/hallway entrance
           </li>
           <li>
             <strong>#6</strong><br/>
-            #6 unit (2 bedroom with panaramic beach view)
+            #6 unit (2 bedroom with panoramic beach view)
           </li>
           <li>
             <strong>#10</strong><br/>

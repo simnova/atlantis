@@ -5,6 +5,7 @@ import { AboutOwnership } from './about-ownership';
 import { AboutMaintenance } from './about-maintenance';
 import { AboutHOA } from './about-hoa';
 import { AboutSecurity } from './about-security';
+import { Careers } from './about/careers';
 
 export const About: React.FC<any> = (_props) => {
   return (
@@ -16,6 +17,7 @@ export const About: React.FC<any> = (_props) => {
       <Route path="maintenance" element={<AboutMaintenance />} />
       <Route path="security" element={<AboutSecurity />} />
       <Route path="hoa" element={<AboutHOA />} />
+      <Route path="careers/*" element={<Careers />} />
     </Routes>
   )
 }

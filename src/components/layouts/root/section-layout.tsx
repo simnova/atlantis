@@ -70,13 +70,13 @@ export const SectionLayout: React.FC<any> = (props) => {
               </div>
 
               <div className="flex align-middle mb-3">
-                <FaFax  className="mr-2 text-lg" />
+                <FaFax className="mr-2 text-lg" />
                 <p>410-524-8362</p>
               </div>
 
               <div className="flex align-middle mb-3">
                 <AiOutlineMail  className="mr-2 text-lg" />
-                <p><a href="mailto:atlantisocmd@comcast.net" title="Email">atlantisocmd@comcast.net</a></p>
+                <p><a href="mailto:info@atlantisocmd.com" title="Email">info@atlantisocmd.com</a></p>
               </div>
             </div>
           </div>
