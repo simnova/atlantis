@@ -6,8 +6,8 @@
 		"currency": "USD",
 		"value": {
 			"@type": "QuantitativeValue",
-			"minValue": 80000,
-			"maxValue": "None",
+			"minValue": 60000,
+			"maxValue": 80000,
 			"unitText": "YEAR"
 		}
 	},

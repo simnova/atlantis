@@ -41,7 +41,7 @@ export const CommunityAssociationManager: React.FC<any> = (_props) => {
 
           <Heading level={HeadingLevel.H4}>Compensation:</Heading>
           <ul>
-            <li>$80,000+, based on experience</li>
+            <li>$60,000-80,000+, based on experience</li>
           </ul>
           <Heading level={HeadingLevel.H4}>Supervision Received and Exercised:</Heading>
           <ul>
