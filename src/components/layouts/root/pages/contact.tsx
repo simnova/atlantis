@@ -33,7 +33,9 @@ export const Contact: React.FC<any> = (_props) => {
                 <strong>Kristin Moore</strong><br/>
                 <span>Community Association Manager</span>
               </div>
-              <div className='ml-3 mt-3'>
+              
+            </div>
+            <div className='mx-[4rem]'>
                 Kristin Moore is a highly experienced community association manager with over 15 years of experience in the field. 
                 She has managed a variety of properties, including townhomes, single family homes, and condominiums. 
                 She has a proven track record of preparing monthly management reports, including financials and delinquency reports, 
@@ -48,7 +50,6 @@ export const Contact: React.FC<any> = (_props) => {
                 She has also taken the necessary classes and exams to gain her CMCA (Certified Manager of Community Associations) and 
                 AMS (Association Management Specialist) certifications
               </div>
-            </div>
             
 
             
