@@ -35,7 +35,7 @@ export const Contact: React.FC<any> = (_props) => {
               </div>
               
             </div>
-            <div className='mx-[4rem]'>
+            <div className='md:mx-[4rem]'>
                 Kristin Moore is a highly experienced community association manager with over 15 years of experience in the field. 
                 She has managed a variety of properties, including townhomes, single family homes, and condominiums. 
                 She has a proven track record of preparing monthly management reports, including financials and delinquency reports, 

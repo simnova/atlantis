@@ -9,7 +9,7 @@ export const VisitingNotices: React.FC<any> = (_props) => {
         </Helmet>
         <Heading level={HeadingLevel.H1}>Building Status</Heading>
         
-        <div className="space-y-5">
+        <div className="space-y-5 mb-[5rem]">
 
           <article>
             <Heading level={HeadingLevel.H5}>Pool:</Heading>
@@ -22,7 +22,7 @@ export const VisitingNotices: React.FC<any> = (_props) => {
 
         <Heading level={HeadingLevel.H1} className="mt-6">Upcoming Events</Heading>
         
-        <div className="space-y-5">
+        <div className="space-y-5 mb-[5rem]">
           <article>
             <Heading level={HeadingLevel.H5}>Fire Alarm Testing:</Heading>
             <p>
@@ -36,7 +36,7 @@ export const VisitingNotices: React.FC<any> = (_props) => {
         <Heading level={HeadingLevel.H1} className="mt-6">Notices</Heading>
 
 
-        <div className="space-y-5 mb-3">
+        <div className="space-y-5 mb-[5rem]">
           <article>
             <Heading level={HeadingLevel.H5}>JAN-2022</Heading>
               <span className="px-3 py-1 mr-2 rounded-full font-semibold text-sm text-white bg-slate-500">Staffing</span> Welcome Kristin<br/><br/>
@@ -58,7 +58,7 @@ export const VisitingNotices: React.FC<any> = (_props) => {
           </article>
         </div>
         
-        <div className="space-y-5  mb-3">
+        <div className="space-y-5  mb-[5rem]">
           <article>
             <Heading level={HeadingLevel.H5}>JUL-2022 - Cart Policy Update:</Heading>
             <p>
