@@ -25,30 +25,31 @@ export const Contact: React.FC<any> = (_props) => {
 
         <article>
           <Heading level={HeadingLevel.H5}>Office Staff:</Heading>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          <div className="grid grid-cols-1">
 
             <div className="flex items-center inline-block">
-              <img src={MelvinRostek.src}  srcSet={MelvinRostek.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
+              <img src="https://via.placeholder.com/200"  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
               <div className='ml-6'>
                 <strong>Kristin Moore</strong><br/>
                 <span>Community Association Manager</span>
               </div>
+              <div className='ml-3 mt-3'>
+                Kristin Moore is a highly experienced community association manager with over 15 years of experience in the field. 
+                She has managed a variety of properties, including townhomes, single family homes, and condominiums. 
+                She has a proven track record of preparing monthly management reports, including financials and delinquency reports, 
+                and overseeing the preparation and tracking of annual budgets. Kristin is skilled in Microsoft Suite, Jenark, Strongroom, 
+                and other industry operating systems. 
+                She is known for her excellent customer service skills and attention to detail, as well as her strong written and verbal 
+                communication skills, including contract negotiation. She is also proficient in human resources having managed a staff 
+                of 20+, vendor management, and risk management. 
+                Kristin holds a CMCA certification and an AMS certification. 
+                She is also very involved with CAI (Community Associations Institute), the group that governs the standards in the 
+                Community Association Management industry and currently holds two of the three certifications offered. 
+                She has also taken the necessary classes and exams to gain her CMCA (Certified Manager of Community Associations) and 
+                AMS (Association Management Specialist) certifications
+              </div>
             </div>
-            <div>
-              Kristin Moore is a highly experienced community association manager with over 15 years of experience in the field. 
-              She has managed a variety of properties, including townhomes, single family homes, and condominiums. 
-              She has a proven track record of preparing monthly management reports, including financials and delinquency reports, 
-              and overseeing the preparation and tracking of annual budgets. Kristin is skilled in Microsoft Suite, Jenark, Strongroom, 
-              and other industry operating systems. 
-              She is known for her excellent customer service skills and attention to detail, as well as her strong written and verbal 
-              communication skills, including contract negotiation. She is also proficient in human resources having managed a staff 
-              of 20+, vendor management, and risk management. 
-              Kristin holds a CMCA certification and an AMS certification. 
-              She is also very involved with CAI (Community Associations Institute), the group that governs the standards in the 
-              Community Association Management industry and currently holds two of the three certifications offered. 
-              She has also taken the necessary classes and exams to gain her CMCA (Certified Manager of Community Associations) and 
-              AMS (Association Management Specialist) certifications
-            </div>
+            
 
             
 
