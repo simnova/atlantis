@@ -57,14 +57,6 @@ export const AboutSecurity: React.FC<any> = (_props) => {
               </div>
 
               <div className="flex items-center inline-block">
-                <img src={LucreceBruce.src}  srcSet={LucreceBruce.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
-                <div className='ml-6'>
-                  <strong>Lucrece Bruce</strong><br/>
-                  <span>Security</span>
-                </div>
-              </div>
-
-              <div className="flex items-center inline-block">
                 <img src={LaurentBruce.src}  srcSet={LaurentBruce.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
                 <div className='ml-6'>
                   <strong>Laurent Bruce</strong><br/>

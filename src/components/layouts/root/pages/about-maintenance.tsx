@@ -1,7 +1,6 @@
 import { Heading, HeadingLevel } from '../../../ui/atoms/heading';
 import { Helmet } from 'react-helmet';
 
-import MelvinRostek from '../../../../assets/staff-melvin-rostek.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
 import BrooksTruitt from '../../../../assets/staff-brooks-truitt.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
 import RossPhillips from '../../../../assets/staff-ross-phillips.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
 import TristanNelson from '../../../../assets/staff-tristan-nelson.jpg?sizes[]=200,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp&useResponsiveLoader=true';
@@ -43,14 +42,6 @@ export const AboutMaintenance: React.FC<any> = (_props) => {
         <article>
         <Heading level={HeadingLevel.H5}>Maintenance Staff:</Heading>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-
-          <div className="flex items-center inline-block">
-            <img src={MelvinRostek.src}  srcSet={MelvinRostek.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
-            <div className='ml-6'>
-              <strong>Melvin Rostek</strong><br/>
-              <span>General Manager</span>
-            </div>
-          </div>
 
           <div className="flex items-center inline-block">
             <img src={BrooksTruitt.src}  srcSet={BrooksTruitt.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>

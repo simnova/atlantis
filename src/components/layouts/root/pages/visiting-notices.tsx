@@ -34,6 +34,31 @@ export const VisitingNotices: React.FC<any> = (_props) => {
 
 
         <Heading level={HeadingLevel.H1} className="mt-6">Notices</Heading>
+
+
+        <div className="space-y-5">
+          <article>
+            <Heading level={HeadingLevel.H5}>
+            
+              JAN-2022 - Welcome Kristin!</Heading>
+              <span className="px-3 py-1 mr-2 rounded-full font-semibold text-sm text-white bg-slate-500">Staffing</span><br/><br/>
+            <p>
+ 
+              We are thrilled to announce that Kristin Moore has joined our community as the new Community Association Manager.<br/>
+              With over 15 years of experience in the field, Kristin brings a wealth of knowledge and expertise to our team.<br/>
+              She has managed a variety of properties, including townhomes, single family homes, and condominiums, and has a 
+              proven track record of preparing monthly management reports and overseeing the preparation and tracking of annual budgets.<br/>
+              Kristin is skilled in Microsoft Suite, Jenark, Strongroom, and other industry operating systems, and is known for her 
+              excellent customer service skills and attention to detail.<br/>
+              We are confident that Kristin will be an asset to our community, and we look forward to working with her. 
+              <br/><br/>
+              Welcome to the team, Kristin!
+              
+              <br/>
+
+            </p>
+          </article>
+        </div>
         
         <div className="space-y-5">
           <article>
@@ -47,6 +72,8 @@ export const VisitingNotices: React.FC<any> = (_props) => {
             </p>
           </article>
         </div>
+
+
 
       </>
     )

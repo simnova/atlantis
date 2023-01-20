@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^7.0.0-alpha.7",
     "@floating-ui/dom": "^0.5.4",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -56,6 +55,7 @@
     ]
   },
   "devDependencies": {
+    "@craco/craco": "^7.0.0-alpha.3",
     "@types/react-helmet": "^6.1.5",
     "@types/react-router-hash-link": "^2.4.5",
     "autoprefixer": "^10.4.7",
