@@ -18,7 +18,7 @@ export const Contact: React.FC<any> = (_props) => {
 
       
         <div>
-          Office Hours are from 8:00 AM to 4:00 PM Monday through Friday via phone/email - <span className='text-sm'>(In-person availability Mo,Tu and Th)</span>.<br/><br/>
+          Office Hours are from 8:00 AM to 4:00 PM Monday through Friday via phone/email.<br/><br/>
           Email: <a href="mailto:info@atlantisocmd.com">info@atlantisocmd.com</a><br/>
           Phone: <a href="tel:+1-410-524-9100">410-524-9100</a><br/>
         </div>
