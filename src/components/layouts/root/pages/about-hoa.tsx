@@ -41,17 +41,6 @@ export const AboutHOA: React.FC<any> = (_props) => {
                 </div>            
               </div>
 
-              <div className="flex items-start inline-block">
-                <img src={JohnFoley.src}  srcSet={JohnFoley.srcSet}  alt={`Profile of John Foley`} className="object-cover w-[5rem] rounded-full mr-3"/>
-                <div>
-                  <strong>John Foley</strong>
-                  <div className="text-xs">
-                    <p>Vice President</p>
-                    <p>Unit 503</p>
-                    <p>Term expires April 2024</p>
-                  </div>
-                </div>
-              </div>
               
               <div className="flex items-start inline-block">
                 <img src={SherrielSullivan.src}  srcSet={SherrielSullivan.srcSet}  alt={`Profile of Sherriel Sullivan`} className="object-cover w-[5rem] rounded-full mr-3"/>
@@ -247,13 +236,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                     <p>Unit 1510</p>
                   </div>
                 </div>
-                <div className="flex items-center inline-block">
-                  <img src={JohnFoley.src}  srcSet={JohnFoley.srcSet}  alt={`Profile of John Foley`} className="object-cover w-12 rounded-full mr-3"/>
-                  <div>
-                    <strong>John Foley</strong><br/>
-                    <p>Unit 503</p>
-                  </div>
-                </div>
+                
               </div>
             </div>
             <p>
@@ -299,13 +282,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                     <p>Unit 1510</p>
                   </div>
                 </div>
-                <div className="flex items-center inline-block">
-                  <img src={JohnFoley.src}  srcSet={JohnFoley.srcSet}  alt={`Profile of John Foley`} className="object-cover w-12 rounded-full mr-3"/>
-                  <div>
-                    <strong>John Foley</strong><br/>
-                    <p>Unit 503</p>
-                  </div>
-                </div>
+                
               </div>
             </div>
             <p>
@@ -342,13 +319,7 @@ export const AboutHOA: React.FC<any> = (_props) => {
                     <p>Unit 1510</p>
                   </div>
                 </div>
-                <div className="flex items-center inline-block">
-                  <img src={JohnFoley.src}  srcSet={JohnFoley.srcSet}  alt={`Profile of John Foley`} className="object-cover w-12 rounded-full mr-3"/>
-                  <div>
-                    <strong>John Foley</strong><br/>
-                    <p>Unit 503</p>
-                  </div>
-                </div>
+            
                 <div className="flex items-center inline-block">
                   <img src={MelvinRostek.src}  srcSet={MelvinRostek.srcSet}  alt={`Profile of Melvin Rostek`} className="object-cover w-12 rounded-full mr-3"/>
                   <div>
