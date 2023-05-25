@@ -66,7 +66,7 @@ export const SectionLayout: React.FC<any> = (props) => {
             <div>
               <div className="flex align-baseline mb-3">
                 <AiOutlinePhone className="mr-2 text-lg" />
-                <p><a href="tel:+01-410-524-9100" title="Phone">410-524-9100</a></p>
+                <p><a href="tel:+1-410-524-9100" title="Phone">410-524-9100</a></p>
               </div>
 
               <div className="flex align-middle mb-3">
