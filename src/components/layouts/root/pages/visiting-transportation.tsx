@@ -86,7 +86,7 @@ export const VisitingTransportation: React.FC<any> = (_props) => {
           <div>
             <Heading level={HeadingLevel.H4}>Beach Bus</Heading>
             <div>
-              $3.00 per person day pass: 
+              $4.00 per person day pass: 
               <a href="https://oceancitymd.gov/oc/departments/public-works/ocean-city-beach-bus/" className="ml-1" target="_blank" rel="noreferrer">Learn More  <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a><br/>
               <a href="https://transloc.com/app/" target="_blank" rel="noreferrer">Download App <BiLinkExternal className="align-text-bottom inline-block mb-px" /></a> for Real-time bus locations<br/>
             </div>

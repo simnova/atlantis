@@ -52,14 +52,6 @@ export const AboutMaintenance: React.FC<any> = (_props) => {
           </div>
 
           <div className="flex items-center inline-block">
-            <img src={RossPhillips.src}  srcSet={RossPhillips.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
-            <div className='ml-6'>
-              <strong>Ross Phillips</strong><br/>
-              <span>Maintenance</span>
-            </div>
-          </div>
-
-          <div className="flex items-center inline-block">
             <img src={TristanNelson.src}  srcSet={TristanNelson.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
             <div className='ml-6'>
               <strong>Tristan Nelson</strong><br/>

@@ -72,20 +72,6 @@ export const VisitingAmenities: React.FC<any> = (_props) => {
                 <Link to={'/visiting/rules#bicycles'} smooth scroll={scrollWithOffset}>Learn more</Link> 
             </div>
 
-            <div>
-                <Heading level={HeadingLevel.H4}>Filtered Water / Ice Machine:</Heading>
-                Located conveniently between the security office and the pool at ground level.
-                <ul className="text-sm list-disc ml-5 mb-3 mt-2">
-                  <li className="mb-2">
-                    <span className="font-semibold">$2.00 : </span> 
-                    Per Gallon of Water (must supply your own jug)
-                  </li>
-                  <li className="mb-2">
-                    <span className="font-semibold">$4.00 : </span> 
-                    10lb bag of ice (can fill cooler or use bag that is provided)
-                  </li>
-                </ul>
-            </div>
 
             <div>
                 <Heading level={HeadingLevel.H4}>Snack Shack:</Heading>

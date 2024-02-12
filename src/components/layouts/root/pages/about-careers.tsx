@@ -23,19 +23,9 @@ export const AboutCareers: React.FC<any> = (_props) => {
       </p>
       <div className="space-y-5 space-y-8">
         <article>
-          <Heading level={HeadingLevel.H5}>Community Association Manager</Heading>
-          <p> 
-            Ocean City, MD &bull; Full-time &bull; Salaried
-            <Link className="block w-[120px] py-2 px-4 bg-blue-900 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-indigo-200 text-white transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg" to={'./community-association-manager#'} smooth scroll={scrollWithOffset}>Learn more</Link> 
-          </p>
+          <Heading level={HeadingLevel.H5}>Non Open Positions At This Time</Heading>
         </article>
-        <article>
-          <Heading level={HeadingLevel.H5}>Property Controller</Heading>
-          <p> 
-            Ocean City, MD &bull; Full-time &bull; Salaried
-            <Link className="block w-[120px] py-2 px-4 bg-blue-900 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-indigo-200 text-white transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg" to={'./property-controller#'} smooth scroll={scrollWithOffset}>Learn more</Link> 
-          </p>
-        </article>
+
         
       </div>
     </>

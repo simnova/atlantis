@@ -28,9 +28,9 @@ export const VisitingRules: React.FC<any> = (_props) => {
               
               Registration Charge: (includes one Parking Permit)<br/>
               <ul className="list-disc ml-5 mb-4">
-                <li><span className="font-semibold mr-2">Amount :</span>$40.</li>
+                <li><span className="font-semibold mr-2">Amount :</span>$50.</li>
                 <li><span className="font-semibold mr-2">Payment Method :</span>Credit Card Only (No cash)</li>
-                <li><span className="font-semibold mr-2">Additional Onsite Parking :</span>If space permits $50/week or $10/day  (for registered guests, if space permits)</li>
+                <li><span className="font-semibold mr-2">Additional Onsite Parking :</span>If space permits $55/week or $15/day  (for registered guests, if space permits)</li>
               </ul>
 
               <strong>Nearby Additional Parking :</strong> across the street by the Library (100th Street Municipal lot):<br/>
