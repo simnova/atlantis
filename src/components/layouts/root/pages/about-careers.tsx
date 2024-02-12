@@ -23,7 +23,7 @@ export const AboutCareers: React.FC<any> = (_props) => {
       </p>
       <div className="space-y-5 space-y-8">
         <article>
-          <Heading level={HeadingLevel.H5}>Non Open Positions At This Time</Heading>
+          <Heading level={HeadingLevel.H5}>No Open Positions At This Time</Heading>
         </article>
 
         
