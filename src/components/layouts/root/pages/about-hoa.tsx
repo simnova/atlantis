@@ -80,7 +80,6 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <strong>Diane McIntyre</strong>
                   <div className="text-xs">
                     <p>Corresponding Secretary</p>
-                    <p>Unit 1510</p>
                     <p>Term expires April 2025</p>
                   </div>
                 </div>
