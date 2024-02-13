@@ -70,7 +70,6 @@ export const AboutHOA: React.FC<any> = (_props) => {
                   <strong>Joe Derkits</strong>
                   <div className="text-xs">
                     <p>Recording Secretary</p>
-                    <p>Unit 1510</p>
                     <p>Term expires April 2024</p>
                   </div>
                 </div>
