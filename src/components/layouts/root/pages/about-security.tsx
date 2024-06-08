@@ -41,7 +41,7 @@ export const AboutSecurity: React.FC<any> = (_props) => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 
               <div className="flex items-center inline-block">
-                <img src={MichelleJones.src}  srcSet={MichelleJones.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
+                <img src={MichelleJones.src}  srcSet={MichelleJones.srcSet}  alt={`Profile of Michelle Jones`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
                 <div className='ml-6'>
                   <strong>Michelle Jones</strong><br/>
                   <span>Security Manager</span>
@@ -49,7 +49,7 @@ export const AboutSecurity: React.FC<any> = (_props) => {
               </div>
 
               <div className="flex items-center inline-block">
-                <img src={KenBruce.src}  srcSet={KenBruce.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
+                <img src={KenBruce.src}  srcSet={KenBruce.srcSet}  alt={`Profile of Ken Bruce`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
                 <div className='ml-6'>
                   <strong>Ken Bruce</strong><br/>
                   <span>Security</span>
@@ -57,17 +57,9 @@ export const AboutSecurity: React.FC<any> = (_props) => {
               </div>
 
               <div className="flex items-center inline-block">
-                <img src={LaurentBruce.src}  srcSet={LaurentBruce.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
+                <img src={LaurentBruce.src}  srcSet={LaurentBruce.srcSet}  alt={`Profile of Laurent Bruce`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
                 <div className='ml-6'>
                   <strong>Laurent Bruce</strong><br/>
-                  <span>Security</span>
-                </div>
-              </div>
-
-              <div className="flex items-center inline-block">
-                <img src={MichelleBruce.src}  srcSet={MichelleBruce.srcSet}  alt={`Profile of Melvin Rostek`} className="w-20 self-center rounded-full mt-6 ml-6 mb-6"/>
-                <div className='ml-6'>
-                  <strong>Michelle Bruce</strong><br/>
                   <span>Security</span>
                 </div>
               </div>

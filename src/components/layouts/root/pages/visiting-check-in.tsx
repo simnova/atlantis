@@ -31,9 +31,9 @@ export const VisitingCheckIn: React.FC<any> = (_props) => {
               <Heading level={HeadingLevel.H4}>Registration and Parking</Heading>
               <p>
                 <ul className="list-disc ml-5 mb-8">
-                  <li><span className="font-semibold mr-2">Fee :</span>$50 (includes 1 parking pass)</li>
+                  <li><span className="font-semibold mr-2">Fee :</span>$xx (includes 1 parking pass)</li>
                   <li><span className="font-semibold mr-2">Payment Method :</span>Credit Card Only (no cash)</li>
-                  <li><span className="font-semibold mr-2">Additional Parking :</span> $55/week or $15/day (for registered guests, if space permits)</li>
+                  <li><span className="font-semibold mr-2">Additional Parking :</span> $xx/week or $xx/day (for registered guests, if space permits)</li>
                 </ul>
                 
                 Any vehicles wishing to park at the Atlantis require a parking pass displayed on the dashboard.<br/>

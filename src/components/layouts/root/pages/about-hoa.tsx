@@ -33,22 +33,22 @@ export const AboutHOA: React.FC<any> = (_props) => {
               <div className="flex items-start inline-block">
                 <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-[5rem] mr-3"/>
                 <div>
-                  <strong>Joseph C. Perry,Sr.</strong>
+                  <strong>Jody Kelley</strong>
                   <div className="text-xs">
                     <p>President</p>
-                    <p>Term expires April 2025</p>
+                    <p>Term expires April 2027</p>
                   </div>
                 </div>            
               </div>
 
               
               <div className="flex items-start inline-block">
-                <img src={SherrielSullivan.src}  srcSet={SherrielSullivan.srcSet}  alt={`Profile of Sherriel Sullivan`} className="object-cover w-[5rem] rounded-full mr-3"/>
+              <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-[5rem] mr-3"/>
                 <div>
-                  <strong>Sherriel Sullivan</strong>
+                  <strong>James Hanley</strong>
                   <div className="text-xs">
                     <p>Treasurer</p>
-                    <p>Term expires April 2024</p>
+                    <p>Term expires April 2027</p>
                   </div>
                 </div>
               </div>
@@ -67,17 +67,17 @@ export const AboutHOA: React.FC<any> = (_props) => {
               <div className="flex items-start inline-block">
                 <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-[5rem] mr-3"/>
                 <div>
-                  <strong>Joe Derkits</strong>
+                  <strong>Diane McIntyre</strong>
                   <div className="text-xs">
                     <p>Recording Secretary</p>
-                    <p>Term expires April 2024</p>
+                    <p>Term expires April 2025</p>
                   </div>
                 </div>
               </div>
               <div className="flex items-start inline-block">
-                <img alt="profile" src="https://via.placeholder.com/200" className="object-cover rounded-full w-[5rem] mr-3"/>
+                <img src={MelvinRostek.src}  srcSet={MelvinRostek.srcSet}  alt={`Profile of Melvin Rostek`} className="object-cover w-[5rem] rounded-full mr-3"/>
                 <div>
-                  <strong>Diane McIntyre</strong>
+                  <strong>Melvin Rostek</strong>
                   <div className="text-xs">
                     <p>Corresponding Secretary</p>
                     <p>Term expires April 2025</p>

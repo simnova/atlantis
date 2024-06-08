@@ -14,8 +14,8 @@ export const VisitingNotices: React.FC<any> = (_props) => {
           <article>
             <Heading level={HeadingLevel.H5}>Pool:</Heading>
             <p>
-              <span className="px-3 py-1 mr-2 rounded-full font-semibold text-sm text-white  bg-slate-500">Closed for Season</span>
-              The pool is closed for the season.
+              <span className="px-3 py-1 mr-2 rounded-full font-semibold text-sm text-white  bg-slate-500">Open for Season</span>
+              The pool is open for the season.
             </p>
           </article>
         </div>
